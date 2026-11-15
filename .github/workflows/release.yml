@@ -1,0 +1,92 @@
+# Every merge to main:
+#  1. Builds the web app plus the newest guide data and publishes it to GitHub Pages.
+#     Installed apps pick up new guide data from there on their next check (no app update needed).
+#  2. If VERSION changed (no release for it yet), builds the Windows installer and publishes a GitHub
+#     release with latest.json, so installed PC apps update themselves.
+name: Release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: release-main
+  cancel-in-progress: false
+jobs:
+  web:
+    runs-on: ubuntu-latest
+    environment: { name: github-pages, url: "${{ steps.deploy.outputs.page_url }}" }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Guide data version (date + run number)
+        run: echo "PACK_VERSION=$(date -u +%Y.%m.%d).${{ github.run_number }}" >> "$GITHUB_ENV"
+      - run: npm test
+      - run: npm run build
+      - name: Custom domain (only once Cloudflare DNS points here)
+        if: vars.PAGES_DOMAIN != ''
+        run: echo "${{ vars.PAGES_DOMAIN }}" > dist/CNAME
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+      - id: deploy
+        uses: actions/deploy-pages@v4
+
+  check-version:
+    runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.v.outputs.version }}
+      release: ${{ steps.v.outputs.release }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: v
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          V=$(tr -d '[:space:]' < VERSION)
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" --repo "${{ github.repository }}" >/dev/null 2>&1; then
+            echo "release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "release=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  windows:
+    needs: check-version
+    if: needs.check-version.outputs.release == 'true'
+    runs-on: windows-latest
+    env:
+      TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+      TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: swatinem/rust-cache@v2
+        with: { workspaces: "src-tauri -> target" }
+      - run: npm ci
+      - name: Use VERSION for the app version
+        shell: bash
+        run: npm version "${{ needs.check-version.outputs.version }}" --no-git-tag-version --allow-same-version
+      - name: Without an update key, build the installer without auto-update files
+        if: env.TAURI_SIGNING_PRIVATE_KEY == ''
+        shell: bash
+        run: echo "TAURI_EXTRA=--config src-tauri/tauri.noupdater.conf.json" >> "$GITHUB_ENV"
+      - uses: tauri-apps/tauri-action@v0
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        with:
+          tagName: v__VERSION__
+          releaseName: PraetorLink Game Guides v__VERSION__
+          releaseBody: |
+            Free, unofficial game guide companion. Download the -setup.exe below and run it.
+            Already installed? The app updates itself.
+            Not affiliated with Capcom.
+          releaseDraft: false
+          prerelease: false
+          includeUpdaterJson: ${{ env.TAURI_SIGNING_PRIVATE_KEY != '' }}
+          args: ${{ env.TAURI_EXTRA }}

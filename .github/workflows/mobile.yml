@@ -1,0 +1,75 @@
+# Phase 2: phone builds. Runs by hand (Actions tab, "Run workflow") once the store accounts exist.
+# Each job skips itself until its secrets are added, so this file is safe to keep before then.
+#  Android: ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, PLAY_SERVICE_ACCOUNT_JSON
+#  iOS:     APPLE_API_KEY_ID, APPLE_API_ISSUER, APPLE_API_KEY_P8, APPLE_TEAM_ID
+name: Mobile
+on:
+  workflow_dispatch:
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    env:
+      HAS_SECRETS: ${{ secrets.ANDROID_KEYSTORE_BASE64 != '' && secrets.PLAY_SERVICE_ACCOUNT_JSON != '' }}
+    steps:
+      - if: env.HAS_SECRETS != 'true'
+        run: echo "Android secrets not set yet; skipping." 
+      - if: env.HAS_SECRETS == 'true'
+        uses: actions/checkout@v4
+      - if: env.HAS_SECRETS == 'true'
+        uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - if: env.HAS_SECRETS == 'true'
+        uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 17 }
+      - if: env.HAS_SECRETS == 'true'
+        uses: android-actions/setup-android@v3
+      - if: env.HAS_SECRETS == 'true'
+        uses: dtolnay/rust-toolchain@stable
+        with: { targets: "aarch64-linux-android,armv7-linux-androideabi,x86_64-linux-android,i686-linux-android" }
+      - if: env.HAS_SECRETS == 'true'
+        run: |
+          npm ci
+          npm version "$(tr -d '[:space:]' < VERSION)" --no-git-tag-version --allow-same-version
+          npx tauri android init --ci
+          echo "${{ secrets.ANDROID_KEYSTORE_BASE64 }}" | base64 -d > src-tauri/gen/android/release.jks
+          npx tauri android build --aab
+        env:
+          ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+      - if: env.HAS_SECRETS == 'true'
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.praetorlink.gameguides
+          releaseFiles: src-tauri/gen/android/app/build/outputs/bundle/universalRelease/*.aab
+          track: internal
+
+  ios:
+    runs-on: macos-latest
+    env:
+      HAS_SECRETS: ${{ secrets.APPLE_API_KEY_P8 != '' && secrets.APPLE_TEAM_ID != '' }}
+    steps:
+      - if: env.HAS_SECRETS != 'true'
+        run: echo "Apple secrets not set yet; skipping."
+      - if: env.HAS_SECRETS == 'true'
+        uses: actions/checkout@v4
+      - if: env.HAS_SECRETS == 'true'
+        uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - if: env.HAS_SECRETS == 'true'
+        uses: dtolnay/rust-toolchain@stable
+        with: { targets: "aarch64-apple-ios,aarch64-apple-ios-sim" }
+      - if: env.HAS_SECRETS == 'true'
+        run: |
+          npm ci
+          npm version "$(tr -d '[:space:]' < VERSION)" --no-git-tag-version --allow-same-version
+          mkdir -p ~/private_keys
+          echo "${{ secrets.APPLE_API_KEY_P8 }}" > ~/private_keys/AuthKey_${{ secrets.APPLE_API_KEY_ID }}.p8
+          npx tauri ios init --ci
+          npx tauri ios build --export-method app-store-connect
+        env:
+          APPLE_DEVELOPMENT_TEAM: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_API_KEY: ${{ secrets.APPLE_API_KEY_ID }}
+          APPLE_API_ISSUER: ${{ secrets.APPLE_API_ISSUER }}
+      - if: env.HAS_SECRETS == 'true'
+        run: xcrun altool --upload-app -f src-tauri/gen/apple/build/arm64/*.ipa -t ios --apiKey "${{ secrets.APPLE_API_KEY_ID }}" --apiIssuer "${{ secrets.APPLE_API_ISSUER }}"

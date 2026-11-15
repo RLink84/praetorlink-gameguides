@@ -33,6 +33,7 @@ export interface Settings {
   compact: boolean;
   steamPath?: string;
   voiceRate: number;
+  welcomed: boolean;
 }
 
 const KEY_PROFILES = "plgg.profiles.v1";
@@ -67,6 +68,7 @@ export const defaultSettings = (profileId: string): Settings => ({
   tester: false,
   compact: false,
   voiceRate: 1,
+  welcomed: false,
 });
 
 type Store = Pick<Storage, "getItem" | "setItem">;

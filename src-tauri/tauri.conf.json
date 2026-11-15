@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "PraetorLink Game Guides",
+  "version": "../package.json",
+  "identifier": "com.praetorlink.gameguides",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:5173",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      { "label": "main", "title": "PraetorLink Game Guides", "width": 1100, "height": 800, "minWidth": 360, "minHeight": 480 }
+    ],
+    "security": {
+      "csp": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' ipc: http://ipc.localhost https://rlink84.github.io https://gameguides.praetorlink.com https://github.com https://objects.githubusercontent.com"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis"],
+    "publisher": "PraetorLink Labs",
+    "copyright": "PraetorLink LLC. Unofficial fan guide; not affiliated with Capcom.",
+    "category": "Reference",
+    "shortDescription": "Free, unofficial game guides",
+    "createUpdaterArtifacts": true,
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.icns", "icons/icon.ico"],
+    "windows": {
+      "nsis": { "installMode": "currentUser", "displayLanguageSelector": false }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": ["https://github.com/RLink84/praetorlink-gameguides/releases/latest/download/latest.json"],
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEYwRTlFNTE2QTYwNzA3NTQKUldSVUJ3ZW1GdVhwOE43WXYrWGhpMUZIL1haWDRFUEM5QnRmOEhTMWJHUEt6ZHZOOXlGbDY0M1IK",
+      "windows": { "installMode": "passive" }
+    }
+  }
+}
