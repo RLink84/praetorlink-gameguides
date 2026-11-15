@@ -70,6 +70,28 @@ export function ChoiceCard({ c }: { c: Choice }) {
   );
 }
 
+function Walkthrough({ steps, name }: { steps: string[]; name: string }) {
+  const [stage, setStage] = useState<"closed" | "warn" | "open">("closed");
+  return (
+    <div className="card walkthrough">
+      <h2>Full walkthrough</h2>
+      {stage === "closed" && <button className="walk-btn" onClick={() => setStage("warn")}>📖 Show the full walkthrough</button>}
+      {stage === "warn" && (
+        <div className="note">
+          <p><strong>⚠ Spoiler alert.</strong> This goes through {name} step by step, including who you meet, what happens and how it can end.</p>
+          <div className="row"><button className="done-btn on" onClick={() => setStage("open")}>Show it</button><button onClick={() => setStage("closed")}>Not now</button></div>
+        </div>
+      )}
+      {stage === "open" && (
+        <>
+          <ol className="steps">{steps.map((t, i) => <li key={i}>{t}</li>)}</ol>
+          <button className="link small" onClick={() => setStage("closed")}>Hide walkthrough</button>
+        </>
+      )}
+    </div>
+  );
+}
+
 export function QuestDetail({ id }: { id: string }) {
   const { pack, pos, profile, setProfile, go, toast } = useApp();
   const q = pack.quests.find((x) => x.id === id);
@@ -120,15 +142,15 @@ export function QuestDetail({ id }: { id: string }) {
       {q.tips?.length ? (
         <div className="card"><h2>Tips</h2><Reveal entry={q} level={2} label="tips"><ul>{q.tips.map((t, i) => <li key={i}>{t}</li>)}</ul></Reveal></div>
       ) : null}
-      {q.steps?.length ? (
-        <div className="card"><h2>Walkthrough</h2><Reveal entry={q} level={2} label="the steps"><ol>{q.steps.map((t, i) => <li key={i}>{t}</li>)}</ol></Reveal></div>
-      ) : null}
       {q.rewards?.length ? (
         <div className="card"><h2>Rewards</h2><Reveal entry={q} level={2} label="rewards"><Rewards list={q.rewards} outcomes={allowed >= 3} /></Reveal></div>
       ) : null}
       {choices.length > 0 && (
         <div className="card"><h2>Choices</h2>{choices.map((c) => <ChoiceCard key={c.id} c={c} />)}</div>
       )}
+      {q.steps?.length ? (
+        <Walkthrough steps={q.steps} name={nameAllowed(pack, pos, profile, q) ? q.name : "this quest"} />
+      ) : <div className="card walkthrough"><h2>Full walkthrough</h2><p className="muted small">Coming soon for this quest.</p></div>}
       {q.related?.length ? (
         <div className="card"><h2>Linked quests</h2>
           {q.related.map((r) => { const o = pack.quests.find((x) => x.id === r); return o && visible(o, profile) ? <button key={r} className="row-btn" onClick={() => go(`quest/${r}`)}>{nameAllowed(pack, pos, profile, o) ? o.name : "A later quest"}</button> : null; })}

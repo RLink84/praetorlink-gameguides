@@ -26,6 +26,9 @@ describe("pack", () => {
   it("flags banned phrases", () => {
     expect(validatePack(pack, [pack.quests[0].premise]).errors.length).toBe(1);
   });
+  it("has a walkthrough for every main quest", () => {
+    expect(pack.quests.filter((q) => q.kind === "main" && !q.steps?.length).map((q) => q.id)).toEqual([]);
+  });
   it("compares versions numerically", () => {
     expect(compareVersions("0.1.10", "0.1.9")).toBe(1);
     expect(compareVersions("2026.11.15.1", "2026.11.15.1")).toBe(0);

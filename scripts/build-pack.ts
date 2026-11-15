@@ -31,6 +31,18 @@ const pack: Pack = {
   achievements: read("achievements.json"),
 };
 
+// Walkthroughs live in their own file (quest id -> steps) and are merged into the quests here.
+const wtFile = join(dir, "walkthroughs.json");
+if (existsSync(wtFile)) {
+  const wt = JSON.parse(readFileSync(wtFile, "utf8")) as Record<string, string[] | string>;
+  for (const [id, steps] of Object.entries(wt)) {
+    if (id.startsWith("_")) continue;
+    const q = pack.quests.find((x) => x.id === id);
+    if (!q) { console.error(`error: walkthroughs.json has unknown quest id ${id}`); process.exit(1); }
+    if (Array.isArray(steps)) q.steps = steps;
+  }
+}
+
 // Optional banned-phrase list: exact sentences we must never ship (e.g. copied text found in review).
 const bannedFile = join(dir, "banned-phrases.json");
 const banned: string[] = existsSync(bannedFile) ? JSON.parse(readFileSync(bannedFile, "utf8")) : [];
