@@ -4,7 +4,7 @@ import { readFileSync } from "node:fs";
 import type { Pack } from "../src/core/types";
 import { validatePack, compareVersions } from "../src/core/validate";
 import { newProfile, encodeSync, decodeSync } from "../src/core/progress";
-import { position, questStatus, missableSoon, nextStep, advanceAfter, recommended } from "../src/core/logic";
+import { position, questStatus, missableSoon, nextStep, advanceAfter, recommended, nameAllowed } from "../src/core/logic";
 import { buildIndex, ask } from "../src/core/search";
 import { parseBinaryKV, unlockedAchievements, normName } from "../src/core/steam";
 
@@ -60,6 +60,21 @@ describe("progress logic", () => {
     const r = recommended(pack, position(pack, p), p);
     expect(r.length).toBeGreaterThan(0);
     expect(r.every((q) => q.kind === "side")).toBe(true);
+  });
+  it("treats main quests before the story marker as done", () => {
+    const p = { ...newProfile("t"), base: "m08" };
+    const q = pack.quests.find((x) => x.id === "seat-of-the-sovran")!;
+    expect(questStatus(pack, position(pack, p), p, q)).toBe("done");
+  });
+  it("hides later-story names at the default spoiler level", () => {
+    const p = newProfile("t");
+    const legacy = pack.quests.find((x) => x.id === "legacy")!;
+    expect(nameAllowed(pack, position(pack, p), p, legacy)).toBe(false);
+    expect(nameAllowed(pack, position(pack, p), { ...p, spoiler: 2 }, legacy)).toBe(true);
+  });
+  it("gives late-game items a late stage", () => {
+    expect(pack.items.find((i) => i.name === "Dragon's Dogma")!.stage).toBe("m15");
+    expect(pack.items.find((i) => i.name === "Trusty Sword")!.stage).toBe("m03");
   });
   it("round-trips a phone sync code", () => {
     const p = { ...newProfile("Rob's run"), base: "m07", ownsDlc: true, level: 22, done: { "spellbound": true as const } };

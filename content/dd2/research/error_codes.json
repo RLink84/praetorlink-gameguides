@@ -1,8 +1,0 @@
-{"_note":"No official Capcom per-code list found. Community-sourced; label as such in app.",
-"errors":[
-{"name":"Fatal D3D error (DXGI_ERROR_DEVICE_HUNG)","platform":"PC","fixes":["Force DX11 mode","TdrLevel/timeout registry tweak","Disable overlays/background apps","Verify game files"],"sources":["respawnfirst.com","dotesports.com"]},
-{"name":"Failed to Retrieve Server Information","platform":"all","fixes":"TODO (Prima Games page not read)","sources":["primagames.com"]},
-{"name":"0x2000000 (pawn creation)","platform":"all","fixes":"no confirmed fix","sources":["steamcommunity.com thread"]},
-{"name":"CTD","platform":"PC","fixes":"TODO","sources":["dotesports.com"]}],
-"official_guidance":"Capcom pinned Steam post: antivirus exclusion, Windows Update, verify files; no support below min spec.",
-"todo":"Capcom support site, fresh patch notes (latest seen 3.210, PS5 loading fix, unverified)"}

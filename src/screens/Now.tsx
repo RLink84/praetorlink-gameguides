@@ -58,14 +58,6 @@ function Timers() {
     const t = setInterval(() => setNow(Date.now()), 15_000);
     return () => clearInterval(t);
   }, []);
-  useEffect(() => {
-    for (const t of profile.timers) {
-      if (t.endsAt <= now && !sessionStorage.getItem(`fired.${t.id}`)) {
-        sessionStorage.setItem(`fired.${t.id}`, "1");
-        if ("Notification" in window && Notification.permission === "granted") new Notification("Guide reminder", { body: t.label });
-      }
-    }
-  }, [now, profile.timers]);
   const add = () => {
     if (!label.trim()) return;
     if ("Notification" in window && Notification.permission === "default") void Notification.requestPermission();

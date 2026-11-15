@@ -10,7 +10,8 @@ import { Checklist } from "./screens/Checklist";
 import { Settings, applySync } from "./screens/Settings";
 import { Ask } from "./screens/Ask";
 import { Pawns } from "./screens/Pawns";
-import { useGamepadNav } from "./ui/gamepad";
+import { useGamepadNav, goBack } from "./ui/gamepad";
+import { setCompactWindow } from "./core/appUpdate";
 
 const NAV: [string, string, string][] = [
   ["now", "Now", "◎"], ["quests", "Quests", "✦"], ["choices", "Choices", "⚖"], ["items", "Items", "⚔"], ["world", "World", "⛰"],
@@ -30,8 +31,12 @@ function Shell() {
     try {
       // Decode outside the state updater so a bad code is caught here instead of crashing the render.
       const next = applySync(m[1], pack, profile);
-      setProfile(() => next);
-      toast("Progress imported from your other device");
+      const ok = Object.keys(profile.done).length === 0 ||
+        confirm(`Copy progress from your other device into "${profile.name}"? Quests you've ticked here stay ticked.`);
+      if (ok) {
+        setProfile(() => next);
+        toast("Progress imported from your other device");
+      }
     } catch (e) {
       toast(e instanceof Error ? e.message : "That sync code didn't work");
     }
@@ -40,12 +45,33 @@ function Shell() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  // Restore the compact always-on-top window on launch (PC).
+  useEffect(() => { if (settings.compact) void setCompactWindow(true); }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Reminders fire wherever you are in the app, with a system notification when allowed.
+  useEffect(() => {
+    const check = () => {
+      for (const t of profile.timers) {
+        if (t.endsAt <= Date.now() && !sessionStorage.getItem(`fired.${t.id}`)) {
+          sessionStorage.setItem(`fired.${t.id}`, "1");
+          toast(`⏰ ${t.label}`);
+          try {
+            if ("Notification" in window && Notification.permission === "granted") new Notification("Guide reminder", { body: t.label });
+          } catch { /* some webviews have no notifications */ }
+        }
+      }
+    };
+    check();
+    const i = setInterval(check, 15_000);
+    return () => clearInterval(i);
+  }, [profile.timers, toast]);
+
   // Keyboard shortcuts: "/" focuses search, Escape goes back.
   useEffect(() => {
     const on = (e: KeyboardEvent) => {
       const typing = e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement || e.target instanceof HTMLSelectElement;
       if (e.key === "/" && !typing) { e.preventDefault(); go("ask"); setTimeout(() => document.getElementById("ask-input")?.focus(), 50); }
-      if (e.key === "Escape" && !typing && route[0] !== "now") history.back();
+      if (e.key === "Escape" && !typing && route[0] !== "now") goBack(go);
     };
     addEventListener("keydown", on);
     return () => removeEventListener("keydown", on);
@@ -63,13 +89,13 @@ function Shell() {
   let body;
   switch (page) {
     case "quests": body = <Quests />; break;
-    case "quest": body = <QuestDetail id={id} />; break;
+    case "quest": body = <QuestDetail key={id} id={id} />; break;
     case "choices": body = <Choices />; break;
     case "items": body = <Items />; break;
-    case "item": body = <ItemDetail id={id} />; break;
+    case "item": body = <ItemDetail key={id} id={id} />; break;
     case "shopping": body = <Shopping />; break;
     case "world": body = <World />; break;
-    case "area": body = <AreaDetail id={id} />; break;
+    case "area": body = <AreaDetail key={id} id={id} />; break;
     case "leveling": body = <Leveling />; break;
     case "secrets": body = <Secrets />; break;
     case "fixit": body = <FixIt />; break;
@@ -80,6 +106,12 @@ function Shell() {
     case "settings": body = <Settings />; break;
     default: body = <Now />;
   }
+  // Move focus to the new page and name it, so screen readers and keyboard users follow navigation.
+  useEffect(() => {
+    const h1 = document.querySelector<HTMLElement>("main h1");
+    document.title = `${h1?.textContent ?? "Guide"} · ${pack.title} · PraetorLink Game Guides`;
+    if (route.join("/") !== "now") h1?.focus({ preventScroll: true });
+  }, [route, pack.title]);
   const active = page === "quest" ? "quests" : page === "item" ? "items" : page === "area" ? "world" : page;
   return (
     <div className="shell">
@@ -97,7 +129,8 @@ function Shell() {
         ))}
         <p className="side-foot">Unofficial fan guide. Not affiliated with Capcom.</p>
       </nav>
-      <main id="main">{body}</main>
+      <a className="skip" href="#main" onClick={(e) => { e.preventDefault(); document.getElementById("main")?.focus(); }}>Skip to content</a>
+      <main id="main" tabIndex={-1}>{body}</main>
       <nav className="tabbar" aria-label="Quick sections">
         {NAV.slice(0, 4).concat([NAV.find((n) => n[0] === "ask")!]).map(([k, l, i]) => (
           <button key={k} className={active === k ? "on" : ""} onClick={() => go(k)}><span aria-hidden>{i}</span><small>{l}</small></button>

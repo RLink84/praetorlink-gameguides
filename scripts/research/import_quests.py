@@ -9,7 +9,7 @@ in content/dd2/research/SOURCES_AND_LEGAL.md.
 import json, re, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
-RES = os.path.join(ROOT, "content", "dd2", "research")
+RES = os.environ.get("RESEARCH_DIR", "/mnt/project-files/dd2-research")
 OUT = os.path.join(ROOT, "content", "dd2")
 
 
@@ -36,7 +36,7 @@ BASE = [
     ("A New Godsway", 38, "Last safe point for most side quests. Finish what you want first."),
     ("The Guardian Gigantus", 42, "Most side quests close after this."),
     ("Legacy", 45, "Final quest. Your choices here decide the ending."),
-    ("Post-game: the Unmoored World", 50, "Only reached through the true ending path."),
+    ("Post-game", 50, ""),
 ]
 DLC = [
     ("Chilling Tidings", 40, "Start: talk to Captain Brant at the Stardrop Inn, Vernworth, at night."),
@@ -233,6 +233,7 @@ def parse_rewards(text):
         for tok in [t.strip() for t in part.split(",") if t.strip()]:
             t = tok.replace(",", "")
             mx = re.match(r"^([\d,]+)\s*xp$", t)
+            t = re.sub(r"\s*\((NPCs|or ).*$", "", t).strip()
             mg = re.match(r"^(-?[\d,]+)\s*G$", t)
             if mx:
                 r["xp"] = int(mx.group(1).replace(",", ""))
@@ -241,8 +242,12 @@ def parse_rewards(text):
             elif t in ("-", "?") or t.lower() in ("xp only",):
                 if t.lower() == "xp only":
                     r["note"] = "experience only"
+            elif re.match(r"^(outcome |\(NPCs|NPCs|Tobias|Toumi)", t) or "variant" in t:
+                continue
             else:
-                items.append(tok)
+                tok = re.sub(r"\s*\((NPCs|or ).*$", "", tok).strip()
+                if tok:
+                    items.append(tok)
         if items:
             r["items"] = items
         if r:
@@ -271,6 +276,17 @@ ALIAS = {"The Provisioner's Plight": "Provisioner's Plight"}
 
 side = json.load(open(os.path.join(RES, "side_quests.json")))["quests"]
 choices = []
+
+
+PROMPT = {
+    "The Arisen's Shadow": "When you catch the impostor, what do you do?",
+    "A Beggar's Tale": "Who do you give the beggar's garb to?",
+    "The Ornate Box": "What do you hand Sven?",
+    "The Phantom Oxcart": "The smuggler offers you a bribe",
+    "Tensions on the Highroad": "Whose side do you take?",
+    "Short-Sighted Ambition": "Do you give Isaac the real book?",
+    "A Candle in the Storm": "Do you back the Empress's proposal?",
+}
 
 
 def mkchoice(qid, qname, prompt, opts, stage, dlc=False, advice=None):
@@ -308,10 +324,11 @@ for q in side:
          "area": q["area"].replace(" (postgame)", ""), "premise": PREMISE.get(n, "Details coming soon."),
          "refs": ["powerpyx", "fextralife"]}
     if rw.get("giver") and rw["giver"] not in ("-", "n/a"):
-        e["giver"] = rw["giver"]
+        e["giver"] = rw["giver"].strip("()").replace("/", ", ")
     unlock = q["unlock"].replace(";MISSABLE(reported)", "").replace("; MISSABLE (do before Feast of Deception)", "").replace("; MISSABLE", "")
     e["unlock"] = (unlock[0].upper() + unlock[1:]).strip()
     req = rw.get("req", "")
+    req = re.sub(r"^- \((.*)\)$", r"\1", req)
     if req and req not in ("-",) and req.lower() not in e["unlock"].lower() and not req.lower().startswith("after"):
         e["unlock"] += f". Also: {req}"
     if q.get("missable") or n in LOCKS:
@@ -325,8 +342,10 @@ for q in side:
         r = parse_rewards(rw["rewards"])
         if r:
             e["rewards"] = r
-    if rw.get("unlocks") and rw["unlocks"] not in ("-", "?"):
-        e.setdefault("tips", []).append(f"Unlocks: {rw['unlocks']}.")
+    un = rw.get("unlocks", "")
+    if un and un not in ("-", "?") and "time-limited" not in un:
+        un = re.sub(r"^unlocks ", "", un)
+        e.setdefault("tips", []).append(f"Finishing it unlocks: {un}.")
     rel = []
     for l in q.get("links") or []:
         for other in name_to_id:
@@ -338,12 +357,13 @@ for q in side:
     if ch:
         opts = []
         for i, (lab, res) in enumerate(ch["options"]):
-            o = {"label": lab, "result": res}
+            res = res.replace("Noobloom", "Noonbloom").replace("; ", ". ")
+            o = {"label": lab, "result": res[0].upper() + res[1:] + ("" if res.endswith(".") else ".")}
             a = align(ch.get("alignment_provisional"), i)
             if a:
                 o["alignment"] = a
             opts.append(o)
-        e["choices"] = [mkchoice(qid, n, "What do you do?", opts, st)]
+        e["choices"] = [mkchoice(qid, n, PROMPT.get(n, "The decision in this quest"), opts, st)]
     quests.append(e)
 
 # main-quest choices
@@ -355,9 +375,9 @@ mkchoice("the-caged-magistrate", "The Caged Magistrate", "Waldhar keeps talking 
          [{"label": "Urge him to escape", "result": "He won't go until he has his tomes. The Gracious Hand's Vault (opened by The Heel of History) has room for them.", "links": ["the-heel-of-history"]},
           {"label": "Tell him to stop talking", "result": "He keeps chatting but still follows the law."}], "m07")
 mkchoice("hunt-for-the-jadeite-orb", "Hunt for the Jadeite Orb", "Who gets the orb?",
-         [{"label": "Real orb to Everard", "result": "You get 2,000 gold and the Ring of Skullduggery."},
-          {"label": "Real orb to Offulve", "result": "You get 3,000 gold and the Elite Camping Kit."},
-          {"label": "Buy fakes from Ibrahim (12,000 gold) and satisfy both", "result": "You get 5,000 gold and both items. Costs more up front."}],
+         [{"label": "Real orb to Everard", "result": "You get gold and the Ring of Skullduggery."},
+          {"label": "Real orb to Offulve", "result": "You get gold and the Elite Camping Kit."},
+          {"label": "Buy a forgery from Ibrahim and satisfy both", "result": "You get both items and the most gold overall, but the forgery costs 12,000 gold up front."}],
          "m04", advice="Want both rewards? Buy the forgeries from Ibrahim's Scrap Store and hand one to each buyer.")
 mkchoice("steeled-resolve-blazing-forge", "Regalia Sword", "Who repairs the sword?",
          [{"label": "Trust Sara with it", "result": "Sara repairs it using 15 Glimmercoal."},
@@ -372,7 +392,7 @@ mkchoice("legacy", "Legacy", "The Dragon offers you a way out",
 EXTRA = {
     "A Case of Sculptor's Block": [("Pose and help well", "Perfect statue: bigger gold reward."), ("Poor result", "Smaller gold reward.")],
     "Welcome to Battahl": [("Win the 3-on-1 fight", "Best reward."), ("Win the duel", "Gold reward."), ("Lose the duel", "You lose 3,000 gold.")],
-    "A Poisonous Proposal": [("Keep Jarle alive", "Ring of Purification and the full reward.")],
+    "A Poisonous Proposal": [("Keep Jarle alive", "Ring of Purification and the full reward."), ("Jarle doesn't make it", "A smaller reward.")],
     "Every Rose Has Its Thorn": [("Help with the assassination", "Ring of Benevolence and gold."), ("Refuse", "Gold, Tiger Eye and an Allheal Elixir."), ("Tell Allard", "A small gold reward.")],
     "A Veil of Gossamer Clouds": [("Show the unfinished letter", "Smaller reward."), ("Find the delivered letter", "Bigger gold reward plus a Ferrystone.")],
     "Clash and Conclusion": [("Defeat him", "Gold and XP."), ("Let him leave", "The Exalted mace, more gold and the Moonglint Key.")],
@@ -385,7 +405,7 @@ for n, opts in EXTRA.items():
     q = next((x for x in quests if x["id"] == qid), None)
     if not q:
         continue
-    cid = mkchoice(qid, n, "How it can end", [{"label": a, "result": b} for a, b in opts], q["stage"])
+    cid = mkchoice(qid, n, "Possible outcomes", [{"label": a, "result": b} for a, b in opts], q["stage"])
     q.setdefault("choices", []).append(cid)
 
 for c in choices:
@@ -482,6 +502,14 @@ quests.append({"id": "lost-rites", "name": "Lost Rites dungeons", "kind": "side"
                         "Final Proving Ground opens after you clear two other Unmoored World Lost Rites."]
                + [f"{k}: {', '.join(v)}." for k, v in LOST_RITES.items()],
                "refs": ["game8"]})
+
+for q in quests:
+    g = q.get("giver", "")
+    if q["stage"] == "pg" and g:
+        if g == "Volcanic Island Camp":
+            q["giver"], q["area"] = "Ernesto", "Volcanic Island Camp"
+        elif ", " in g:
+            q["giver"], q["area"] = g.split(", ", 1)
 
 json.dump(story, open(os.path.join(OUT, "story.json"), "w"), indent=1, ensure_ascii=False)
 json.dump(quests, open(os.path.join(OUT, "quests.json"), "w"), indent=1, ensure_ascii=False)

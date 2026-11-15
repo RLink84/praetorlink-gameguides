@@ -4,7 +4,7 @@ Text is our own wording. Run: python3 scripts/research/import_world.py"""
 import json, re, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
-RES = os.path.join(ROOT, "content", "dd2", "research")
+RES = os.environ.get("RESEARCH_DIR", "/mnt/project-files/dd2-research")
 OUT = os.path.join(ROOT, "content", "dd2")
 
 
@@ -18,8 +18,8 @@ qbyname = {q["name"]: q for q in quests}
 # ---------------------------------------------------------------- areas
 areas = []
 region = None
-STAGE = {"Vermund": "m02", "Battahl": "m11", "Unmoored World": "pg", "Norgan": "d01"}
-AREA_STAGE = {"Vernworth": "m04", "Melve": "m03", "Borderwatch Outpost": "m03", "Checkpoint Rest Town": "m04",
+STAGE = {"Vermund": "m01", "Battahl": "m11", "Unmoored World": "pg", "Norgan": "d01"}
+AREA_STAGE = {"Vernworth": "m04", "Melve": "m03", "Borderwatch Outpost": "m02", "Checkpoint Rest Town": "m04",
               "Moonglint Tower": "m15", "Seafloor Shrine": "m13", "Agamen Volcanic Island": "m11", "Excavation Site": "m11"}
 for line in open(os.path.join(RES, "areas.md")).read().splitlines():
     if line.startswith("## Regions"):
@@ -37,6 +37,11 @@ for line in open(os.path.join(RES, "areas.md")).read().splitlines():
     if not m or not region:
         continue
     name, summary = m.group(1).strip(), m.group(2).strip()
+    summary = summary[0].upper() + summary[1:]
+    summary = summary.replace("; ", ". ")
+    summary = re.sub(r"\. ([a-z])", lambda mm: ". " + mm.group(1).upper(), summary)
+    if not summary.endswith("."):
+        summary += "."
     if name.startswith("Wyrmsblood Forest,"):
         summary = "Wild areas of Battahl: " + name + "."
         name = "Battahl wilds"
@@ -107,9 +112,9 @@ OWN = [
      "Enemies around Bakbattahl give 200 to 500 XP each, against 100 to 150 near Vernworth. The Guerco Cavern route is easier (one Stone Golem and a Chimera). The northern canyon from Checkpoint is harder.", None),
     ("Griffin near Melve", "early (claim)", "Players report the Griffin near the tower by Melve gives about 7,000 XP and respawns. Not yet confirmed by us.", None),
     ("Hobgoblins west of Bakbattahl", "mid", "Use the campfire south of Bakbattahl's western road. Hobgoblins give about 295 to 550 XP each.", None),
-    ("Volcanic Island", "mid", "Strong XP after you unlock Magick Archer or Warfarer there. Martyr's Bolt can drop a Drake in one or two hits, at a cost to your health.", None),
+    ("Volcanic Island", "mid", "Strong XP and DCP (the points you spend on vocation skills) after you unlock Magick Archer or Warfarer there. Martyr's Bolt can drop a Drake in one or two hits, at a cost to your health.", None),
     ("Road to Dragonsbreath Tower", "late", "Knackers (about 417 XP), Redwolves (about 479) and Lost Mercenaries (about 556). Bring a ranged weapon for the Gore Harpies.", None),
-    ("Drakes and Lost Rites", "late", "Drakes and the repeatable Lost Rites dungeons (Dark Arisen) give the most XP late in the game.", None),
+    ("Drakes", "late", "Drakes give some of the best XP late in the game. Bring holy or ice damage.", None),
 ]
 for nm, stg, body, steps in OWN:
     tip(nm, "leveling", body, spoiler=1, stage={"early": "m04", "early (claim)": "m03", "mid": "m11", "late": "m14"}[stg],
@@ -122,7 +127,7 @@ GEN = [
     "The Ring of Ambition gives a little extra XP.",
     "Warfarer splits XP across every vocation you have unlocked. To level one vocation fast, keep only that one unlocked.",
 ]
-tip("Levelling basics", "leveling", " ".join(GEN), spoiler=1, stage="m03", steps=GEN, tid="leveling-basics")
+tip("Levelling basics", "leveling", "A few habits that speed up levelling all game long.", spoiler=1, stage="m03", steps=GEN, tid="leveling-basics")
 
 tip("Base game endings", "ending",
     "Flee from the Dragon and agree: bad ending. Fight and defeat the Dragon: good ending. True ending: you need the Empowered Godsbane Blade. Talk to the Pathfinder instead of taking the throne, retry the fight, ride the Dragon to its chest and use the blade. This opens the Unmoored World. Not uncovering the truth unlocks New Game Plus.",
@@ -135,7 +140,8 @@ tip("Helping Eir in the dragon fight", "secret",
     spoiler=3, stage="d08", dlc=True, tid="secret-eir-help")
 tip("Romance", "secret", "People reported as romance options: Ulrika and Wilhelmina in the base game, and Eir in Dark Arisen (not yet confirmed).",
     spoiler=2, stage="m04", tid="secret-romance")
-tip("Hard Mode", "general", "Dark Arisen added a free Hard Mode for everyone. Enemies hit harder and take more, and you earn more XP and DCP.",
+tip("Lost Rites for XP", "leveling", "The repeatable Lost Rites dungeons are a strong late-game XP source.", spoiler=1, stage="m14", dlc=True, level=(40, 60), tid="leveling-lost-rites")
+tip("Hard Mode", "general", "A free update added Hard Mode for everyone. Enemies hit harder and take more, and you earn more XP and DCP.",
     spoiler=0, stage="m01", tid="general-hard-mode")
 tip("Spoils (Norgan relics)", "general",
     "Norgan drops unappraised Spoils. Get them appraised at the settlement for random stats. Hal's workshop can make some pieces outright after Hammer and Tongs.",
@@ -158,7 +164,7 @@ tip("Slimes in Norgan", "secret", "Blue and purple slimes can only be killed wit
 tip("Fatal D3D error / device hung", "error",
     "A common PC crash. Try these one at a time and test after each.", spoiler=0, platform="PC", refs=["community"],
     steps=["Verify the game files in Steam (right-click the game, Properties, Installed Files).", "Turn off overlays (Steam, Discord, GPU tools) and close background apps.",
-           "Start the game in DirectX 11 mode if your launcher offers it.", "Advanced: raise Windows' GPU timeout (TdrDelay in the registry). Back up the registry first."],
+           "Update your graphics driver, and lower graphics settings if crashes happen in busy areas.", "Advanced: raise Windows' GPU timeout (TdrDelay in the registry). Back up the registry first."],
     tid="error-d3d")
 tip("Failed to retrieve server information", "error",
     "Online features (pawn rift) can't connect. Usually a server or network blip. Check your connection, restart the game and try again later.",
@@ -191,26 +197,26 @@ def q(name):
 
 
 ACH = [
-    ("First Taste of Freedom", "Finish the prologue escape.", ["a-gaoled-awakening"], 0),
-    ("Arisen", "Story: get your memories back.", ["in-dragons-wake"], 1),
-    ("Seat of the Proxy", "Story: reach Vernworth.", ["seat-of-the-sovran"], 1),
-    ("Across the Border", "Story: pass through the border gate.", ["nation-of-the-lambent-flame"], 1),
-    ("Back Where It All Began", "Story: return to the volcanic island.", ["the-guardian-gigantus"], 2),
-    ("Peace", "Become Sovran. Sit on the throne after the good ending.", ["legacy"], 3),
-    ("Dragon's Dogma 2", "See the Unmoored World (true ending path).", ["legacy"], 3),
-    ("The Hero", "Finish the Unmoored World trials (within 4 days).", ["halls-of-the-first-dawn"], 3),
+    ("First Taste of Freedom", "Finish the prologue escape.", ["a-gaoled-awakening", "m02"], 0),
+    ("Arisen", "Story: get your memories back.", ["m04"], 1),
+    ("Seat of the Proxy", "Story: reach Vernworth.", ["m04"], 1),
+    ("Across the Border", "Story: pass through the border gate.", ["m11"], 1),
+    ("Back Where It All Began", "Story: return to the volcanic island.", ["m15"], 2),
+    ("Peace", "Become Sovran. Sit on the throne after the good ending.", ["legacy", "m16"], 3),
+    ("Dragon's Dogma 2", "See the Unmoored World (true ending path).", ["legacy", "pg"], 3),
+    ("The Hero", "Finish the Unmoored World trials (within 4 days).", ["pg"], 3),
     ("The Guardian", "Lead people to safety in the Unmoored World.", ["civil-unrest"], 3),
     ("I, Talos", "Help the giant walk again in the Unmoored World.", [], 3),
     ("Closure", "See the end of the cycle.", [], 3),
     ("Master of the Maisters", "Learn all 10 maister teachings.", [], 1),
     ("Full Marks", "Solve every Sphinx riddle.", ["a-game-of-wits"], 1),
     ("Versatile", "Change vocation once.", [], 0),
-    ("Duo Destinies", "Become a Mystic Spearhand.", ["readvent-of-calamity"], 1),
+    ("Duo Destinies", "Become a Mystic Spearhand.", [], 1),
     ("Trickster of the Trade", "Become a Trickster.", [], 1),
     ("Arrows and Incantations", "Become a Magick Archer.", ["put-a-spring-in-thy-step"], 1),
     ("Jack of All Trades, Master of…All Trades", "Become a Warfarer.", ["the-sotted-sage"], 1),
     ("An In-Tents Adventure", "Camp at a campsite with a camping kit.", [], 0),
-    ("A House? In This Economy?", "Buy a house.", ["a-place-to-call-home"], 0),
+    ("A House? In This Economy?", "Buy a house.", [], 0),
     ("One Speed Only", "Ride an oxcart.", [], 0),
     ("The Savior", "Revive a dead person with a Wakestone.", [], 0),
     ("Just a Stone's Throw Away", "Use a Ferrystone.", [], 0),
@@ -233,11 +239,11 @@ ACH = [
     ("Quit Playing Dead", "Revive two pawns at once.", [], 0),
     ("Dragon's Dogma", "Get the sword of the same name from the Dragonforged.", [], 2),
     ("The Barbecue-Maister", "Grill every kind of meat, by day and by night.", [], 0),
-    ("Nobles' Night Out", "Attend a palace masquerade in formal clothes.", ["the-stolen-throne"], 1),
+    ("Nobles' Night Out", "Attend a palace masquerade in formal clothes.", ["m08"], 1),
     ("Thought I'd Lost You", "Revive someone at a morgue or charnel house.", [], 0),
     ("Before Dawn Breaks", "Defeat the headless horseman (night only).", [], 1),
     ("The Tourist", "Discover 50 locations (caves count).", [], 0),
-    ("Are We There Yet?", "Board the phantom oxcart.", ["the-phantom-oxcart"], 1),
+    ("Are We There Yet?", "Board the phantom oxcart.", [], 1),
     ("The Regriffining", "Fly on a griffin a second time.", [], 0),
     ("Plenty Arisen to Go Round", "Two admirers start a fight in your house.", [], 1),
     ("Roost of the Dragon", "Reach Dragonsbreath Tower.", [], 1),
@@ -247,18 +253,19 @@ ACH = [
     ("Reaper's Scorn", "Revive several people at once with the Eternal Wakestone.", [], 2),
     ("The True Arisen", "Get every other achievement.", [], 0),
     # Dark Arisen
-    ("The Forgotten North", "Arrive in Norgan.", ["chilling-tidings"], 1, True),
-    ("Dogma Defied", "Finish the Final Proving Ground without recovering your loss gauge.", ["lost-rites"], 2, True),
+    ("The Forgotten North", "Arrive in Norgan.", ["d01"], 1, True),
+    ("Dogma Defied", "Finish the Final Proving Ground without recovering your loss gauge.", [], 2, True),
     ("Dogma Defended", "Do what Norgan's guardian asks after the Fallen Dragon.", ["reunion"], 3, True),
     ("Strike", "Break five vile eye barriers at once.", [], 1, True),
     ("Abominable Snowstash", "Get back everything stolen in The Snatching-Beast.", ["the-snatching-beast"], 1, True),
-    ("Reunited", "Grant Eir's wish.", ["the-castle-in-the-ice"], 3, True),
+    ("Reunited", "Grant Eir's wish.", ["d05"], 3, True),
 ]
 achievements = []
 for row in ACH:
     nm, how, marks, sp = row[:4]
     dlc = len(row) > 4 and row[4]
-    marks = [m for m in marks if any(x["id"] == m for x in quests)]
+    story_ids = {"m%02d" % i for i in range(1, 17)} | {"pg"} | {"d%02d" % i for i in range(1, 10)}
+    marks = [m for m in marks if m in story_ids or any(x["id"] == m for x in quests)]
     achievements.append({"id": slug(nm), "name": nm, "how": how, "dlc": bool(dlc), "spoiler": sp, "marks": marks})
 
 json.dump(areas, open(os.path.join(OUT, "areas.json"), "w"), indent=1, ensure_ascii=False)

@@ -35,11 +35,11 @@ export function AskBox({ compact }: { compact?: boolean }) {
         <ul className="list">
           {hits.length === 0 && <li className="muted">No match. Try fewer words, like a name or a place.</li>}
           {hits.map((h) => {
-            const later = !reached(pack, pos, h.stage) && profile.spoiler < 2;
+            const later = !reached(pack, pos, h.stage) && profile.spoiler < 2 && h.kind !== "achievement" && h.kind !== "tip";
             return (
               <li key={`${h.kind}:${h.id}`}>
                 <button className="row-btn" onClick={() => go(route(h))}>
-                  <span className="row-title">{later && h.kind === "quest" ? "A later quest" : h.name}</span>
+                  <span className="row-title">{later ? `A later ${KIND_LABEL[h.kind].toLowerCase()}` : h.name}</span>
                   <span className="row-meta"><span className="tag">{KIND_LABEL[h.kind]}</span>{h.dlc && <Tag kind="dlc" />}</span>
                 </button>
               </li>
@@ -54,7 +54,7 @@ export function AskBox({ compact }: { compact?: boolean }) {
 export function Ask() {
   return (
     <Page title="Ask the guide">
-      <p className="muted">Works offline. Ask plain questions like “how do I start Spellbound”, “where to buy Lifetaker” or “fatal D3D crash”.</p>
+      <p className="muted">Works offline. Ask plain questions like “where do I get Lantern Oil”, “Sphinx riddle” or “fatal D3D crash”.</p>
       <AskBox />
     </Page>
   );

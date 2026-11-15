@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useApp } from "../ui/state";
 import { Page, Tag, Reveal, Speak, TesterBar, Empty } from "../ui/components";
-import { visible, reached } from "../core/logic";
+import { visible, reached, nameAllowed } from "../core/logic";
 import type { Tip } from "../core/types";
 import { statLine } from "./Items";
 
@@ -64,15 +64,15 @@ export function World() {
       <p className="muted">Places in our own words. Map coordinates will come from our own playthrough.</p>
       {regions.map((r) => {
         const kids = pack.areas.filter((a) => a.parent === r.id && visible(a, profile));
-        const shown = reached(pack, pos, r.stage) || profile.spoiler >= 2;
+        const shown = nameAllowed(pack, pos, profile, r);
         return (
           <div key={r.id} className="card">
             <h2>{shown ? r.name : "A later region"} {r.dlc && <Tag kind="dlc" />}</h2>
             <Reveal entry={r} level={r.spoiler}><p>{r.summary}</p></Reveal>
             {kids.map((a) => (
               <button key={a.id} className="row-btn" onClick={() => go(`area/${a.id}`)}>
-                <span className="row-title">{reached(pack, pos, a.stage) || profile.spoiler >= 2 ? a.name : "Later place"}</span>
-                <span className="row-meta muted">{a.quests?.length ? `${a.quests.length} quests` : ""}</span>
+                <span className="row-title">{nameAllowed(pack, pos, profile, a) ? a.name : "A later place"}</span>
+                <span className="row-meta muted">{a.quests?.length ? `${a.quests.length} quest${a.quests.length === 1 ? "" : "s"}` : ""}</span>
               </button>
             ))}
           </div>
@@ -83,7 +83,7 @@ export function World() {
 }
 
 export function AreaDetail({ id }: { id: string }) {
-  const { pack, profile, go } = useApp();
+  const { pack, profile, pos, go } = useApp();
   const a = pack.areas.find((x) => x.id === id);
   if (!a || !visible(a, profile)) return <Page title="Not found"><Empty>That place isn't in this guide.</Empty></Page>;
   const items = pack.items.filter((i) => visible(i, profile) && i.sources.some((s) => s.text.includes(a.name))).slice(0, 60);
@@ -93,7 +93,7 @@ export function AreaDetail({ id }: { id: string }) {
       <Reveal entry={a} level={a.spoiler}><p className="lead">{a.summary}</p></Reveal>
       {a.quests?.length ? (
         <div className="card"><h2>Quests here</h2>
-          {a.quests.map((qid) => { const q = pack.quests.find((x) => x.id === qid); return q && visible(q, profile) ? <button key={qid} className="row-btn" onClick={() => go(`quest/${qid}`)}>{profile.done[qid] ? "✓ " : ""}{q.name}</button> : null; })}
+          {a.quests.map((qid) => { const q = pack.quests.find((x) => x.id === qid); return q && visible(q, profile) ? <button key={qid} className="row-btn" onClick={() => go(`quest/${qid}`)}>{profile.done[qid] ? "✓ " : ""}{nameAllowed(pack, pos, profile, q) ? q.name : "A later quest"}</button> : null; })}
         </div>
       ) : null}
       {items.length > 0 && (

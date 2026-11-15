@@ -6,7 +6,8 @@
   "dlc": false,
   "spoiler": 0,
   "marks": [
-   "a-gaoled-awakening"
+   "a-gaoled-awakening",
+   "m02"
   ]
  },
  {
@@ -16,7 +17,7 @@
   "dlc": false,
   "spoiler": 1,
   "marks": [
-   "in-dragons-wake"
+   "m04"
   ]
  },
  {
@@ -26,7 +27,7 @@
   "dlc": false,
   "spoiler": 1,
   "marks": [
-   "seat-of-the-sovran"
+   "m04"
   ]
  },
  {
@@ -36,7 +37,7 @@
   "dlc": false,
   "spoiler": 1,
   "marks": [
-   "nation-of-the-lambent-flame"
+   "m11"
   ]
  },
  {
@@ -46,7 +47,7 @@
   "dlc": false,
   "spoiler": 2,
   "marks": [
-   "the-guardian-gigantus"
+   "m15"
   ]
  },
  {
@@ -56,7 +57,8 @@
   "dlc": false,
   "spoiler": 3,
   "marks": [
-   "legacy"
+   "legacy",
+   "m16"
   ]
  },
  {
@@ -66,7 +68,8 @@
   "dlc": false,
   "spoiler": 3,
   "marks": [
-   "legacy"
+   "legacy",
+   "pg"
   ]
  },
  {
@@ -76,7 +79,7 @@
   "dlc": false,
   "spoiler": 3,
   "marks": [
-   "halls-of-the-first-dawn"
+   "pg"
   ]
  },
  {
@@ -137,9 +140,7 @@
   "how": "Become a Mystic Spearhand.",
   "dlc": false,
   "spoiler": 1,
-  "marks": [
-   "readvent-of-calamity"
-  ]
+  "marks": []
  },
  {
   "id": "trickster-of-the-trade",
@@ -183,9 +184,7 @@
   "how": "Buy a house.",
   "dlc": false,
   "spoiler": 0,
-  "marks": [
-   "a-place-to-call-home"
-  ]
+  "marks": []
  },
  {
   "id": "one-speed-only",
@@ -370,7 +369,7 @@
   "dlc": false,
   "spoiler": 1,
   "marks": [
-   "the-stolen-throne"
+   "m08"
   ]
  },
  {
@@ -403,9 +402,7 @@
   "how": "Board the phantom oxcart.",
   "dlc": false,
   "spoiler": 1,
-  "marks": [
-   "the-phantom-oxcart"
-  ]
+  "marks": []
  },
  {
   "id": "the-regriffining",
@@ -478,7 +475,7 @@
   "dlc": true,
   "spoiler": 1,
   "marks": [
-   "chilling-tidings"
+   "d01"
   ]
  },
  {
@@ -487,9 +484,7 @@
   "how": "Finish the Final Proving Ground without recovering your loss gauge.",
   "dlc": true,
   "spoiler": 2,
-  "marks": [
-   "lost-rites"
-  ]
+  "marks": []
  },
  {
   "id": "dogma-defended",
@@ -526,7 +521,7 @@
   "dlc": true,
   "spoiler": 3,
   "marks": [
-   "the-castle-in-the-ice"
+   "d05"
   ]
  }
 ]

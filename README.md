@@ -30,7 +30,7 @@ npm run build          # builds the guide data and the web app into dist/
 npm run tauri dev      # desktop app (needs Rust)
 ```
 
-The guide data lives in `content/<game>/` as JSON (`quests.json`, `items.json`, and so on). Edit those files directly. `npm run check:content` tells you about broken links, missing spoiler levels or DLC tags. `content/dd2/research/` holds the original research notes and `scripts/research/` holds the one-time importers that turned them into the JSON.
+The guide data lives in `content/<game>/` as JSON (`quests.json`, `items.json`, and so on). Edit those files directly. `npm run check:content` tells you about broken links, missing spoiler levels or DLC tags. `scripts/research/` holds the one-time importers that turned the original research notes (kept outside this repo) into the JSON.
 
 **Tester mode:** on the Settings screen, tap the version line 7 times. Every quest, item, place and tip then gets "Looks right" and "Something's wrong" buttons. Export the notes from Settings and they become a content fix.
 

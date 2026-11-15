@@ -30,13 +30,21 @@ export function Checklist() {
       setProfile((p) => {
         const achieved = { ...p.achieved };
         const done = { ...p.done };
+        let base = p.base;
+        let dlcStep = p.dlcStep;
+        const order = (id: string) => pack.story.find((s) => s.id === id)?.order ?? 0;
         for (const a of pack.achievements) {
-          if (want.has(normName(a.name))) {
-            achieved[a.id] = true;
-            for (const m of a.marks) if (pack.quests.some((q) => q.id === m)) done[m] = true;
+          if (!want.has(normName(a.name))) continue;
+          achieved[a.id] = true;
+          for (const m of a.marks) {
+            const step = pack.story.find((s) => s.id === m);
+            // Story marks only ever move your position forward; quest marks mean the quest is finished.
+            if (step?.track === "base" && step.order > order(base)) base = step.id;
+            else if (step?.track === "dlc" && step.order > order(dlcStep)) dlcStep = step.id;
+            else if (!step) done[m] = true;
           }
         }
-        return { ...p, achieved, done };
+        return { ...p, achieved, done, base, dlcStep };
       });
       toast(`Steam: ${names.length} achievements found on this PC`);
     } catch (e) {
@@ -59,10 +67,10 @@ export function Checklist() {
               <div className="counter">
                 <button aria-label={`Remove one ${t.name}`} onClick={() => set(v - 1)}>−</button>
                 <input type="number" value={v} min={0} max={t.max} onChange={(e) => set(Number(e.target.value) || 0)} aria-label={t.name} />
-                <span className="muted">/ {t.max}</span>
+                {t.max < 999 && <span className="muted">/ {t.max}</span>}
                 <button aria-label={`Add one ${t.name}`} onClick={() => set(v + 1)}>+</button>
               </div>
-              <progress value={v} max={t.max} />
+              {t.max < 999 && <progress value={v} max={t.max} />}
               <p className="muted small">{t.note}</p>
             </div>
           );

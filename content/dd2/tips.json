@@ -246,7 +246,7 @@
   "id": "leveling-volcanic-island",
   "name": "Volcanic Island",
   "topic": "leveling",
-  "body": "Strong XP after you unlock Magick Archer or Warfarer there. Martyr's Bolt can drop a Drake in one or two hits, at a cost to your health.",
+  "body": "Strong XP and DCP (the points you spend on vocation skills) after you unlock Magick Archer or Warfarer there. Martyr's Bolt can drop a Drake in one or two hits, at a cost to your health.",
   "spoiler": 1,
   "dlc": false,
   "stage": "m11",
@@ -275,10 +275,10 @@
   ]
  },
  {
-  "id": "leveling-drakes-and-lost-rites",
-  "name": "Drakes and Lost Rites",
+  "id": "leveling-drakes",
+  "name": "Drakes",
   "topic": "leveling",
-  "body": "Drakes and the repeatable Lost Rites dungeons (Dark Arisen) give the most XP late in the game.",
+  "body": "Drakes give some of the best XP late in the game. Bring holy or ice damage.",
   "spoiler": 1,
   "dlc": false,
   "stage": "m14",
@@ -294,7 +294,7 @@
   "id": "leveling-basics",
   "name": "Levelling basics",
   "topic": "leveling",
-  "body": "Big groups add up: about ten goblins are worth one Cyclops. Resting at a campfire respawns many enemies. Cook food with a camping kit for stat boosts. Cyclops and Minotaurs come back about every 3 in-game days, Drakes about every 7. Area-damage pawns (Sorcerer, Warrior) clear groups faster. The Ring of Ambition gives a little extra XP. Warfarer splits XP across every vocation you have unlocked. To level one vocation fast, keep only that one unlocked.",
+  "body": "A few habits that speed up levelling all game long.",
   "spoiler": 1,
   "dlc": false,
   "stage": "m03",
@@ -359,10 +359,26 @@
   ]
  },
  {
+  "id": "leveling-lost-rites",
+  "name": "Lost Rites for XP",
+  "topic": "leveling",
+  "body": "The repeatable Lost Rites dungeons are a strong late-game XP source.",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "m14",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   40,
+   60
+  ]
+ },
+ {
   "id": "general-hard-mode",
   "name": "Hard Mode",
   "topic": "general",
-  "body": "Dark Arisen added a free Hard Mode for everyone. Enemies hit harder and take more, and you earn more XP and DCP.",
+  "body": "A free update added Hard Mode for everyone. Enemies hit harder and take more, and you earn more XP and DCP.",
   "spoiler": 0,
   "dlc": false,
   "stage": "m01",
@@ -431,7 +447,7 @@
   "steps": [
    "Verify the game files in Steam (right-click the game, Properties, Installed Files).",
    "Turn off overlays (Steam, Discord, GPU tools) and close background apps.",
-   "Start the game in DirectX 11 mode if your launcher offers it.",
+   "Update your graphics driver, and lower graphics settings if crashes happen in busy areas.",
    "Advanced: raise Windows' GPU timeout (TdrDelay in the registry). Back up the registry first."
   ],
   "platform": "PC"

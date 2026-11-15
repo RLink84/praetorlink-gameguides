@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useApp } from "../ui/state";
 import { Page, Tag, Reveal, Rewards, Speak, TesterBar, Empty } from "../ui/components";
-import { questStatus, advanceAfter, stepById, visible, type QuestStatus } from "../core/logic";
+import { questStatus, advanceAfter, stepById, visible, nameAllowed, detailAllowed, type QuestStatus } from "../core/logic";
 import type { Choice } from "../core/types";
 
 type Filter = "open" | "all" | "main" | "side" | "dlc" | "missable" | "done";
@@ -26,7 +26,7 @@ export function Quests() {
       {list.length === 0 && <Empty>No quests here yet. If you've moved on in the story, update your position on the Now screen.</Empty>}
       <ul className="list">
         {list.map(({ q, s }) => {
-          const showName = s !== "upcoming" || profile.spoiler >= 1;
+          const showName = nameAllowed(pack, pos, profile, q);
           return (
             <li key={q.id}>
               <button className="row-btn" onClick={() => go(`quest/${q.id}`)}>
@@ -79,6 +79,8 @@ export function QuestDetail({ id }: { id: string }) {
   const lock = q.locksAt ? stepById(pack, q.locksAt) : undefined;
   const opens = stepById(pack, q.stage);
   const toggle = () => {
+    const marking = !profile.done[q.id];
+    const moved = marking && advanceAfter(pack, profile, q) !== profile;
     setProfile((p) => {
       const done = { ...p.done };
       if (done[q.id]) delete done[q.id];
@@ -86,11 +88,13 @@ export function QuestDetail({ id }: { id: string }) {
       const next = { ...p, done };
       return done[q.id] ? advanceAfter(pack, next, q) : next;
     });
-    if (!profile.done[q.id] && q.kind === "main") toast("Done. Story marker moved on.");
+    if (moved) toast("Done. Story marker moved on.");
   };
-  const speakText = [q.name, q.premise, q.unlock && `How to start: ${q.unlock}`, ...(q.tips ?? [])].filter(Boolean).join(". ");
+  const allowed = detailAllowed(pack, pos, profile, q);
+  const title = nameAllowed(pack, pos, profile, q) ? q.name : "A later quest";
+  const speakText = [title, allowed >= 1 && q.premise, allowed >= 1 && q.unlock && `How to start: ${q.unlock}`, ...(allowed >= 2 ? q.tips ?? [] : [])].filter(Boolean).join(". ");
   return (
-    <Page title={q.name} actions={<><Speak text={speakText} /><button className={profile.done[q.id] ? "done-btn on" : "done-btn"} onClick={toggle}>{profile.done[q.id] ? "✓ Done" : "Mark done"}</button></>}>
+    <Page title={title} actions={<><Speak text={speakText} /><button className={profile.done[q.id] ? "done-btn on" : "done-btn"} onClick={toggle}>{profile.done[q.id] ? "✓ Done" : "Mark done"}</button></>}>
       <div className="tags">
         <span className="tag">{q.kind === "main" ? "Main quest" : "Side quest"}</span>
         {q.dlc && <Tag kind="dlc">DLC · Dark Arisen</Tag>}
@@ -120,14 +124,14 @@ export function QuestDetail({ id }: { id: string }) {
         <div className="card"><h2>Walkthrough</h2><Reveal entry={q} level={2} label="the steps"><ol>{q.steps.map((t, i) => <li key={i}>{t}</li>)}</ol></Reveal></div>
       ) : null}
       {q.rewards?.length ? (
-        <div className="card"><h2>Rewards</h2><Reveal entry={q} level={2} label="rewards"><Rewards list={q.rewards} /></Reveal></div>
+        <div className="card"><h2>Rewards</h2><Reveal entry={q} level={2} label="rewards"><Rewards list={q.rewards} outcomes={allowed >= 3} /></Reveal></div>
       ) : null}
       {choices.length > 0 && (
         <div className="card"><h2>Choices</h2>{choices.map((c) => <ChoiceCard key={c.id} c={c} />)}</div>
       )}
       {q.related?.length ? (
         <div className="card"><h2>Linked quests</h2>
-          {q.related.map((r) => { const o = pack.quests.find((x) => x.id === r); return o && visible(o, profile) ? <button key={r} className="row-btn" onClick={() => go(`quest/${r}`)}>{o.name}</button> : null; })}
+          {q.related.map((r) => { const o = pack.quests.find((x) => x.id === r); return o && visible(o, profile) ? <button key={r} className="row-btn" onClick={() => go(`quest/${r}`)}>{nameAllowed(pack, pos, profile, o) ? o.name : "A later quest"}</button> : null; })}
         </div>
       ) : null}
       <TesterBar kind="quest" entry={q} />
@@ -136,8 +140,8 @@ export function QuestDetail({ id }: { id: string }) {
 }
 
 export function Choices() {
-  const { pack, profile, go } = useApp();
-  const list = pack.choices.filter((c) => visible(c, profile));
+  const { pack, profile, pos, go } = useApp();
+  const list = pack.choices.filter((c) => visible(c, profile) && nameAllowed(pack, pos, profile, c));
   return (
     <Page title="Choices">
       <p className="muted">Every decision we know about. Outcomes stay hidden until you tap. Tags show our own read: ▲ kind, ▼ ruthless, ● neutral.</p>

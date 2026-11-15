@@ -5,7 +5,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -22,14 +22,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Mired Conduit)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -40,14 +40,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -58,7 +58,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -75,7 +75,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -92,7 +92,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -109,11 +109,11 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Sorcerer's Appraisal."
+    "text": "Quest reward: Sorcerer's Appraisal."
    }
   ],
   "refs": [
@@ -126,7 +126,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -143,7 +143,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -160,7 +160,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -177,7 +177,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -194,7 +194,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -211,7 +211,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -228,7 +228,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -245,7 +245,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -266,14 +266,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Embersand Mine)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -284,7 +284,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -301,14 +301,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Precipitous Catacombs)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -319,7 +319,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -336,7 +336,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -353,11 +353,11 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "150 Seeker's Tokens."
+    "text": "Trade in 150 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "refs": [
@@ -370,14 +370,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Seafloor Sepulcher)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -388,14 +388,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -406,11 +406,11 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward The Ornate Box."
+    "text": "Quest reward: The Ornate Box."
    }
   ],
   "refs": [
@@ -423,7 +423,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -440,7 +440,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -457,14 +457,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -475,14 +475,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -493,7 +493,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -510,7 +510,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -527,14 +527,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Shrouded Warren)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -545,7 +545,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -562,7 +562,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -579,7 +579,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -596,14 +596,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Embersand Mine)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -614,7 +614,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "shop",
@@ -631,7 +631,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -648,7 +648,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -665,7 +665,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -682,14 +682,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Dwayne."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -700,7 +700,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -717,7 +717,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -734,7 +734,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -751,7 +751,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -768,7 +768,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -785,7 +785,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -802,7 +802,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -819,14 +819,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -837,7 +837,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -854,14 +854,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Dwayne."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -872,7 +872,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -889,14 +889,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -907,7 +907,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -924,11 +924,11 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
-    "text": "Chest Seafloor Shrine B1F NE behind boulder."
+    "text": "Chest Seafloor Shrine B1F north-east of behind boulder."
    }
   ],
   "refs": [
@@ -941,7 +941,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -958,7 +958,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -975,7 +975,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -992,14 +992,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1010,7 +1010,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -1027,9 +1027,9 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1040,14 +1040,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1058,7 +1058,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1075,14 +1075,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1093,7 +1093,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -1110,7 +1110,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -1127,7 +1127,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -1144,14 +1144,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1162,7 +1162,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -1179,14 +1179,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1197,7 +1197,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1214,14 +1214,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1232,7 +1232,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -1249,7 +1249,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1266,14 +1266,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1284,14 +1284,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1302,7 +1302,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1319,7 +1319,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1336,7 +1336,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -1353,7 +1353,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1374,7 +1374,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1391,7 +1391,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -1408,7 +1408,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -1425,7 +1425,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1442,7 +1442,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1459,7 +1459,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1476,7 +1476,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1493,14 +1493,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1511,14 +1511,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1529,7 +1529,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1546,7 +1546,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1563,7 +1563,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1580,14 +1580,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Mired Conduit)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1598,7 +1598,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1615,14 +1615,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Seafloor Sepulcher)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1633,14 +1633,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1651,7 +1651,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1668,7 +1668,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1685,9 +1685,9 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1698,7 +1698,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -1710,7 +1710,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -1727,14 +1727,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1745,7 +1745,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -1762,14 +1762,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1780,7 +1780,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -1797,14 +1797,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1815,7 +1815,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -1832,14 +1832,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1850,7 +1850,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -1867,14 +1867,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1885,7 +1885,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "other",
@@ -1902,7 +1902,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -1919,9 +1919,9 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1932,14 +1932,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -1950,7 +1950,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -1967,7 +1967,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -1984,7 +1984,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -2001,7 +2001,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -2018,14 +2018,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2036,14 +2036,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2054,14 +2054,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2072,14 +2072,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2090,7 +2090,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -2107,7 +2107,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -2124,7 +2124,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -2141,7 +2141,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -2158,7 +2158,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -2175,7 +2175,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -2192,7 +2192,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -2209,7 +2209,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -2226,7 +2226,7 @@
   "category": "body",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -2243,14 +2243,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2261,9 +2261,9 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2274,14 +2274,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
-    "text": "frozen chests, Gagana's Grotto."
+    "text": "Frozen chests, Gagana's Grotto."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2292,14 +2292,14 @@
   "category": "body",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Wyrmsblood Arena)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear. Slot not confirmed yet.",
   "refs": [
    "game8"
   ]
@@ -2310,7 +2310,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2322,7 +2322,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2334,14 +2334,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2352,7 +2352,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2364,7 +2364,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2376,14 +2376,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2394,7 +2394,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2406,7 +2406,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2418,14 +2418,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Wyrmsblood Arena)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2436,7 +2436,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2448,7 +2448,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2460,14 +2460,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Mired Conduit)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2478,14 +2478,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Seafloor Sepulcher)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2496,7 +2496,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2508,14 +2508,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2526,14 +2526,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Final Proving Ground)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2544,7 +2544,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2556,7 +2556,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2568,7 +2568,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2580,7 +2580,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2592,14 +2592,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2610,7 +2610,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2622,14 +2622,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Quilt Me Down With a Feather."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2640,7 +2640,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2652,7 +2652,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2664,14 +2664,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2682,14 +2682,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2700,7 +2700,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2712,7 +2712,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2724,7 +2724,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2736,7 +2736,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2748,7 +2748,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2760,7 +2760,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2772,7 +2772,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2784,7 +2784,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2796,7 +2796,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2808,7 +2808,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2820,7 +2820,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2832,14 +2832,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2850,7 +2850,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2862,7 +2862,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2874,7 +2874,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2886,14 +2886,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2904,14 +2904,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Embersand Mine)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2922,14 +2922,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2940,7 +2940,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2952,7 +2952,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2964,14 +2964,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -2982,7 +2982,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -2994,7 +2994,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3006,14 +3006,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3024,7 +3024,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3036,7 +3036,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3048,7 +3048,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3060,7 +3060,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3072,7 +3072,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3084,14 +3084,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3102,14 +3102,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3120,14 +3120,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Seafloor Sepulcher)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3138,14 +3138,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3156,7 +3156,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3168,7 +3168,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3180,7 +3180,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3192,7 +3192,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3204,7 +3204,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3216,7 +3216,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3228,7 +3228,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3240,7 +3240,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3252,14 +3252,14 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -3270,7 +3270,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3282,7 +3282,7 @@
   "category": "cloak",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -3294,7 +3294,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
@@ -3311,7 +3311,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -3328,7 +3328,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3345,7 +3345,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -3358,11 +3358,11 @@
  },
  {
   "id": "jasper-x5",
-  "name": "Jasper x5",
+  "name": "Jasper",
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3383,7 +3383,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3400,7 +3400,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -3417,7 +3417,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "craft",
@@ -3434,7 +3434,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -3451,7 +3451,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3459,7 +3459,7 @@
    },
    {
     "kind": "other",
-    "text": "Turn in at Vocation Guilds for gear/rings (see weapon + ring files)."
+    "text": "Turn in at Vocation Guilds for gear/rings."
    }
   ],
   "refs": [
@@ -3472,7 +3472,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -3489,7 +3489,7 @@
   "category": "collectible",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3501,34 +3501,12 @@
   ]
  },
  {
-  "id": "arrows",
-  "name": "Arrows",
-  "category": "consumable",
-  "spoiler": 1,
-  "dlc": false,
-  "stage": "m01",
-  "sources": [
-   {
-    "kind": "drop",
-    "text": "Drops from Rogue/Lost Mercenary/Skeleton."
-   },
-   {
-    "kind": "other",
-    "text": "Unmasking sold 500 RC."
-   }
-  ],
-  "note": "Blighting, Drenching, Tarring, Explosive, Unmasking, Unmaking",
-  "refs": [
-   "fextralife"
-  ]
- },
- {
   "id": "camping-kits",
   "name": "Camping kits",
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3545,32 +3523,11 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward The Nameless Village."
-   }
-  ],
-  "refs": [
-   "fextralife"
-  ]
- },
- {
-  "id": "drenching",
-  "name": "Drenching",
-  "category": "consumable",
-  "spoiler": 1,
-  "dlc": false,
-  "stage": "m01",
-  "sources": [
-   {
-    "kind": "drop",
-    "text": "Drops from Rogue/Lost Mercenary/Skeleton."
-   },
-   {
-    "kind": "other",
-    "text": "Unmasking sold 500 RC."
+    "text": "Quest reward: The Nameless Village."
    }
   ],
   "refs": [
@@ -3583,14 +3540,14 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
     "text": "Shops/loot."
    }
   ],
-  "note": "red, blue 500 RC; green, yellow 100G; purple drop from Asp 12%",
+  "note": "Types: red, blue 500 RC; green, yellow 100G; purple drop from Asp 12%",
   "refs": [
    "fextralife"
   ]
@@ -3601,36 +3558,15 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward A Game of Wits."
+    "text": "Quest reward: A Game of Wits."
    },
    {
     "kind": "chest",
     "text": "Chest near Frontier Shrine."
-   }
-  ],
-  "refs": [
-   "fextralife"
-  ]
- },
- {
-  "id": "explosive",
-  "name": "Explosive",
-  "category": "consumable",
-  "spoiler": 1,
-  "dlc": false,
-  "stage": "m01",
-  "sources": [
-   {
-    "kind": "drop",
-    "text": "Drops from Rogue/Lost Mercenary/Skeleton."
-   },
-   {
-    "kind": "other",
-    "text": "Unmasking sold 500 RC."
    }
   ],
   "refs": [
@@ -3643,7 +3579,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -3660,7 +3596,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3677,7 +3613,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3694,7 +3630,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3711,7 +3647,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -3732,7 +3668,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -3749,14 +3685,14 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
     "text": "Pawn Guild shop."
    }
   ],
-  "note": "Kindhearted/Calm/Simple/Straightforward/Ambivalent",
+  "note": "Types: Kindhearted/Calm/Simple/Straightforward/Ambivalent",
   "refs": [
    "fextralife"
   ]
@@ -3767,7 +3703,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -3779,12 +3715,12 @@
   ]
  },
  {
-  "id": "tarring",
-  "name": "Tarring",
+  "id": "special-arrows",
+  "name": "Special arrows",
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -3795,48 +3731,7 @@
     "text": "Unmasking sold 500 RC."
    }
   ],
-  "refs": [
-   "fextralife"
-  ]
- },
- {
-  "id": "unmaking",
-  "name": "Unmaking)",
-  "category": "consumable",
-  "spoiler": 1,
-  "dlc": false,
-  "stage": "m01",
-  "sources": [
-   {
-    "kind": "drop",
-    "text": "Drops from Rogue/Lost Mercenary/Skeleton."
-   },
-   {
-    "kind": "other",
-    "text": "Unmasking sold 500 RC."
-   }
-  ],
-  "refs": [
-   "fextralife"
-  ]
- },
- {
-  "id": "unmasking",
-  "name": "Unmasking",
-  "category": "consumable",
-  "spoiler": 1,
-  "dlc": false,
-  "stage": "m01",
-  "sources": [
-   {
-    "kind": "drop",
-    "text": "Drops from Rogue/Lost Mercenary/Skeleton."
-   },
-   {
-    "kind": "other",
-    "text": "Unmasking sold 500 RC."
-   }
-  ],
+  "note": "Types: Blighting, Drenching, Tarring, Explosive, Unmasking, Unmaking",
   "refs": [
    "fextralife"
   ]
@@ -3847,7 +3742,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "craft",
@@ -3868,7 +3763,7 @@
   "category": "consumable",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -3885,7 +3780,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -3902,11 +3797,11 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
-    "text": "Endgame, NE lake of Checkpoint Rest Town."
+    "text": "Endgame, north-east of lake of Checkpoint Rest Town."
    }
   ],
   "refs": [
@@ -3919,7 +3814,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -3936,7 +3831,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -3953,7 +3848,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -3970,7 +3865,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -3987,14 +3882,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4005,14 +3900,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Mired Conduit)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4023,7 +3918,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -4040,7 +3935,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4057,7 +3952,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -4074,7 +3969,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -4091,7 +3986,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4108,7 +4003,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -4125,7 +4020,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -4142,7 +4037,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -4159,7 +4054,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4176,14 +4071,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4194,14 +4089,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Wyrmsblood Arena)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4212,7 +4107,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4229,14 +4124,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Sunken Spire)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4247,7 +4142,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4264,7 +4159,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4281,7 +4176,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -4298,7 +4193,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -4315,7 +4210,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4332,7 +4227,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -4349,7 +4244,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -4366,7 +4261,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -4383,14 +4278,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4401,7 +4296,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -4418,7 +4313,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -4435,7 +4330,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4452,7 +4347,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -4469,14 +4364,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4487,7 +4382,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -4504,7 +4399,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4521,7 +4416,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -4533,7 +4428,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -4550,14 +4445,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4568,7 +4463,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4585,7 +4480,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4602,7 +4497,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -4619,14 +4514,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Precipitous Catacombs)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4637,14 +4532,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4655,7 +4550,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4672,14 +4567,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Precipitous Catacombs)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4690,14 +4585,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Embersand Mine)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4708,7 +4603,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4725,7 +4620,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4742,7 +4637,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4759,7 +4654,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -4776,7 +4671,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4793,7 +4688,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -4810,7 +4705,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -4827,14 +4722,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4845,14 +4740,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4863,7 +4758,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -4880,7 +4775,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4897,14 +4792,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -4915,7 +4810,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4932,11 +4827,11 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Put a Spring in Thy Step."
+    "text": "Quest reward: Put a Spring in Thy Step."
    }
   ],
   "refs": [
@@ -4949,7 +4844,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -4966,7 +4861,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -4983,7 +4878,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5000,7 +4895,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -5017,7 +4912,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -5034,7 +4929,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5046,7 +4941,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5063,7 +4958,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5075,7 +4970,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
@@ -5092,7 +4987,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5109,7 +5004,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5121,7 +5016,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5138,14 +5033,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5156,14 +5051,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Daemon's Corral)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5174,7 +5069,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5191,14 +5086,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5209,14 +5104,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5227,7 +5122,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5244,7 +5139,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5261,7 +5156,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5278,14 +5173,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5296,7 +5191,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5308,7 +5203,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "chest",
@@ -5325,14 +5220,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5343,7 +5238,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5360,14 +5255,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5378,7 +5273,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5395,7 +5290,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5412,14 +5307,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5430,7 +5325,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5447,7 +5342,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5464,7 +5359,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5481,7 +5376,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -5498,7 +5393,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5515,7 +5410,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5532,7 +5427,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5549,7 +5444,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5566,7 +5461,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5583,7 +5478,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -5600,7 +5495,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5617,7 +5512,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5634,7 +5529,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5651,9 +5546,9 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5664,14 +5559,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5682,7 +5577,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -5699,7 +5594,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5711,7 +5606,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5728,14 +5623,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5746,11 +5641,11 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "50 Seeker's Tokens."
+    "text": "Trade in 50 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "refs": [
@@ -5763,11 +5658,11 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
-    "text": "Chest guarded by bandits, temple NE of Tomb of Ja'Nuwa."
+    "text": "Chest guarded by bandits, temple north-east of Tomb of Ja'Nuwa."
    }
   ],
   "refs": [
@@ -5780,7 +5675,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5797,7 +5692,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -5814,7 +5709,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5831,7 +5726,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -5848,7 +5743,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -5865,7 +5760,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -5882,7 +5777,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -5899,14 +5794,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -5917,11 +5812,11 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Off the Pilfered Path (best outcome)."
+    "text": "Quest reward: Off the Pilfered Path (best outcome)."
    }
   ],
   "refs": [
@@ -5934,7 +5829,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5951,7 +5846,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -5968,7 +5863,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -5985,7 +5880,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -5997,14 +5892,14 @@
   "category": "head",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Seafloor Sepulcher)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -6015,7 +5910,7 @@
   "category": "head",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -6032,7 +5927,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6049,7 +5944,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6066,7 +5961,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6083,7 +5978,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6100,7 +5995,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6117,7 +6012,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6134,7 +6029,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6151,7 +6046,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6168,7 +6063,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6185,7 +6080,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6202,7 +6097,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -6219,7 +6114,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6236,7 +6131,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6253,7 +6148,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6270,7 +6165,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -6287,7 +6182,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6304,7 +6199,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6321,7 +6216,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6338,7 +6233,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6355,7 +6250,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -6373,7 +6268,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6390,7 +6285,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6407,7 +6302,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -6424,7 +6319,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6441,7 +6336,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6458,7 +6353,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -6475,7 +6370,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6492,7 +6387,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6509,7 +6404,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -6526,7 +6421,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6543,7 +6438,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6560,7 +6455,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6577,7 +6472,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6594,7 +6489,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6611,7 +6506,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6628,7 +6523,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6645,7 +6540,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6662,7 +6557,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6679,7 +6574,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6696,7 +6591,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6713,7 +6608,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6730,7 +6625,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6747,7 +6642,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -6765,7 +6660,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6782,7 +6677,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -6799,7 +6694,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
@@ -6816,7 +6711,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6833,7 +6728,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -6850,7 +6745,7 @@
   "category": "key",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -6867,7 +6762,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6879,14 +6774,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Precipitous Catacombs)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -6897,7 +6792,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6909,14 +6804,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -6927,7 +6822,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6939,7 +6834,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6951,7 +6846,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6963,7 +6858,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -6975,14 +6870,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -6993,7 +6888,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7005,14 +6900,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7023,14 +6918,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7041,7 +6936,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7053,7 +6948,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7065,7 +6960,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7077,7 +6972,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7089,14 +6984,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7107,7 +7002,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7119,7 +7014,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7131,7 +7026,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7143,14 +7038,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7161,7 +7056,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7173,7 +7068,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7185,7 +7080,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7197,7 +7092,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7209,7 +7104,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7221,7 +7116,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7233,7 +7128,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7245,7 +7140,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7257,7 +7152,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7269,7 +7164,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7281,7 +7176,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7293,9 +7188,9 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7306,14 +7201,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7324,14 +7219,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7342,7 +7237,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7354,7 +7249,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7366,14 +7261,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7384,14 +7279,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7402,7 +7297,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7414,7 +7309,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7426,14 +7321,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7444,14 +7339,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Shrouded Warren)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7462,7 +7357,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7474,7 +7369,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7486,7 +7381,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7498,7 +7393,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7510,7 +7405,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7522,7 +7417,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7534,7 +7429,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7546,14 +7441,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Mired Conduit)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7564,7 +7459,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7576,7 +7471,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7588,7 +7483,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7600,7 +7495,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7612,7 +7507,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7624,7 +7519,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7636,7 +7531,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7648,7 +7543,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7660,7 +7555,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7672,7 +7567,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7684,7 +7579,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7696,7 +7591,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7708,7 +7603,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7720,7 +7615,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7732,7 +7627,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7744,14 +7639,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7762,7 +7657,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7774,7 +7669,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7786,14 +7681,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Shrouded Warren)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7804,7 +7699,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7816,7 +7711,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7828,7 +7723,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7840,14 +7735,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7858,14 +7753,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7876,14 +7771,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7894,9 +7789,9 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7907,14 +7802,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7925,7 +7820,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7937,7 +7832,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -7949,14 +7844,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Sunken Spire)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7967,14 +7862,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Wyrmsblood Arena)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -7985,14 +7880,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -8003,7 +7898,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8015,7 +7910,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8027,7 +7922,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8039,7 +7934,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8051,14 +7946,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -8069,14 +7964,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -8087,7 +7982,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8099,7 +7994,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8111,7 +8006,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8123,14 +8018,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -8141,7 +8036,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8153,14 +8048,14 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Wyrmsblood Arena)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -8171,7 +8066,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8183,7 +8078,7 @@
   "category": "legs",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -8195,7 +8090,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8213,7 +8108,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8231,7 +8126,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8249,11 +8144,11 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
-    "text": "Woodpile NE of ..."
+    "text": "Woodpile north-east of ..."
    }
   ],
   "type": "Bones",
@@ -8267,7 +8162,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8289,7 +8184,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "other",
@@ -8315,7 +8210,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8333,7 +8228,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -8355,7 +8250,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8373,7 +8268,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8391,7 +8286,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8409,7 +8304,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8427,7 +8322,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8445,7 +8340,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8463,7 +8358,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8481,7 +8376,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8499,7 +8394,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8517,7 +8412,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8535,7 +8430,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8553,7 +8448,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8571,7 +8466,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8589,7 +8484,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8607,7 +8502,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -8625,7 +8520,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8643,7 +8538,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8661,7 +8556,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "other",
@@ -8679,7 +8574,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -8697,7 +8592,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -8715,7 +8610,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8733,7 +8628,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8751,7 +8646,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -8769,7 +8664,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -8787,7 +8682,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -8809,7 +8704,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8827,7 +8722,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8845,7 +8740,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "type": "Scales",
   "refs": [
@@ -8858,7 +8753,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8876,7 +8771,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8894,7 +8789,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -8912,7 +8807,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -8934,7 +8829,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8952,7 +8847,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -8970,7 +8865,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -8992,7 +8887,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9010,7 +8905,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9028,7 +8923,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9046,7 +8941,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9064,7 +8959,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -9086,7 +8981,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9104,7 +8999,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9122,7 +9017,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9140,7 +9035,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -9148,7 +9043,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward Heel of History."
+    "text": "Quest reward: Heel of History."
    }
   ],
   "type": "Spirit/Undead",
@@ -9162,7 +9057,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9180,7 +9075,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9198,7 +9093,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9216,7 +9111,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -9234,7 +9129,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9256,7 +9151,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -9274,7 +9169,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -9292,7 +9187,7 @@
   "category": "material",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9310,14 +9205,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Interminable Corridor)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -9328,14 +9223,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -9346,14 +9241,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -9364,11 +9259,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "120 Seeker's Tokens."
+    "text": "Trade in 120 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "refs": [
@@ -9381,14 +9276,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -9399,14 +9294,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Shrouded Warren)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -9417,7 +9312,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9434,11 +9329,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward An Unsettling Encounter, The Ornate Box."
+    "text": "Quest reward: An Unsettling Encounter, The Ornate Box."
    }
   ],
   "refs": [
@@ -9451,7 +9346,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9472,7 +9367,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -9489,7 +9384,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -9497,7 +9392,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward A Candle in the Storm."
+    "text": "Quest reward: A Candle in the Storm."
    }
   ],
   "refs": [
@@ -9510,7 +9405,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -9527,7 +9422,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -9544,7 +9439,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9561,7 +9456,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -9578,7 +9473,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9595,7 +9490,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9612,7 +9507,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9629,7 +9524,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9646,7 +9541,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -9663,7 +9558,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -9684,7 +9579,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9705,11 +9600,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "220 tokens."
+    "text": "Trade in 220 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "refs": [
@@ -9722,11 +9617,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Medicament Predicament."
+    "text": "Quest reward: Medicament Predicament."
    }
   ],
   "refs": [
@@ -9739,7 +9634,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9760,7 +9655,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -9772,7 +9667,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward Readvent of Calamity."
+    "text": "Quest reward: Readvent of Calamity."
    }
   ],
   "refs": [
@@ -9785,7 +9680,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9802,7 +9697,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -9819,7 +9714,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -9840,7 +9735,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9848,7 +9743,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward Phantom Oxcart."
+    "text": "Quest reward: Phantom Oxcart."
    }
   ],
   "refs": [
@@ -9861,7 +9756,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -9878,7 +9773,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9895,7 +9790,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -9907,7 +9802,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "refs": [
    "fextralife"
@@ -9919,7 +9814,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -9936,15 +9831,15 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
-    "text": "Chest between Vernworth and Sacred Arbor SE of Mountain Ruins."
+    "text": "Chest between Vernworth and Sacred Arbor south-east of Mountain Ruins."
    },
    {
     "kind": "reward",
-    "text": "Reward Gift of the Bow."
+    "text": "Quest reward: Gift of the Bow."
    }
   ],
   "refs": [
@@ -9957,11 +9852,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward A Poisonous Proposal (Jarle lives)."
+    "text": "Quest reward: A Poisonous Proposal (Jarle lives)."
    }
   ],
   "refs": [
@@ -9974,7 +9869,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -9991,7 +9886,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "drop",
@@ -10012,7 +9907,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -10029,7 +9924,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -10046,7 +9941,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -10063,7 +9958,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10080,7 +9975,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -10097,7 +9992,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -10114,7 +10009,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -10131,7 +10026,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -10152,7 +10047,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -10173,7 +10068,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
@@ -10194,7 +10089,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -10215,7 +10110,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -10232,11 +10127,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "15 tokens."
+    "text": "Trade in 15 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "refs": [
@@ -10249,11 +10144,11 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "tokens",
-    "text": "5 tokens (also VIA)."
+    "text": "Trade in 5 Seeker's Tokens at a Vocation Guild. Also sold at the Volcanic Island Armory."
    }
   ],
   "refs": [
@@ -10266,14 +10161,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
     "text": "Spoils appraisal in Norgan (random stats), or crafted at Hal's workshop after Hammer and Tongs."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -10284,14 +10179,14 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
     "text": "Lost Rites dungeon reward (Molten Gauntlet)."
    }
   ],
-  "note": "Dark Arisen gear. Slot guessed from the name; confirm in game.",
+  "note": "Dark Arisen gear.",
   "refs": [
    "game8"
   ]
@@ -10302,7 +10197,7 @@
   "category": "ring",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10319,7 +10214,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10340,7 +10235,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -10364,7 +10259,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -10385,7 +10280,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -10409,7 +10304,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -10433,7 +10328,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -10457,7 +10352,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -10481,7 +10376,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10502,7 +10397,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -10526,7 +10421,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -10550,7 +10445,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10571,7 +10466,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -10596,11 +10491,11 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "drop",
-    "text": "Hobgoblin 2%, chest SW of Volcanic Island Camp."
+    "text": "Hobgoblin 2%, chest south-west of Volcanic Island Camp."
    },
    {
     "kind": "shop",
@@ -10624,7 +10519,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -10645,7 +10540,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10666,7 +10561,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10690,7 +10585,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -10718,7 +10613,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10739,7 +10634,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -10763,7 +10658,7 @@
   "category": "shield",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -10784,7 +10679,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "gift",
@@ -10801,7 +10696,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10818,7 +10713,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "gift",
@@ -10836,7 +10731,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10853,7 +10748,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "gift",
@@ -10870,7 +10765,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10887,7 +10782,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10904,7 +10799,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10922,7 +10817,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10939,7 +10834,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10956,7 +10851,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -10973,7 +10868,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "other",
@@ -10990,7 +10885,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -11007,7 +10902,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -11024,11 +10919,11 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Sorcerer's Appraisal."
+    "text": "Quest reward: Sorcerer's Appraisal."
    }
   ],
   "note": "Maister teaching for Sorcerer.",
@@ -11042,7 +10937,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -11059,7 +10954,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -11077,7 +10972,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "gift",
@@ -11094,7 +10989,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -11112,7 +11007,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "gift",
@@ -11129,7 +11024,7 @@
   "category": "tome",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "gift",
@@ -11146,7 +11041,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "drop",
@@ -11172,7 +11067,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11198,7 +11093,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11220,7 +11115,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -11246,7 +11141,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11268,7 +11163,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11290,7 +11185,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -11320,7 +11215,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11342,7 +11237,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -11368,7 +11263,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -11394,7 +11289,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -11420,7 +11315,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -11446,7 +11341,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11472,7 +11367,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -11498,7 +11393,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -11520,7 +11415,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11542,7 +11437,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -11568,7 +11463,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -11590,7 +11485,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11616,7 +11511,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11642,7 +11537,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11664,7 +11559,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11686,7 +11581,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11708,7 +11603,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -11721,7 +11616,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 112
+   "strength": 112
   },
   "refs": [
    "fextralife"
@@ -11733,7 +11628,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11755,7 +11650,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -11768,7 +11663,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 198
+   "strength": 198
   },
   "refs": [
    "fextralife"
@@ -11780,7 +11675,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11802,7 +11697,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11815,7 +11710,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 233
+   "strength": 233
   },
   "refs": [
    "fextralife"
@@ -11827,7 +11722,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -11840,7 +11735,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 256
+   "strength": 256
   },
   "refs": [
    "fextralife"
@@ -11852,7 +11747,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -11865,7 +11760,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 308
+   "strength": 308
   },
   "refs": [
    "fextralife"
@@ -11877,7 +11772,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -11899,7 +11794,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -11912,7 +11807,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 55
+   "strength": 55
   },
   "refs": [
    "fextralife"
@@ -11924,7 +11819,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -11946,7 +11841,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
@@ -11963,7 +11858,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 89
+   "strength": 89
   },
   "refs": [
    "fextralife"
@@ -11975,7 +11870,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -11988,7 +11883,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 340
+   "strength": 340
   },
   "refs": [
    "fextralife"
@@ -12000,7 +11895,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -12013,7 +11908,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 74
+   "strength": 74
   },
   "refs": [
    "fextralife"
@@ -12025,7 +11920,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "type": "Bow",
   "vocations": [
@@ -12033,7 +11928,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 300
+   "strength": 300
   },
   "refs": [
    "fextralife"
@@ -12045,7 +11940,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -12058,7 +11953,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 120
+   "strength": 120
   },
   "refs": [
    "fextralife"
@@ -12070,7 +11965,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -12083,7 +11978,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 204
+   "strength": 204
   },
   "refs": [
    "fextralife"
@@ -12095,11 +11990,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward A Trial of Archery (save Doireann), chest behind Arborheart."
+    "text": "Quest reward: A Trial of Archery (save Doireann), chest behind Arborheart."
    }
   ],
   "type": "Bow",
@@ -12108,7 +12003,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 170
+   "strength": 170
   },
   "refs": [
    "fextralife"
@@ -12120,7 +12015,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -12133,7 +12028,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 280
+   "strength": 280
   },
   "refs": [
    "fextralife"
@@ -12145,7 +12040,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [],
   "type": "Bow",
   "vocations": [
@@ -12153,7 +12048,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 148
+   "strength": 148
   },
   "refs": [
    "fextralife"
@@ -12165,7 +12060,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -12187,7 +12082,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12209,7 +12104,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -12222,7 +12117,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 82
+   "strength": 82
   },
   "refs": [
    "fextralife"
@@ -12234,7 +12129,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12256,7 +12151,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -12269,7 +12164,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 163
+   "strength": 163
   },
   "refs": [
    "fextralife"
@@ -12281,7 +12176,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12303,7 +12198,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -12329,7 +12224,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -12351,7 +12246,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -12377,7 +12272,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -12403,7 +12298,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12425,7 +12320,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -12447,7 +12342,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12469,7 +12364,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12491,7 +12386,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -12521,7 +12416,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -12547,7 +12442,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12569,7 +12464,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "reward",
@@ -12595,7 +12490,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -12612,7 +12507,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 155
+   "strength": 155
   },
   "refs": [
    "fextralife"
@@ -12624,7 +12519,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -12641,7 +12536,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 219
+   "strength": 219
   },
   "refs": [
    "fextralife"
@@ -12653,7 +12548,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "other",
@@ -12679,7 +12574,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -12692,7 +12587,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 269
+   "strength": 269
   },
   "refs": [
    "fextralife"
@@ -12704,7 +12599,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -12717,7 +12612,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 45
+   "strength": 45
   },
   "refs": [
    "fextralife"
@@ -12729,7 +12624,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -12742,7 +12637,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 237
+   "strength": 237
   },
   "refs": [
    "fextralife"
@@ -12754,11 +12649,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "30 Seeker's Tokens at Vocation Guild."
+    "text": "Trade in 30 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "type": "Dagger",
@@ -12767,7 +12662,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 230
+   "strength": 230
   },
   "refs": [
    "fextralife"
@@ -12779,7 +12674,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -12792,7 +12687,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 330
+   "strength": 330
   },
   "refs": [
    "fextralife"
@@ -12804,7 +12699,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -12826,7 +12721,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -12839,7 +12734,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 290
+   "strength": 290
   },
   "refs": [
    "fextralife"
@@ -12851,7 +12746,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -12859,7 +12754,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward Off the Pilfered Path (best outcome)."
+    "text": "Quest reward: Off the Pilfered Path (best outcome)."
    }
   ],
   "type": "Dagger",
@@ -12881,7 +12776,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "other",
@@ -12907,7 +12802,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -12920,7 +12815,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 123
+   "strength": 123
   },
   "refs": [
    "fextralife"
@@ -12932,7 +12827,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -12954,7 +12849,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -12967,7 +12862,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 96
+   "strength": 96
   },
   "refs": [
    "fextralife"
@@ -12979,7 +12874,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -12992,7 +12887,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 90
+   "strength": 90
   },
   "refs": [
    "fextralife"
@@ -13004,7 +12899,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -13017,7 +12912,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 118
+   "strength": 118
   },
   "refs": [
    "fextralife"
@@ -13029,7 +12924,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13051,7 +12946,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -13064,7 +12959,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 162
+   "strength": 162
   },
   "refs": [
    "fextralife"
@@ -13076,7 +12971,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -13093,7 +12988,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 74
+   "strength": 74
   },
   "refs": [
    "fextralife"
@@ -13105,7 +13000,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -13118,7 +13013,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 69
+   "strength": 69
   },
   "refs": [
    "fextralife"
@@ -13130,7 +13025,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13152,7 +13047,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -13174,7 +13069,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "other",
@@ -13191,7 +13086,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 60
+   "strength": 60
   },
   "refs": [
    "fextralife"
@@ -13203,7 +13098,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13225,7 +13120,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13247,7 +13142,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "drop",
@@ -13264,7 +13159,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 355
+   "strength": 355
   },
   "refs": [
    "fextralife"
@@ -13276,11 +13171,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
-    "text": "Chests SE of Highland Cavern, Guerco Cavern."
+    "text": "Chests south-east of Highland Cavern, Guerco Cavern."
    }
   ],
   "type": "Duospear",
@@ -13289,7 +13184,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 226
+   "strength": 226
   },
   "refs": [
    "fextralife"
@@ -13301,7 +13196,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13323,7 +13218,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -13336,7 +13231,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 199
+   "strength": 199
   },
   "refs": [
    "fextralife"
@@ -13348,7 +13243,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -13361,7 +13256,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 120
+   "strength": 120
   },
   "refs": [
    "fextralife"
@@ -13373,7 +13268,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -13395,7 +13290,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -13421,7 +13316,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -13443,7 +13338,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -13456,7 +13351,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 165
+   "strength": 165
   },
   "refs": [
    "fextralife"
@@ -13468,7 +13363,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -13481,7 +13376,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 380
+   "strength": 380
   },
   "refs": [
    "fextralife"
@@ -13493,7 +13388,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -13506,7 +13401,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 326
+   "strength": 326
   },
   "refs": [
    "fextralife"
@@ -13518,7 +13413,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -13531,7 +13426,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 240
+   "strength": 240
   },
   "refs": [
    "fextralife"
@@ -13543,7 +13438,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13565,7 +13460,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -13578,7 +13473,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 288
+   "strength": 288
   },
   "refs": [
    "fextralife"
@@ -13590,7 +13485,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -13612,7 +13507,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13634,7 +13529,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -13647,7 +13542,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 380
+   "strength": 380
   },
   "refs": [
    "fextralife"
@@ -13659,7 +13554,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -13672,7 +13567,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 368
+   "strength": 368
   },
   "refs": [
    "fextralife"
@@ -13684,7 +13579,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
@@ -13701,7 +13596,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 207
+   "strength": 207
   },
   "refs": [
    "fextralife"
@@ -13713,7 +13608,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -13726,7 +13621,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 272
+   "strength": 272
   },
   "refs": [
    "fextralife"
@@ -13738,7 +13633,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13760,11 +13655,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
-    "text": "Reward Beren's Final Lesson, Skeleton Lord 2%, chest in Collapsed Mine NW of Vernworth."
+    "text": "Quest reward: Beren's Final Lesson, Skeleton Lord 2%, chest in Collapsed Mine north-west of Vernworth."
    }
   ],
   "type": "Greatsword",
@@ -13773,7 +13668,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 151
+   "strength": 151
   },
   "refs": [
    "fextralife"
@@ -13785,7 +13680,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -13798,7 +13693,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 230
+   "strength": 230
   },
   "refs": [
    "fextralife"
@@ -13810,7 +13705,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -13832,7 +13727,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -13854,7 +13749,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -13875,7 +13770,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 80
+   "strength": 80
   },
   "refs": [
    "fextralife"
@@ -13887,7 +13782,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -13900,7 +13795,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 140
+   "strength": 140
   },
   "refs": [
    "fextralife"
@@ -13912,7 +13807,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -13934,7 +13829,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -13947,7 +13842,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 220
+   "strength": 220
   },
   "refs": [
    "fextralife"
@@ -13959,7 +13854,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -13985,7 +13880,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -14011,7 +13906,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -14028,7 +13923,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 180
+   "strength": 180
   },
   "refs": [
    "fextralife"
@@ -14040,7 +13935,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14053,7 +13948,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 103
+   "strength": 103
   },
   "refs": [
    "fextralife"
@@ -14065,7 +13960,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -14078,7 +13973,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 145
+   "strength": 145
   },
   "refs": [
    "fextralife"
@@ -14090,7 +13985,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -14103,7 +13998,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 235
+   "strength": 235
   },
   "refs": [
    "fextralife"
@@ -14115,7 +14010,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -14141,7 +14036,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "other",
@@ -14153,7 +14048,7 @@
    },
    {
     "kind": "reward",
-    "text": "Reward from Clash and Conclusion."
+    "text": "Quest reward: from Clash and Conclusion."
    }
   ],
   "type": "Mace",
@@ -14175,7 +14070,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14188,7 +14083,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 240
+   "strength": 240
   },
   "refs": [
    "fextralife"
@@ -14200,7 +14095,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14222,7 +14117,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -14247,7 +14142,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -14269,7 +14164,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "drop",
@@ -14298,7 +14193,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14320,7 +14215,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -14345,7 +14240,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -14370,7 +14265,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14395,7 +14290,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14420,7 +14315,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -14445,7 +14340,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14470,7 +14365,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -14492,7 +14387,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14514,7 +14409,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14536,7 +14431,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14561,7 +14456,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14583,7 +14478,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14608,7 +14503,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14634,7 +14529,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14660,7 +14555,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14682,7 +14577,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -14704,7 +14599,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -14730,11 +14625,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
-    "text": "Reward Spellbound."
+    "text": "Quest reward: Spellbound."
    },
    {
     "kind": "shop",
@@ -14760,7 +14655,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14782,7 +14677,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -14808,7 +14703,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -14838,7 +14733,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "chest",
@@ -14864,7 +14759,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m12",
   "sources": [
    {
     "kind": "chest",
@@ -14890,7 +14785,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -14912,7 +14807,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14938,7 +14833,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -14964,11 +14859,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "tokens",
-    "text": "180 Seeker's Tokens."
+    "text": "Trade in 180 Seeker's Tokens at a Vocation Guild."
    }
   ],
   "type": "Staff",
@@ -14990,7 +14885,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -15016,7 +14911,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -15038,7 +14933,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -15064,7 +14959,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -15090,7 +14985,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -15116,7 +15011,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -15142,7 +15037,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -15168,7 +15063,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -15194,7 +15089,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -15216,7 +15111,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -15242,7 +15137,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "shop",
@@ -15255,7 +15150,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 220
+   "strength": 220
   },
   "refs": [
    "fextralife"
@@ -15267,7 +15162,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -15284,7 +15179,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 115
+   "strength": 115
   },
   "refs": [
    "fextralife"
@@ -15296,7 +15191,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -15309,7 +15204,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 340
+   "strength": 340
   },
   "refs": [
    "fextralife"
@@ -15321,11 +15216,11 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "drop",
-    "text": "Shack NW of Harve, Hobgoblin 2%."
+    "text": "Shack north-west of Harve, Hobgoblin 2%."
    },
    {
     "kind": "shop",
@@ -15338,7 +15233,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 120
+   "strength": 120
   },
   "refs": [
    "fextralife"
@@ -15350,7 +15245,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m15",
   "sources": [
    {
     "kind": "shop",
@@ -15363,7 +15258,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 351
+   "strength": 351
   },
   "refs": [
    "fextralife"
@@ -15375,7 +15270,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -15397,7 +15292,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",
@@ -15410,7 +15305,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 95
+   "strength": 95
   },
   "refs": [
    "fextralife"
@@ -15422,7 +15317,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -15444,7 +15339,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -15466,7 +15361,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -15488,7 +15383,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "reward",
@@ -15510,7 +15405,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "chest",
@@ -15527,7 +15422,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 250
+   "strength": 250
   },
   "refs": [
    "fextralife"
@@ -15539,7 +15434,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "chest",
@@ -15556,7 +15451,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 130
+   "strength": 130
   },
   "refs": [
    "fextralife"
@@ -15568,7 +15463,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m11",
   "sources": [
    {
     "kind": "drop",
@@ -15585,7 +15480,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 290
+   "strength": 290
   },
   "refs": [
    "fextralife"
@@ -15597,7 +15492,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "drop",
@@ -15610,7 +15505,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 180
+   "strength": 180
   },
   "refs": [
    "fextralife"
@@ -15622,7 +15517,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -15644,7 +15539,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m03",
   "sources": [
    {
     "kind": "shop",
@@ -15657,7 +15552,7 @@
    "Warfarer"
   ],
   "stats": {
-   "attack": 75
+   "strength": 75
   },
   "refs": [
    "fextralife"
@@ -15669,7 +15564,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": true,
-  "stage": "m01",
+  "stage": "d01",
   "sources": [
    {
     "kind": "other",
@@ -15691,7 +15586,7 @@
   "category": "weapon",
   "spoiler": 1,
   "dlc": false,
-  "stage": "m01",
+  "stage": "m04",
   "sources": [
    {
     "kind": "shop",

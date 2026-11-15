@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { useApp } from "../ui/state";
 import { Page, Tag, Reveal, TesterBar, Empty, Speak } from "../ui/components";
-import { visible } from "../core/logic";
+import { visible, nameAllowed } from "../core/logic";
 import type { Item, ItemCategory } from "../core/types";
 
 const CATS: [ItemCategory | "all", string][] = [
@@ -63,7 +63,7 @@ export function Items() {
 }
 
 export function ItemDetail({ id }: { id: string }) {
-  const { pack, profile, setProfile, go } = useApp();
+  const { pack, profile, pos, setProfile, go } = useApp();
   const i = pack.items.find((x) => x.id === id);
   if (!i || !visible(i, profile)) return <Page title="Not found"><Empty>That item isn't in this guide.</Empty></Page>;
   const usedIn = pack.quests.filter((q) => visible(q, profile) && (q.rewards ?? []).some((r) => (r.items ?? []).some((n) => n.toLowerCase().startsWith(i.name.toLowerCase()))));
@@ -95,7 +95,7 @@ export function ItemDetail({ id }: { id: string }) {
         </Reveal>
       </div>
       {usedIn.length > 0 && (
-        <div className="card"><h2>Quest reward from</h2>{usedIn.map((q) => <button key={q.id} className="row-btn" onClick={() => go(`quest/${q.id}`)}>{q.name}</button>)}</div>
+        <div className="card"><h2>Quest reward from</h2>{usedIn.map((q) => <button key={q.id} className="row-btn" onClick={() => go(`quest/${q.id}`)}>{nameAllowed(pack, pos, profile, q) ? q.name : "A later quest"}</button>)}</div>
       )}
       <TesterBar kind="item" entry={i} />
     </Page>

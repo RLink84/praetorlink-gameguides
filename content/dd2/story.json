@@ -140,12 +140,11 @@
  },
  {
   "id": "pg",
-  "name": "Post-game: the Unmoored World",
+  "name": "Post-game",
   "dlc": false,
   "track": "base",
   "order": 16,
-  "level": 50,
-  "note": "Only reached through the true ending path."
+  "level": 50
  },
  {
   "id": "d01",

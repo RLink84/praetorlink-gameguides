@@ -1,21 +1,21 @@
 [
  {
   "id": "the-arisens-shadow-choice1",
-  "name": "The Arisen's Shadow: What do you do?",
+  "name": "The Arisen's Shadow: When you catch the impostor, what do you do?",
   "quest": "the-arisens-shadow",
-  "prompt": "What do you do?",
+  "prompt": "When you catch the impostor, what do you do?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m04",
   "options": [
    {
     "label": "Refuse compensation",
-    "result": "Brant attacks; Bermudo killed",
+    "result": "Brant attacks. Bermudo killed.",
     "alignment": "evil"
    },
    {
     "label": "Demand compensation",
-    "result": "Bermudo escapes; keeps him alive, some later Brant quests use him; 5,000 gold",
+    "result": "Bermudo escapes. keeps him alive, some later Brant quests use him. 5,000 gold.",
     "alignment": "neutral"
    }
   ],
@@ -25,21 +25,21 @@
  },
  {
   "id": "a-beggars-tale-choice1",
-  "name": "A Beggar's Tale: What do you do?",
+  "name": "A Beggar's Tale: Who do you give the beggar's garb to?",
   "quest": "a-beggars-tale",
-  "prompt": "What do you do?",
+  "prompt": "Who do you give the beggar's garb to?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m04",
   "options": [
    {
     "label": "Give garb to Hilda",
-    "result": "Albert returns to work; Onyx reward",
+    "result": "Albert returns to work. Onyx reward.",
     "alignment": "good"
    },
    {
     "label": "Give garb to Celina",
-    "result": "Albert exposed as a disguised noble; Albert and Celina die after a few days; gold + Noobloom",
+    "result": "Albert exposed as a disguised noble. Albert and Celina die after a few days. gold + Noonbloom.",
     "alignment": "evil"
    }
   ],
@@ -49,21 +49,21 @@
  },
  {
   "id": "the-ornate-box-choice1",
-  "name": "The Ornate Box: What do you do?",
+  "name": "The Ornate Box: What do you hand Sven?",
   "quest": "the-ornate-box",
-  "prompt": "What do you do?",
+  "prompt": "What do you hand Sven?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m04",
   "options": [
    {
     "label": "Give Sven gold (box bought and stored)",
-    "result": "Sven happy; reported 5,000 gold + Courtly Breeches/Tunic",
+    "result": "Sven happy. reported 5,000 gold + Courtly Breeches/Tunic.",
     "alignment": "neutral"
    },
    {
     "label": "Give Sven the box itself",
-    "result": "Sven pleased but less so; reported 4,000 gold + ring/items",
+    "result": "Sven pleased but less so. reported 4,000 gold + ring/items.",
     "alignment": "neutral"
    }
   ],
@@ -73,21 +73,21 @@
  },
  {
   "id": "the-phantom-oxcart-choice1",
-  "name": "The Phantom Oxcart: What do you do?",
+  "name": "The Phantom Oxcart: The smuggler offers you a bribe",
   "quest": "the-phantom-oxcart",
-  "prompt": "What do you do?",
+  "prompt": "The smuggler offers you a bribe",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
   "options": [
    {
     "label": "Accept gold",
-    "result": "Navil escapes; 5,000 gold",
+    "result": "Navil escapes. 5,000 gold.",
     "alignment": "evil"
    },
    {
     "label": "Escort to Vermund",
-    "result": "Navil sent to dungeons",
+    "result": "Navil sent to dungeons.",
     "alignment": "good"
    }
   ],
@@ -97,21 +97,21 @@
  },
  {
   "id": "tensions-on-the-highroad-choice1",
-  "name": "Tensions on the Highroad: What do you do?",
+  "name": "Tensions on the Highroad: Whose side do you take?",
   "quest": "tensions-on-the-highroad",
-  "prompt": "What do you do?",
+  "prompt": "Whose side do you take?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
   "options": [
    {
     "label": "Pick Simon",
-    "result": "Chase Raghnall; ambush; talk to Raghnall at campfire",
+    "result": "Chase Raghnall. ambush. talk to Raghnall at campfire.",
     "alignment": "neutral"
    },
    {
     "label": "Pick Raghnall",
-    "result": "Fight beside him; he ends up trapped in cave",
+    "result": "Fight beside him. he ends up trapped in cave.",
     "alignment": "neutral"
    }
   ],
@@ -121,21 +121,21 @@
  },
  {
   "id": "short-sighted-ambition-choice1",
-  "name": "Short-Sighted Ambition: What do you do?",
+  "name": "Short-Sighted Ambition: Do you give Isaac the real book?",
   "quest": "short-sighted-ambition",
-  "prompt": "What do you do?",
+  "prompt": "Do you give Isaac the real book?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
   "options": [
    {
     "label": "Give Isaac the book",
-    "result": "He turns wife and daughter to dust; he leaves in denial; Ring of Disfavor",
+    "result": "He turns wife and daughter to dust. he leaves in denial. Ring of Disfavor.",
     "alignment": "evil"
    },
    {
     "label": "Withhold, give fake",
-    "result": "Family spared; 16,000 gold + a volume of the book",
+    "result": "Family spared. 16,000 gold + a volume of the book.",
     "alignment": "good"
    }
   ],
@@ -145,21 +145,21 @@
  },
  {
   "id": "a-candle-in-the-storm-choice1",
-  "name": "A Candle in the Storm: What do you do?",
+  "name": "A Candle in the Storm: Do you back the Empress's proposal?",
   "quest": "a-candle-in-the-storm",
-  "prompt": "What do you do?",
+  "prompt": "Do you back the Empress's proposal?",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
   "options": [
    {
     "label": "Support the Empress's proposal",
-    "result": "Night bandits; asked to eliminate the Empress",
+    "result": "Night bandits. asked to eliminate the Empress.",
     "alignment": "neutral"
    },
    {
     "label": "Oppose it",
-    "result": "Assassin flees on finding Empress fake; Menella says you failed",
+    "result": "Assassin flees on finding Empress fake. Menella says you failed.",
     "alignment": "neutral"
    }
   ],
@@ -227,15 +227,15 @@
   "options": [
    {
     "label": "Real orb to Everard",
-    "result": "You get 2,000 gold and the Ring of Skullduggery."
+    "result": "You get gold and the Ring of Skullduggery."
    },
    {
     "label": "Real orb to Offulve",
-    "result": "You get 3,000 gold and the Elite Camping Kit."
+    "result": "You get gold and the Elite Camping Kit."
    },
    {
-    "label": "Buy fakes from Ibrahim (12,000 gold) and satisfy both",
-    "result": "You get 5,000 gold and both items. Costs more up front."
+    "label": "Buy a forgery from Ibrahim and satisfy both",
+    "result": "You get both items and the most gold overall, but the forgery costs 12,000 gold up front."
    }
   ],
   "refs": [
@@ -294,9 +294,9 @@
  },
  {
   "id": "a-case-of-sculptors-block-choice1",
-  "name": "A Case of Sculptor's Block: How it can end",
+  "name": "A Case of Sculptor's Block: Possible outcomes",
   "quest": "a-case-of-sculptors-block",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m04",
@@ -316,9 +316,9 @@
  },
  {
   "id": "welcome-to-battahl-choice1",
-  "name": "Welcome to Battahl: How it can end",
+  "name": "Welcome to Battahl: Possible outcomes",
   "quest": "welcome-to-battahl",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
@@ -342,9 +342,9 @@
  },
  {
   "id": "a-poisonous-proposal-choice1",
-  "name": "A Poisonous Proposal: How it can end",
+  "name": "A Poisonous Proposal: Possible outcomes",
   "quest": "a-poisonous-proposal",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
@@ -352,6 +352,10 @@
    {
     "label": "Keep Jarle alive",
     "result": "Ring of Purification and the full reward."
+   },
+   {
+    "label": "Jarle doesn't make it",
+    "result": "A smaller reward."
    }
   ],
   "refs": [
@@ -360,9 +364,9 @@
  },
  {
   "id": "every-rose-has-its-thorn-choice1",
-  "name": "Every Rose Has Its Thorn: How it can end",
+  "name": "Every Rose Has Its Thorn: Possible outcomes",
   "quest": "every-rose-has-its-thorn",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
@@ -386,9 +390,9 @@
  },
  {
   "id": "a-veil-of-gossamer-clouds-choice1",
-  "name": "A Veil of Gossamer Clouds: How it can end",
+  "name": "A Veil of Gossamer Clouds: Possible outcomes",
   "quest": "a-veil-of-gossamer-clouds",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m10",
@@ -408,9 +412,9 @@
  },
  {
   "id": "clash-and-conclusion-choice1",
-  "name": "Clash and Conclusion: How it can end",
+  "name": "Clash and Conclusion: Possible outcomes",
   "quest": "clash-and-conclusion",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m15",
@@ -430,9 +434,9 @@
  },
  {
   "id": "steeled-resolve-blazing-forge-choice2",
-  "name": "Steeled Resolve, Blazing Forge: How it can end",
+  "name": "Steeled Resolve, Blazing Forge: Possible outcomes",
   "quest": "steeled-resolve-blazing-forge",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m11",
@@ -452,9 +456,9 @@
  },
  {
   "id": "a-noble-exchange-choice1",
-  "name": "A Noble Exchange: How it can end",
+  "name": "A Noble Exchange: Possible outcomes",
   "quest": "a-noble-exchange",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m14",
@@ -474,9 +478,9 @@
  },
  {
   "id": "home-is-where-the-hearth-is-choice1",
-  "name": "Home is Where the Hearth Is: How it can end",
+  "name": "Home is Where the Hearth Is: Possible outcomes",
   "quest": "home-is-where-the-hearth-is",
-  "prompt": "How it can end",
+  "prompt": "Possible outcomes",
   "spoiler": 3,
   "dlc": false,
   "stage": "m09",

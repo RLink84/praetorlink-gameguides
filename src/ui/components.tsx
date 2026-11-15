@@ -32,14 +32,14 @@ export function Tag({ kind, children }: { kind: "dlc" | "missable" | "timed" | "
   return <span className={`tag tag-${kind}`}>{children ?? label[kind]}</span>;
 }
 
-export function Rewards({ list }: { list?: Reward[] }) {
+export function Rewards({ list, outcomes = true }: { list?: Reward[]; outcomes?: boolean }) {
   if (!list?.length) return null;
   return (
     <ul className="rewards">
       {list.map((r, i) => (
         <li key={i}>
-          {r.outcome && <strong>{r.outcome}: </strong>}
-          {[r.xp != null && `${r.xp.toLocaleString()} XP`, r.gold != null && `${r.gold.toLocaleString()} gold`, ...(r.items ?? []), ...(r.unlocks ?? []).map((u) => `unlocks ${u}`), (r as { note?: string }).note]
+          {r.outcome && <strong>{outcomes ? r.outcome : `Outcome ${i + 1}`}: </strong>}
+          {[r.xp != null && `${r.xp.toLocaleString()} XP`, r.gold != null && (r.gold < 0 ? `you lose ${(-r.gold).toLocaleString()} gold` : `${r.gold.toLocaleString()} gold`), ...(r.items ?? []), ...(r.unlocks ?? []).map((u) => `unlocks ${u}`), (r as { note?: string }).note]
             .filter(Boolean).join(", ")}
         </li>
       ))}
@@ -65,7 +65,7 @@ export function Page({ title, actions, children }: { title: string; actions?: Re
   return (
     <section className="page">
       <header className="page-head">
-        <h1>{title}</h1>
+        <h1 tabIndex={-1}>{title}</h1>
         <div className="actions">{actions}</div>
       </header>
       {children}

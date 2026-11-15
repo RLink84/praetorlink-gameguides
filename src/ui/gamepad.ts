@@ -13,6 +13,12 @@ function move(dir: 1 | -1) {
   next.scrollIntoView({ block: "nearest" });
 }
 
+/** Go back inside the app; never leave it (first page goes to Now). */
+export function goBack(go: (p: string) => void) {
+  if (history.length > 1 && location.hash && location.hash !== "#/now") history.back();
+  else go("now");
+}
+
 export function useGamepadNav() {
   useEffect(() => {
     let raf = 0;
@@ -21,7 +27,8 @@ export function useGamepadNav() {
     const tick = () => {
       const pads = navigator.getGamepads?.() ?? [];
       const gp = pads.find((p) => p);
-      if (gp) {
+      // Only react while the guide window has focus, so playing the game never presses buttons here.
+      if (gp && document.hasFocus()) {
         const pressed = (b: number) => !!gp.buttons[b]?.pressed;
         const edge = (b: number) => { const p = pressed(b); const e = p && !prev[b]; prev[b] = p; return e; };
         if (edge(12)) move(-1); // up
@@ -29,12 +36,14 @@ export function useGamepadNav() {
         if (edge(14)) move(-1); // left
         if (edge(15)) move(1); // right
         if (edge(0)) (document.activeElement as HTMLElement | null)?.click(); // A
-        if (edge(1)) history.back(); // B
+        if (edge(1)) { if (location.hash && location.hash !== "#/now") history.back(); } // B
         if (edge(4)) window.scrollBy({ top: -400, behavior: "smooth" });
         if (edge(5)) window.scrollBy({ top: 400, behavior: "smooth" });
         const y = gp.axes[1] ?? 0;
         const now = performance.now();
         if (Math.abs(y) > 0.6 && now - lastAxis > 220) { move(y > 0 ? 1 : -1); lastAxis = now; }
+      } else if (gp) {
+        gp.buttons.forEach((b, i) => { prev[i] = b.pressed; }); // ignore presses made while playing
       }
       raf = requestAnimationFrame(tick);
     };

@@ -43,8 +43,7 @@
   ],
   "tips": [
    "How fully you stick with Watchhead Gregor changes how this quest wraps up."
-  ],
-  "achievement": "Arisen"
+  ]
  },
  {
   "id": "seat-of-the-sovran",
@@ -61,8 +60,7 @@
   ],
   "choices": [
    "seat-of-the-sovran-choice1"
-  ],
-  "achievement": "Seat of the Proxy"
+  ]
  },
  {
   "id": "monster-culling",
@@ -195,8 +193,7 @@
   "refs": [
    "fextralife",
    "samurai-gamers"
-  ],
-  "achievement": "Across the Border"
+  ]
  },
  {
   "id": "flickering-shadows",
@@ -280,8 +277,7 @@
    {
     "xp": 19000
    }
-  ],
-  "achievement": "Back Where It All Began"
+  ]
  },
  {
   "id": "legacy",
@@ -378,7 +374,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Beren's Final Lesson."
+   "Finishing it unlocks: Beren's Final Lesson."
   ]
  },
  {
@@ -407,7 +403,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Warrior Maister skill Champion's Fable."
+   "Finishing it unlocks: Warrior Maister skill Champion's Fable."
   ]
  },
  {
@@ -474,7 +470,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Pawn Specialization tome Chirurgeon's."
+   "Finishing it unlocks: Pawn Specialization tome Chirurgeon's."
   ]
  },
  {
@@ -518,7 +514,7 @@
    "fextralife"
   ],
   "giver": "Lennart",
-  "unlock": "After Seat of the Sovran. Also: - (cancelled if you do any main quest for Brant)",
+  "unlock": "After Seat of the Sovran. Also: cancelled if you do any main quest for Brant",
   "missable": true,
   "locksAt": "m05",
   "rewards": [
@@ -554,21 +550,15 @@
     "items": [
      "Ring of Grit"
     ]
-   },
-   {
-    "items": [
-     "outcome Repel vs Fell the dragon"
-    ]
    }
   ],
   "tips": [
-   "Unlocks: Mystic Spearhand vocation."
+   "Finishing it unlocks: Mystic Spearhand vocation."
   ],
   "related": [
    "home-is-where-the-hearth-is",
    "trouble-on-the-cape"
-  ],
-  "achievement": "Duo Destinies"
+  ]
  },
  {
   "id": "home-is-where-the-hearth-is",
@@ -599,9 +589,6 @@
     "outcome": "villagers fought alone",
     "note": "experience only"
    }
-  ],
-  "tips": [
-   "Unlocks: time-limited; multiple outcomes."
   ],
   "choices": [
    "home-is-where-the-hearth-is-choice1"
@@ -634,7 +621,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Nesting Troubles."
+   "Finishing it unlocks: Nesting Troubles."
   ]
  },
  {
@@ -659,7 +646,7 @@
    }
   ],
   "tips": [
-   "Unlocks: unlocks Warrior, Sorcerer."
+   "Finishing it unlocks: Warrior, Sorcerer."
   ]
  },
  {
@@ -683,9 +670,8 @@
    }
   ],
   "tips": [
-   "Unlocks: Private Dwelling (house)."
-  ],
-  "achievement": "A House? In This Economy?"
+   "Finishing it unlocks: Private Dwelling (house)."
+  ]
  },
  {
   "id": "the-heel-of-history",
@@ -713,7 +699,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Gracious Hand's Vaults."
+   "Finishing it unlocks: Gracious Hand's Vaults."
   ],
   "related": [
    "saint-of-the-slums"
@@ -775,7 +761,7 @@
    }
   ],
   "tips": [
-   "Unlocks: House of the Blue Sunbright."
+   "Finishing it unlocks: House of the Blue Sunbright."
   ]
  },
  {
@@ -808,7 +794,7 @@
    }
   ],
   "tips": [
-   "Unlocks: reveals Daphne's identity."
+   "Finishing it unlocks: reveals Daphne's identity."
   ]
  },
  {
@@ -824,7 +810,7 @@
    "powerpyx",
    "fextralife"
   ],
-  "giver": "(Brant/Flaude/Srail)",
+  "giver": "Brant, Flaude, Srail",
   "unlock": "During Vernworth main quests. Also: between Caged Magistrate and Stolen Throne",
   "missable": true,
   "locksAt": "m08",
@@ -936,7 +922,7 @@
    }
   ],
   "tips": [
-   "Unlocks: A Trial of Archery."
+   "Finishing it unlocks: A Trial of Archery."
   ]
  },
  {
@@ -966,7 +952,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Ailing Arborheart (prereq)."
+   "Finishing it unlocks: Ailing Arborheart (prereq)."
   ]
  },
  {
@@ -1047,12 +1033,12 @@
   "rewards": [
    {
     "xp": 900,
+    "gold": 4000,
     "items": [
      "Ferrystone",
      "Ring of Accrual",
      "Jasper",
-     "Courtly Breeches/Tunic",
-     "4000G (or 5000G variant)"
+     "Courtly Breeches/Tunic"
     ]
    }
   ],
@@ -1112,7 +1098,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Steeled Resolve, Blazing Forge."
+   "Finishing it unlocks: Steeled Resolve, Blazing Forge."
   ],
   "related": [
    "out-of-the-forest-into-the-forge",
@@ -1186,7 +1172,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Wilhelmina romance scene."
+   "Finishing it unlocks: Wilhelmina romance scene."
   ],
   "choices": [
    "every-rose-has-its-thorn-choice1"
@@ -1239,7 +1225,7 @@
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Guerrero/Dagras/Wilhelmina",
+  "giver": "Guerrero, Dagras, Wilhelmina",
   "unlock": "After Nation of the Lambent Flame. Also: enter Bakbattahl after Lambent Flame; locked out by A New Godsway",
   "missable": true,
   "locksAt": "m14",
@@ -1279,7 +1265,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Clash and Conclusion (if Raghnall)."
+   "Finishing it unlocks: Clash and Conclusion (if Raghnall)."
   ],
   "related": [
    "clash-and-conclusion"
@@ -1396,7 +1382,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Home is Where the Hearth Is."
+   "Finishing it unlocks: Home is Where the Hearth Is."
   ]
  },
  {
@@ -1424,7 +1410,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Sorcerer skill Maelstrom."
+   "Finishing it unlocks: Sorcerer skill Maelstrom."
   ]
  },
  {
@@ -1440,7 +1426,7 @@
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Everard/Offulve",
+  "giver": "Everard, Offulve",
   "unlock": "After Seat of the Sovran",
   "rewards": [
    {
@@ -1518,15 +1504,11 @@
   "rewards": [
    {
     "xp": 4000,
-    "items": [
-     "8000G (NPCs Hugo",
-     "Tobias",
-     "Toumi)"
-    ]
+    "gold": 8000
    }
   ],
   "tips": [
-   "Unlocks: related: Off the Pilfered Path."
+   "Finishing it unlocks: related: Off the Pilfered Path."
   ]
  },
  {
@@ -1578,7 +1560,7 @@
    }
   ],
   "tips": [
-   "Unlocks: second Sphinx site after 5 riddles."
+   "Finishing it unlocks: second Sphinx site after 5 riddles."
   ],
   "achievement": "Full Marks"
  },
@@ -1646,7 +1628,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Battahl Residence Permit."
+   "Finishing it unlocks: Battahl Residence Permit."
   ]
  },
  {
@@ -1707,7 +1689,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Bakbattahl blacksmith."
+   "Finishing it unlocks: Bakbattahl blacksmith."
   ],
   "choices": [
    "steeled-resolve-blazing-forge-choice2",
@@ -1770,7 +1752,7 @@
    }
   ],
   "tips": [
-   "Unlocks: bad outcome opens a Hugo job (Off the Pilfered Path)."
+   "Finishing it unlocks: bad outcome opens a Hugo job (Off the Pilfered Path)."
   ],
   "choices": [
    "short-sighted-ambition-choice1"
@@ -1848,7 +1830,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Magick Archer vocation."
+   "Finishing it unlocks: Magick Archer vocation."
   ],
   "achievement": "Arrows and Incantations"
  },
@@ -1875,7 +1857,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Warfarer vocation."
+   "Finishing it unlocks: Warfarer vocation."
   ],
   "achievement": "Jack of All Trades, Master of…All Trades"
  },
@@ -1980,7 +1962,7 @@
    }
   ],
   "tips": [
-   "Unlocks: Out of the Forest."
+   "Finishing it unlocks: Out of the Forest."
   ]
  },
  {
@@ -2051,13 +2033,13 @@
   "spoiler": 1,
   "dlc": false,
   "stage": "pg",
-  "area": "Unmoored World",
+  "area": "Stardrop Inn",
   "premise": "Help Brant with a task in the changed world.",
   "refs": [
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Brant, Stardrop Inn",
+  "giver": "Brant",
   "unlock": "After starting Halls of the First Dawn",
   "rewards": [
    {
@@ -2076,13 +2058,13 @@
   "spoiler": 1,
   "dlc": false,
   "stage": "pg",
-  "area": "Unmoored World",
+  "area": "Sacred Arbor",
   "premise": "Help the elves save something from the Arborheart.",
   "refs": [
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Glyndwr, Sacred Arbor",
+  "giver": "Glyndwr",
   "unlock": "After starting Halls of the First Dawn",
   "rewards": [
    {
@@ -2101,13 +2083,13 @@
   "spoiler": 1,
   "dlc": false,
   "stage": "pg",
-  "area": "Unmoored World",
+  "area": "Bakbattahl",
   "premise": "Lead frightened people in Bakbattahl to safety.",
   "refs": [
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Menella, Bakbattahl",
+  "giver": "Menella",
   "unlock": "After starting Halls of the First Dawn",
   "rewards": [
    {
@@ -2127,13 +2109,13 @@
   "spoiler": 1,
   "dlc": false,
   "stage": "pg",
-  "area": "Unmoored World",
+  "area": "Volcanic Island Camp",
   "premise": "Help a man at the volcanic island camp.",
   "refs": [
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Volcanic Island Camp",
+  "giver": "Ernesto",
   "unlock": "After starting Halls of the First Dawn",
   "rewards": [
    {
@@ -2152,13 +2134,13 @@
   "spoiler": 1,
   "dlc": false,
   "stage": "pg",
-  "area": "Unmoored World",
+  "area": "Excavation Site",
   "premise": "Help pawns find their way in the changed world.",
   "refs": [
    "powerpyx",
    "fextralife"
   ],
-  "giver": "Henrique, Excavation Site",
+  "giver": "Henrique",
   "unlock": "After starting Halls of the First Dawn",
   "rewards": [
    {
@@ -2185,8 +2167,7 @@
   ],
   "tips": [
    "Start: talk to Captain Brant at the Stardrop Inn, Vernworth, at night."
-  ],
-  "achievement": "The Forgotten North"
+  ]
  },
  {
   "id": "rumbles-in-the-north",
@@ -2826,7 +2807,6 @@
   ],
   "refs": [
    "game8"
-  ],
-  "achievement": "Dogma Defied"
+  ]
  }
 ]

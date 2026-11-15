@@ -35,9 +35,22 @@ export function detailAllowed(pack: Pack, pos: Position, p: Profile, e: Base): n
   return p.spoiler;
 }
 
+/** May this entry's NAME be shown without a tap? Later-story names stay hidden below spoiler level 2. */
+export function nameAllowed(pack: Pack, pos: Position, p: Profile, e: Base): boolean {
+  return reached(pack, pos, e.stage) || p.spoiler >= 2;
+}
+
 export function questStatus(pack: Pack, pos: Position, p: Profile, q: Quest): QuestStatus {
   if (!visible(q, p)) return "hidden";
   if (p.done[q.id]) return "done";
+  // Main-story quests before the player's story marker are finished by definition.
+  if (q.kind === "main") {
+    const s = stepById(pack, q.stage);
+    if (s && s.id === q.stage && pack.story.some((x) => x.id === q.stage)) {
+      const cur = s.track === "dlc" ? pos.dlc : pos.base;
+      if (s.order < cur) return "done";
+    }
+  }
   if (q.locksAt) {
     const lock = stepById(pack, q.locksAt);
     const cur = lock?.track === "dlc" ? pos.dlc : pos.base;

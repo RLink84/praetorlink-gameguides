@@ -5,7 +5,7 @@ sentences (shop shorthands spelled out). Run: python3 scripts/research/import_it
 import json, re, os
 
 ROOT = os.path.join(os.path.dirname(__file__), "..", "..")
-RES = os.path.join(ROOT, "content", "dd2", "research")
+RES = os.environ.get("RESEARCH_DIR", "/mnt/project-files/dd2-research")
 OUT = os.path.join(ROOT, "content", "dd2")
 
 
@@ -248,12 +248,13 @@ for line in read("key_and_quest_items.md").splitlines():
             for n in nm.split(","):
                 add(n, cat, [{"kind": "reward", "text": "Given during its quest."}])
             continue
-        names = [x.strip() for x in re.split(r",| and (?=[A-Z])", nm) if x.strip()] if "," in nm and cat != "tome" else [nm.strip()]
+        names = [x.strip() for x in re.split(r",| and (?=[A-Z])", nm) if x.strip()] if ("," in nm and cat != "tome" and "(" not in nm) else [nm.strip()]
         if "/" in nm and cat == "key":
             names = [nm.strip()]
         for n in names:
             if n.startswith("Arrows") or n.startswith("Dyes") or n.startswith("Rift Incense") or n.startswith("Camping kits"):
-                add(n.split(" (")[0], "consumable", expand_sources(src), note=(nm.split("(", 1)[1].rstrip(")") if "(" in nm else None))
+                label = {"Arrows": "Special arrows", "Dyes": "Dyes", "Rift Incense": "Rift Incense", "Camping kits": "Camping kits"}[n.split(" (")[0]]
+                add(label, "consumable", expand_sources(src), note=(("Types: " + nm.split("(", 1)[1].rstrip(")")) if "(" in nm else None))
                 continue
             pm = re.match(r"^(.*?) \((.*)\)$", n)
             if pm and cat == "key":
@@ -354,6 +355,46 @@ for it in items.values():
                 break
         it["note"] = "Dark Arisen gear. Slot guessed from the name; confirm in game."
         del it["type"]
+
+# ---- tidy names and source text
+for it in list(items.values()):
+    it["name"] = re.sub(r" x\d+$", "", it["name"])
+    for src in it["sources"]:
+        t = src["text"]
+        t = re.sub(r" ?\(see [^)]*files\)", "", t)
+        t = re.sub(r"^(\d+) tokens \(also VIA\)\.?$", r"Trade in \1 Seeker's Tokens at a Vocation Guild. Also sold at the Volcanic Island Armory.", t)
+        t = re.sub(r"^(\d+) (Seeker's )?[Tt]okens( at Vocation Guild)?\.?$", r"Trade in \1 Seeker's Tokens at a Vocation Guild.", t)
+        t = re.sub(r"\bNW\b", "north-west of", t).replace(" of of ", " of ")
+        t = re.sub(r"\bNE\b", "north-east of", t).replace(" of of ", " of ")
+        t = re.sub(r"\bSW\b", "south-west of", t).replace(" of of ", " of ")
+        t = re.sub(r"\bSE\b", "south-east of", t).replace(" of of ", " of ")
+        t = re.sub(r"^Reward ", "Quest reward: ", t)
+        src["text"] = t[0].upper() + t[1:] if t else t
+    if it.get("stats") and list(it["stats"]) == ["attack"]:
+        it["stats"] = {"strength": it["stats"]["attack"]}
+    if it.get("note", "").startswith("Dark Arisen gear. Slot guessed"):
+        it["note"] = "Dark Arisen gear. Slot not confirmed yet." if it["category"] == "body" else "Dark Arisen gear."
+
+# ---- story stage per item, so gear from later parts of the game stays behind the spoiler gate
+STAGE_RULES = [
+    (r"Unmoored|endgame|late game|Dragonforged|Bay Wayside|five main smiths|Wyrmslife|Moonglint", "m15"),
+    (r"Volcanic Island|Drabnir|Agamen|Seafloor|Excavation|Dragonsbreath|Forbidden Magick", "m12"),
+    (r"Battahl|Bakbattahl|Awaran|Brokkr|Bodas|Zonna|Ines|Sacred Arbor|Wyrmsblood|Misty Marshes|Tomb of|Sphinx|Frontier", "m11"),
+    (r"Checkpoint|Celeste|Vernworth|Roderick|Bjorn|Harve|Trevo|Nameless|Ancient Battleground|Chandler", "m04"),
+]
+for it in items.values():
+    if it["dlc"]:
+        it["stage"] = "d01" if "Norgan" in json.dumps(it["sources"]) or "Hal's" in json.dumps(it["sources"]) else "m04"
+        continue
+    text = " ".join(x["text"] for x in it["sources"])
+    stage = "m03"
+    if text:
+        # earliest place it can be had wins
+        found = [st for rx, st in STAGE_RULES if re.search(rx, text)]
+        if found:
+            order = ["m03", "m04", "m11", "m12", "m15"]
+            stage = min(found, key=order.index)
+    it["stage"] = stage
 
 out = sorted(items.values(), key=lambda x: (x["category"], x.get("type", ""), x["name"]))
 for it in out:
