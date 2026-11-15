@@ -698,5 +698,31 @@
   "Clear a dungeon and open its final chest for gear and Offering Flames. You need the flames for Norgan's obelisks.",
   "The Final Proving Ground opens once you've cleared two of the other post-game ones.",
   "The full list of dungeons is in this quest's tips."
+ ],
+ "back-to-the-temple": [
+  "First finish The Castle in the Ice, The Stranger in the Snowfield and Quilt Me Down with a Feather.",
+  "Talk to the merchant Aymond and agree to escort him into Mordria Temple.",
+  "Keep healing items ready and top him up between fights. If he dies, wait a day or two, then bring him back at the Norgan morgue with a Wakestone.",
+  "Getting out afterwards: next to the B2F riftstone room is a small room with a round hole in the ceiling. Use a Ferrystone there so you don't have to climb back past the blocked ledges."
+ ],
+ "beyond-ruin-night": [
+  "After Reunion and Into Rancor, check the spare bed at the Norgandian Inn for a letter, or talk to Dwayne in the settlement.",
+  "Follow the quest through Eir's part of the story. You can get her sword and shield along the way.",
+  "Bug tip: if the last fight with William stalls before the throne, fight him near the entrance door instead, and don't move while the scene changes.",
+  "Finishing gives 100,000 XP, 8,000 RC and level 5 spoils."
+ ],
+ "a-hound-and-his-bone": [
+  "First finish In for a Hare, in for a Hound and A Direwolf Delicacy, then let a day or two pass.",
+  "Ilsa's pup Skoll is missing. Talk to her by the fire basket in the settlement so Freki starts searching.",
+  "Ask Dorin and Hal. If you've finished Village Defense, Hal takes you straight to Skoll's favourite spot north-east of the village.",
+  "Pick up Skoll's Snowdeer Bone by the grey stones, go back to the village and choose Give bone on Freki.",
+  "Follow Freki south-west to a cave and clear the enemies outside. Carry Skoll back to Ilsa on foot: Ferrystones and Sealing Phials won't take him."
+ ],
+ "no-spoils-get-left-behind": [
+  "After The Castle in the Ice, meet Chrona at the ruined gate near the Sealed Study, below Castletown Campground.",
+  "Escort her through the fog in the Putrid Copse.",
+  "Protect her through two ambushes by stragglers, then a chimera while she bandages her wounds.",
+  "When she mentions a hidden stash, go straight to the Woodland Retreat cave on the west side of the Putrid Copse.",
+  "Don't leave the Putrid Copse before you loot it, or a snowfoot steals the level 4 spoils."
  ]
 }
