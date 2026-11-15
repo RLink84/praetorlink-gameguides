@@ -7,7 +7,7 @@ import { validatePack, compareVersions } from "./validate";
 
 export const APP_VERSION = __APP_VERSION__;
 /** Where published packs live (GitHub Pages for this repo). Overridable at build time. */
-export const UPDATE_BASE = (import.meta.env.VITE_UPDATE_BASE as string | undefined) ?? "https://rlink84.github.io/praetorlink-gameguides/";
+export const UPDATE_BASE = (import.meta.env.VITE_UPDATE_BASE as string | undefined) ?? "https://gameguides.praetorlink.com/";
 
 const K_CUR = (g: string) => `plgg.pack.${g}.current`;
 const K_OLD = (g: string) => `plgg.pack.${g}.previous`;
