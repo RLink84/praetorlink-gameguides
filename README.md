@@ -38,6 +38,6 @@ The guide data lives in `content/<game>/` as JSON (`quests.json`, `items.json`, 
 
 1. **Pages:** Settings, Pages, Source = **GitHub Actions**.
 2. **PC auto-update key:** Settings, Secrets and variables, Actions, new secret `TAURI_SIGNING_PRIVATE_KEY`, holding the private key that matches the public key in `src-tauri/tauri.conf.json`. Without it, installers still build but can't update themselves.
-3. **Custom domain (optional):** add a CNAME record `gameguides` pointing to `rlink84.github.io` in Cloudflare (DNS only), then add a repository variable `PAGES_DOMAIN` = `gameguides.praetorlink.com`.
+3. **Custom domain (optional):** add a CNAME record `gameguides` pointing to `rlink84.github.io` in Cloudflare (DNS only), then set Settings → Pages → Custom domain to `gameguides.praetorlink.com` (done 2026-11-15).
 4. **Phones (phase 2):** see the secrets listed at the top of `.github/workflows/mobile.yml`.
 5. **Pawn board (optional):** deploy `worker/` to Cloudflare (steps at the top of `worker/wrangler.toml`), then add a repository variable `PAWN_API` with the worker's URL. Until then the Pawn board screen shows "coming soon" and community links.
