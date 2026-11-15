@@ -9,11 +9,12 @@ import { World, AreaDetail, Leveling, Secrets, FixIt, Party } from "./screens/Gu
 import { Checklist } from "./screens/Checklist";
 import { Settings, applySync } from "./screens/Settings";
 import { Ask } from "./screens/Ask";
+import { Pawns } from "./screens/Pawns";
 import { useGamepadNav } from "./ui/gamepad";
 
 const NAV: [string, string, string][] = [
   ["now", "Now", "◎"], ["quests", "Quests", "✦"], ["choices", "Choices", "⚖"], ["items", "Items", "⚔"], ["world", "World", "⛰"],
-  ["leveling", "Level up", "⬆"], ["secrets", "Secrets", "✧"], ["checklist", "Checklist", "☑"], ["party", "Party", "⚑"],
+  ["leveling", "Level up", "⬆"], ["secrets", "Secrets", "✧"], ["checklist", "Checklist", "☑"], ["party", "Party", "⚑"], ["pawns", "Pawn board", "☺"],
   ["shopping", "Shopping", "🛒"], ["fixit", "Fix it", "🛠"], ["ask", "Ask", "?"], ["settings", "Settings", "⚙"],
 ];
 
@@ -72,6 +73,7 @@ function Shell() {
     case "fixit": body = <FixIt />; break;
     case "checklist": body = <Checklist />; break;
     case "party": body = <Party />; break;
+    case "pawns": body = <Pawns />; break;
     case "ask": body = <Ask />; break;
     case "settings": body = <Settings />; break;
     default: body = <Now />;
@@ -95,7 +97,7 @@ function Shell() {
       </nav>
       <main id="main">{body}</main>
       <nav className="tabbar" aria-label="Quick sections">
-        {NAV.slice(0, 4).concat([NAV[11]]).map(([k, l, i]) => (
+        {NAV.slice(0, 4).concat([NAV.find((n) => n[0] === "ask")!]).map(([k, l, i]) => (
           <button key={k} className={active === k ? "on" : ""} onClick={() => go(k)}><span aria-hidden>{i}</span><small>{l}</small></button>
         ))}
       </nav>

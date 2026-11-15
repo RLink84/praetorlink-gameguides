@@ -28,6 +28,7 @@ jobs:
         run: echo "PACK_VERSION=$(date -u +%Y.%m.%d).${{ github.run_number }}" >> "$GITHUB_ENV"
       - run: npm test
       - run: npm run build
+        env: { VITE_PAWN_API: "${{ vars.PAWN_API }}" }
       - name: Custom domain (only once Cloudflare DNS points here)
         if: vars.PAGES_DOMAIN != ''
         run: echo "${{ vars.PAGES_DOMAIN }}" > dist/CNAME
@@ -78,7 +79,7 @@ jobs:
         shell: bash
         run: echo "TAURI_EXTRA=--config src-tauri/tauri.noupdater.conf.json" >> "$GITHUB_ENV"
       - uses: tauri-apps/tauri-action@v0
-        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}", VITE_PAWN_API: "${{ vars.PAWN_API }}" }
         with:
           tagName: v__VERSION__
           releaseName: PraetorLink Game Guides v__VERSION__
