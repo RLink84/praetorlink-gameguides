@@ -1,0 +1,2832 @@
+[
+ {
+  "id": "a-gaoled-awakening",
+  "name": "A Gaoled Awakening",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m01",
+  "premise": "Break out of a forced-labour dig site and survive the escape.",
+  "level": 1,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "achievement": "First Taste of Freedom"
+ },
+ {
+  "id": "tales-beginning",
+  "name": "Tale's Beginning",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m02",
+  "premise": "Wake beside a waterfall after the escape and find your way to safety with a soldier's help.",
+  "level": 2,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "in-dragons-wake",
+  "name": "In Dragon's Wake",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "premise": "Rest up at Borderwatch Outpost, then head for Melve after news of an attack.",
+  "level": 4,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "How fully you stick with Watchhead Gregor changes how this quest wraps up."
+  ],
+  "achievement": "Arisen"
+ },
+ {
+  "id": "seat-of-the-sovran",
+  "name": "Seat of the Sovran",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "premise": "Travel to the capital and prove who you really are.",
+  "level": 8,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "choices": [
+   "seat-of-the-sovran-choice1"
+  ],
+  "achievement": "Seat of the Proxy"
+ },
+ {
+  "id": "monster-culling",
+  "name": "Monster Culling",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m05",
+  "premise": "Take on three jobs for Captain Brant around Vermund.",
+  "level": 12,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "The jobs: goblins at Trevo Mine, saurians at Harve Village and a delivery to Vermund's eastern edge."
+  ]
+ },
+ {
+  "id": "disas-plot",
+  "name": "Disa's Plot",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m06",
+  "premise": "Find proof of wrongdoing inside the castle.",
+  "level": 15,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "Use the rear gate between midnight and dawn. Bring a lantern."
+  ]
+ },
+ {
+  "id": "the-caged-magistrate",
+  "name": "The Caged Magistrate",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m07",
+  "premise": "Free an imprisoned magistrate from the gaol tower.",
+  "level": 17,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "rewards": [
+   {
+    "xp": 1200,
+    "gold": 7000,
+    "items": [
+     "Ferrystone"
+    ]
+   }
+  ],
+  "choices": [
+   "the-caged-magistrate-choice1"
+  ]
+ },
+ {
+  "id": "the-stolen-throne",
+  "name": "The Stolen Throne",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m08",
+  "premise": "Slip into a royal masquerade to look into a false Sovran.",
+  "level": 19,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "Formal clothes help you blend in at the masquerade."
+  ],
+  "rewards": [
+   {
+    "xp": 900,
+    "gold": 6500,
+    "items": [
+     "Wakestone Shard",
+     "Myrmecoleon Card"
+    ]
+   }
+  ],
+  "achievement": "Nobles' Night Out"
+ },
+ {
+  "id": "an-unsettling-encounter",
+  "name": "An Unsettling Encounter",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m09",
+  "premise": "Sneak into a noble's chambers after a tip about a suspicious delivery.",
+  "level": 21,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "feast-of-deception",
+  "name": "Feast of Deception",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m10",
+  "premise": "Attend the coronation and see what the Godsway can do.",
+  "level": 23,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "Several Vernworth side quests close when this starts. Check the Missable list."
+  ]
+ },
+ {
+  "id": "nation-of-the-lambent-flame",
+  "name": "Nation of the Lambent Flame",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "premise": "Cross the border into Battahl, looking for answers about the Godsway.",
+  "level": 25,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "achievement": "Across the Border"
+ },
+ {
+  "id": "flickering-shadows",
+  "name": "Flickering Shadows",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m12",
+  "premise": "Investigate researchers who use blue crystals, and what they are powering.",
+  "level": 30,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "convergence",
+  "name": "Convergence",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m13",
+  "premise": "Explore a structure that has risen from the sea near Harve.",
+  "level": 35,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "rewards": [
+   {
+    "items": [
+     "Dulled Godsbane Blade"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a-new-godsway",
+  "name": "A New Godsway",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m14",
+  "premise": "Gather what you need to restore a special blade.",
+  "level": 38,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "Treat this as the last safe point for side quests you care about."
+  ],
+  "rewards": [
+   {
+    "xp": 6000,
+    "gold": 35000,
+    "items": [
+     "Wakestone",
+     "Empowered Godsbane Blade"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "the-guardian-gigantus",
+  "name": "The Guardian Gigantus",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m15",
+  "premise": "Defend against a giant on the march toward Moonglint Tower.",
+  "level": 42,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "Earlier side quests decide who turns up to help."
+  ],
+  "rewards": [
+   {
+    "xp": 19000
+   }
+  ],
+  "achievement": "Back Where It All Began"
+ },
+ {
+  "id": "legacy",
+  "name": "Legacy",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m16",
+  "premise": "Face the Dragon at Moonglint Tower.",
+  "level": 45,
+  "refs": [
+   "fextralife",
+   "samurai-gamers"
+  ],
+  "tips": [
+   "What you choose here decides the ending. Read the Endings card only if you want it spoiled."
+  ],
+  "choices": [
+   "legacy-choice1"
+  ],
+  "achievement": "Peace"
+ },
+ {
+  "id": "the-provisioners-plight",
+  "name": "The Provisioner's Plight",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "area": "Borderwatch Outpost",
+  "premise": "Help the outpost's supply officer track down missing provisions.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Geoffrey",
+  "unlock": "After In Dragon's Wake",
+  "rewards": [
+   {
+    "xp": 400,
+    "gold": 900,
+    "items": [
+     "Dried Fruit"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ordeals-of-a-new-recruit",
+  "name": "Ordeals of a New Recruit",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "area": "Borderwatch Outpost",
+  "premise": "Look for a young recruit who went missing on a scouting run.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Phill",
+  "unlock": "After In Dragon's Wake",
+  "timed": true,
+  "failure": "If you are too slow, the recruit dies.",
+  "rewards": [
+   {
+    "xp": 400,
+    "gold": 1000,
+    "items": [
+     "Lantern Oil"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "claw-them-into-shape",
+  "name": "Claw Them Into Shape",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "area": "Moonglow Garden",
+  "premise": "Help a seasoned warrior train a group of raw recruits.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Beren",
+  "unlock": "After In Dragon's Wake. Also: In Dragon's Wake progress",
+  "rewards": [
+   {
+    "xp": 1200,
+    "gold": 4500
+   }
+  ],
+  "tips": [
+   "Unlocks: Beren's Final Lesson."
+  ]
+ },
+ {
+  "id": "berens-final-lesson",
+  "name": "Beren's Final Lesson",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Moonglow Garden",
+  "premise": "Go with Beren on one last outing with his recruits.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Beren",
+  "unlock": "After Seat of the Sovran + Claw Them Into Shape",
+  "rewards": [
+   {
+    "outcome": "saved recruit",
+    "xp": 1600,
+    "gold": 4500,
+    "items": [
+     "Lifetaker"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Warrior Maister skill Champion's Fable."
+  ]
+ },
+ {
+  "id": "spellbound",
+  "name": "Spellbound",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "area": "Eini's House",
+  "premise": "Help a struggling student of magick find what she needs to study.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Trysha",
+  "unlock": "After In Dragon's Wake. Also: reach Eini's Home",
+  "rewards": [
+   {
+    "outcome": "helped",
+    "xp": 2000,
+    "gold": 3000,
+    "items": [
+     "Cast Stone",
+     "Conjurer's Jottings",
+     "Enchanter's Almanac"
+    ]
+   },
+   {
+    "outcome": "forged tomes",
+    "xp": 2000,
+    "gold": 3000
+   },
+   {
+    "outcome": "3 tomes at once",
+    "items": [
+     "Turquoise Ring"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "medicament-predicament",
+  "name": "Medicament Predicament",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Melve",
+  "premise": "Fetch medicine for a sick villager in Melve.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Flora",
+  "unlock": "After Seat of the Sovran. Also: reach Melve",
+  "rewards": [
+   {
+    "xp": 500,
+    "gold": 100,
+    "items": [
+     "Ring of Exultation"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Pawn Specialization tome Chirurgeon's."
+  ]
+ },
+ {
+  "id": "brothers-brave-and-timid",
+  "name": "Brothers Brave and Timid",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Melve",
+  "premise": "Find out what happened to a boy's brother who went off to fight.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Ian",
+  "unlock": "After Seat of the Sovran. Also: reach Melve",
+  "missable": true,
+  "locksAt": "m15",
+  "rewards": [
+   {
+    "xp": 400,
+    "gold": 1500,
+    "items": [
+     "Homespun Cloak"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "nesting-troubles",
+  "name": "Nesting Troubles",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Melve",
+  "premise": "Deal with a monster problem threatening Melve.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Lennart",
+  "unlock": "After Seat of the Sovran. Also: - (cancelled if you do any main quest for Brant)",
+  "missable": true,
+  "locksAt": "m05",
+  "rewards": [
+   {
+    "xp": 400,
+    "gold": 1250,
+    "items": [
+     "Stoutness Extract"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "readvent-of-calamity",
+  "name": "Readvent of Calamity",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m05",
+  "area": "Melve",
+  "premise": "Help Melve stand against a dragon threat.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "During Vernworth main quests. Also: Seat of the Sovran + Scaly Invaders; cancels at Feast of Deception",
+  "missable": true,
+  "locksAt": "m10",
+  "rewards": [
+   {
+    "xp": 2000,
+    "gold": 4500,
+    "items": [
+     "Ring of Grit"
+    ]
+   },
+   {
+    "items": [
+     "outcome Repel vs Fell the dragon"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Mystic Spearhand vocation."
+  ],
+  "related": [
+   "home-is-where-the-hearth-is",
+   "trouble-on-the-cape"
+  ],
+  "achievement": "Duo Destinies"
+ },
+ {
+  "id": "home-is-where-the-hearth-is",
+  "name": "Home is Where the Hearth Is",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m09",
+  "area": "Melve",
+  "premise": "Help Melve's people defend their home against hostile soldiers.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "After Readvent of Calamity + An Unsettling Encounter. Also: Readvent of Calamity + Trouble on the Cape",
+  "timed": true,
+  "failure": "Time-limited. The villagers fight alone if you are late.",
+  "rewards": [
+   {
+    "outcome": "helped eliminate soldiers",
+    "xp": 2200,
+    "gold": 12000,
+    "items": [
+     "Ring of Assurance"
+    ]
+   },
+   {
+    "outcome": "villagers fought alone",
+    "note": "experience only"
+   }
+  ],
+  "tips": [
+   "Unlocks: time-limited; multiple outcomes."
+  ],
+  "choices": [
+   "home-is-where-the-hearth-is-choice1"
+  ]
+ },
+ {
+  "id": "oxcart-courier",
+  "name": "Oxcart Courier",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Deliver a letter by riding the oxcart to Melve.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Donovan",
+  "unlock": "After Seat of the Sovran. Also: pay 100G to ride to Melve",
+  "timed": true,
+  "failure": "No penalty for being late.",
+  "rewards": [
+   {
+    "xp": 400,
+    "gold": 500,
+    "items": [
+     "Miner's Hosen"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Nesting Troubles."
+  ]
+ },
+ {
+  "id": "vocation-frustration",
+  "name": "Vocation Frustration",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Fetch weapons for the Vocation Guild so new vocations open up.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Klaus",
+  "unlock": "After Seat of the Sovran. Also: speak to Klaus",
+  "rewards": [
+   {
+    "xp": 1200,
+    "gold": 7500
+   }
+  ],
+  "tips": [
+   "Unlocks: unlocks Warrior, Sorcerer."
+  ]
+ },
+ {
+  "id": "a-place-to-call-home",
+  "name": "A Place to Call Home",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Ask about buying a house of your own in Vernworth.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Mildred",
+  "unlock": "During Vernworth main quests. Also: speak to her",
+  "rewards": [
+   {
+    "xp": 500
+   }
+  ],
+  "tips": [
+   "Unlocks: Private Dwelling (house)."
+  ],
+  "achievement": "A House? In This Economy?"
+ },
+ {
+  "id": "the-heel-of-history",
+  "name": "The Heel of History",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Lend a hand to a slum charity that feeds the poor.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Kendrick",
+  "unlock": "During Vernworth main quests. Also: donate food twice",
+  "rewards": [
+   {
+    "xp": 900,
+    "gold": 3000,
+    "items": [
+     "Panacea",
+     "Spider Venom Sac"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Gracious Hand's Vaults."
+  ],
+  "related": [
+   "saint-of-the-slums"
+  ]
+ },
+ {
+  "id": "a-case-of-sculptors-block",
+  "name": "A Case of Sculptor's Block",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Help a sculptor finish a statue of you.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Klark",
+  "unlock": "During Vernworth main quests. Also: progress story",
+  "rewards": [
+   {
+    "outcome": "perfect",
+    "xp": 4500,
+    "gold": 18500
+   },
+   {
+    "outcome": "poor",
+    "xp": 4500,
+    "gold": 7000
+   }
+  ],
+  "choices": [
+   "a-case-of-sculptors-block-choice1"
+  ]
+ },
+ {
+  "id": "the-gift-of-giving",
+  "name": "The Gift of Giving",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Find out who is secretly helping the people of the slums.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Daphne",
+  "unlock": "During Vernworth main quests. Also: reach Slums",
+  "rewards": [
+   {
+    "xp": 900,
+    "gold": 100,
+    "items": [
+     "Golden Trove Beetle"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: House of the Blue Sunbright."
+  ]
+ },
+ {
+  "id": "house-of-the-blue-sunbright",
+  "name": "House of the Blue Sunbright",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Track down a missing person tied to a slum mystery.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Diana",
+  "unlock": "After The Gift of Giving",
+  "rewards": [
+   {
+    "outcome": "helped Sebastian",
+    "xp": 900,
+    "gold": 3000,
+    "items": [
+     "2 Fine Harspud Roborant"
+    ]
+   },
+   {
+    "outcome": "failed",
+    "note": "experience only"
+   }
+  ],
+  "tips": [
+   "Unlocks: reveals Daphne's identity."
+  ]
+ },
+ {
+  "id": "the-nameless-village",
+  "name": "The Nameless Village",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Look into a hidden village of thieves.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "(Brant/Flaude/Srail)",
+  "unlock": "During Vernworth main quests. Also: between Caged Magistrate and Stolen Throne",
+  "missable": true,
+  "locksAt": "m08",
+  "rewards": [
+   {
+    "xp": 1200,
+    "gold": 7500,
+    "items": [
+     "Dragon's Gaze"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "the-arisens-shadow",
+  "name": "The Arisen's Shadow",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Find out who has been pretending to be the Arisen.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Brant",
+  "unlock": "During Vernworth main quests. Also: complete Brant's quests",
+  "missable": true,
+  "locksAt": "m15",
+  "rewards": [
+   {
+    "outcome": "spared",
+    "xp": 1000,
+    "gold": 5000
+   },
+   {
+    "outcome": "apprehended",
+    "xp": 1000,
+    "gold": 4000
+   }
+  ],
+  "choices": [
+   "the-arisens-shadow-choice1"
+  ]
+ },
+ {
+  "id": "a-beggars-tale",
+  "name": "A Beggar's Tale",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Help a beggar who has a secret life.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Benton",
+  "unlock": "During Vernworth main quests. Also: speak to Benton or get Beggar's Garb",
+  "rewards": [
+   {
+    "outcome": "Celina",
+    "xp": 900,
+    "gold": 3000,
+    "items": [
+     "Noonbloom"
+    ]
+   },
+   {
+    "outcome": "Hilda",
+    "xp": 900,
+    "items": [
+     "3 Onyx"
+    ]
+   },
+   {
+    "outcome": "Albert",
+    "xp": 900,
+    "gold": 5000
+   }
+  ],
+  "choices": [
+   "a-beggars-tale-choice1"
+  ]
+ },
+ {
+  "id": "gift-of-the-bow",
+  "name": "Gift of the Bow",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Bring a bow to an elf archer who wants to judge your skill.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Glyndwr",
+  "unlock": "During Vernworth main quests. Also: Archer vocation",
+  "rewards": [
+   {
+    "gold": 8500,
+    "items": [
+     "Ring of Proximity"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: A Trial of Archery."
+  ]
+ },
+ {
+  "id": "a-trial-of-archery",
+  "name": "A Trial of Archery",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Take part in an archery contest held by the elves.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Glyndwr",
+  "unlock": "After Gift of the Bow",
+  "rewards": [
+   {
+    "outcome": "saved Doireann",
+    "xp": 2800,
+    "gold": 16000,
+    "items": [
+     "Repeller Bow",
+     "Portcrystal"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Ailing Arborheart (prereq)."
+  ]
+ },
+ {
+  "id": "till-death-do-us-part",
+  "name": "Till Death Do Us Part",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Find a missing husband before it is too late.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Margit",
+  "unlock": "During Vernworth main quests. Also: hear rumor of Ser Ludolph, talk to Margit",
+  "timed": true,
+  "failure": "If you are too slow, Gregor dies (you still get some rewards).",
+  "rewards": [
+   {
+    "outcome": "rescued Gregor in time",
+    "xp": 2800,
+    "gold": 5000,
+    "items": [
+     "Steeled Virtue",
+     "Lustrous Targe"
+    ]
+   },
+   {
+    "outcome": "failed",
+    "items": [
+     "still 5000G + Steeled Virtue"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "saint-of-the-slums",
+  "name": "Saint of the Slums",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Gather evidence on what is really going on at a slum clinic.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Elena",
+  "unlock": "During Vernworth main quests, maybe after The Heel of History. Also: overhear Vlasiy/Elena",
+  "rewards": [
+   {
+    "outcome": "apprehend with enough evidence",
+    "xp": 1600,
+    "gold": 11000
+   }
+  ]
+ },
+ {
+  "id": "the-ornate-box",
+  "name": "The Ornate Box",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Find a fancy box that a servant needs.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Auriol",
+  "unlock": "After In Dragon's Wake. Also: Seat of the Sovran; cancels if you pass Disa's Plot",
+  "missable": true,
+  "locksAt": "m06",
+  "rewards": [
+   {
+    "xp": 900,
+    "items": [
+     "Ferrystone",
+     "Ring of Accrual",
+     "Jasper",
+     "Courtly Breeches/Tunic",
+     "4000G (or 5000G variant)"
+    ]
+   }
+  ],
+  "related": [
+   "masked-correspondence"
+  ],
+  "choices": [
+   "the-ornate-box-choice1"
+  ]
+ },
+ {
+  "id": "masked-correspondence",
+  "name": "Masked Correspondence",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Carry a secret letter for a castle servant.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Sven",
+  "unlock": "During Vernworth main quests, likely after The Ornate Box (reported). Also: Seat of the Sovran",
+  "missable": true,
+  "locksAt": "m10",
+  "rewards": [
+   {
+    "xp": 900,
+    "gold": 6000,
+    "items": [
+     "Onyx"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dulled-steel-cold-forge",
+  "name": "Dulled Steel, Cold Forge",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Vernworth",
+  "premise": "Find a smith who can restore an old ceremonial sword.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Roman",
+  "unlock": "During Vernworth main quests. Also: Seat of the Sovran",
+  "rewards": [
+   {
+    "xp": 6000,
+    "gold": 35000
+   }
+  ],
+  "tips": [
+   "Unlocks: Steeled Resolve, Blazing Forge."
+  ],
+  "related": [
+   "out-of-the-forest-into-the-forge",
+   "steeled-resolve-blazing-forge",
+   "the-ailing-arborheart"
+  ]
+ },
+ {
+  "id": "a-magisterial-amenity",
+  "name": "A Magisterial Amenity",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m07",
+  "area": "Vernworth",
+  "premise": "Check in on a freed magistrate after a few days.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Waldhar",
+  "unlock": "After The Caged Magistrate. Also: Caged Magistrate + wait days",
+  "rewards": [
+   {
+    "xp": 900,
+    "items": [
+     "Winter's Path"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "every-rose-has-its-thorn",
+  "name": "Every Rose Has Its Thorn",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Vernworth",
+  "premise": "Gather evidence for a noblewoman who wants justice.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Wilhelmina",
+  "unlock": "After Feast of Deception. Also: access to Battahl; evidence within 3 days",
+  "missable": true,
+  "locksAt": "m15",
+  "timed": true,
+  "failure": "If time runs out, Wilhelmina is jailed. Finish Brant's quests first.",
+  "rewards": [
+   {
+    "outcome": "help assassinate Allard",
+    "gold": 8500,
+    "xp": 1200,
+    "items": [
+     "Ring of Benevolence"
+    ]
+   },
+   {
+    "outcome": "refuse",
+    "gold": 7500,
+    "items": [
+     "3 Tiger Eye",
+     "Allheal Elixir"
+    ]
+   },
+   {
+    "outcome": "tell Allard",
+    "gold": 3000
+   }
+  ],
+  "tips": [
+   "Unlocks: Wilhelmina romance scene."
+  ],
+  "choices": [
+   "every-rose-has-its-thorn-choice1"
+  ]
+ },
+ {
+  "id": "a-veil-of-gossamer-clouds",
+  "name": "A Veil of Gossamer Clouds",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m10",
+  "area": "Vernworth",
+  "premise": "Find a letter for a castle servant.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Sven",
+  "unlock": "After Feast of Deception",
+  "rewards": [
+   {
+    "outcome": "show unfinished letter",
+    "xp": 4000,
+    "gold": 14000
+   },
+   {
+    "outcome": "find delivered letter",
+    "xp": 4000,
+    "gold": 20000,
+    "items": [
+     "Ferrystone"
+    ]
+   }
+  ],
+  "choices": [
+   "a-veil-of-gossamer-clouds-choice1"
+  ]
+ },
+ {
+  "id": "the-phantom-oxcart",
+  "name": "The Phantom Oxcart",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Vernworth",
+  "premise": "Investigate a ghostly oxcart that moves contraband.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Guerrero/Dagras/Wilhelmina",
+  "unlock": "After Nation of the Lambent Flame. Also: enter Bakbattahl after Lambent Flame; locked out by A New Godsway",
+  "missable": true,
+  "locksAt": "m14",
+  "rewards": [
+   {
+    "xp": 4000,
+    "gold": 14500,
+    "items": [
+     "Ring of Momentum"
+    ]
+   }
+  ],
+  "choices": [
+   "the-phantom-oxcart-choice1"
+  ],
+  "achievement": "Are We There Yet?"
+ },
+ {
+  "id": "tensions-on-the-highroad",
+  "name": "Tensions on the Highroad",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Vernworth",
+  "premise": "Settle a dispute between two men on the road.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Simon",
+  "unlock": "After Nation of the Lambent Flame. Also: Welcome to Battahl",
+  "rewards": [
+   {
+    "xp": 4000,
+    "gold": 12000
+   }
+  ],
+  "tips": [
+   "Unlocks: Clash and Conclusion (if Raghnall)."
+  ],
+  "related": [
+   "clash-and-conclusion"
+  ],
+  "choices": [
+   "tensions-on-the-highroad-choice1"
+  ]
+ },
+ {
+  "id": "a-noble-exchange",
+  "name": "A Noble Exchange",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m14",
+  "area": "Vernworth",
+  "premise": "Catch a thief at a noble gathering.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Gunther",
+  "unlock": "Between Nation of the Lambent Flame and A New Godsway. Also: masquerade ball",
+  "rewards": [
+   {
+    "outcome": "thief caught, staff discarded",
+    "xp": 900,
+    "gold": 7500
+   },
+   {
+    "outcome": "staff kept",
+    "gold": 3000
+   }
+  ],
+  "choices": [
+   "a-noble-exchange-choice1"
+  ]
+ },
+ {
+  "id": "crossing-in-shadow",
+  "name": "Crossing in Shadow",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Vernworth",
+  "premise": "Help a woman hide from people looking for her.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Vera",
+  "unlock": "After A Place to Call Home + A Candle in the Storm. Also: own house + A Candle in the Storm",
+  "timed": true,
+  "failure": "Best reward only if you are on time.",
+  "rewards": [
+   {
+    "outcome": "on time",
+    "xp": 4000,
+    "gold": 20000,
+    "items": [
+     "Subloom"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "scaly-invaders",
+  "name": "Scaly Invaders",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m05",
+  "area": "Harve Village",
+  "premise": "Clear out saurians troubling Harve Village.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Fyoran",
+  "unlock": "During Monster Culling. Also: second Harve visit",
+  "rewards": [
+   {
+    "xp": 1800,
+    "gold": 5000,
+    "items": [
+     "6 Saurian Scale"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "trouble-on-the-cape",
+  "name": "Trouble on the Cape",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m05",
+  "area": "Harve Village",
+  "premise": "Help Harve deal with a dangerous visitor.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Ulrika",
+  "unlock": "During Readvent of Calamity. Also: Scaly Invaders + Readvent progress",
+  "rewards": [
+   {
+    "xp": 1800,
+    "gold": 6500,
+    "items": [
+     "Ferrystone"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Home is Where the Hearth Is."
+  ]
+ },
+ {
+  "id": "the-sorcerers-appraisal",
+  "name": "The Sorcerer's Appraisal",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Checkpoint Rest Town",
+  "premise": "Prove yourself to an eccentric sorcerer who likes fine clothes.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Myrddin",
+  "unlock": "During Vernworth main quests. Also: wear fancy clothing",
+  "rewards": [
+   {
+    "gold": 11000,
+    "items": [
+     "Myrddin's Chronicle",
+     "Ares Morpho Robe"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Sorcerer skill Maelstrom."
+  ]
+ },
+ {
+  "id": "hunt-for-the-jadeite-orb",
+  "name": "Hunt for the Jadeite Orb",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Checkpoint Rest Town",
+  "premise": "Two buyers want the same orb. Find it and decide who gets it.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Everard/Offulve",
+  "unlock": "After Seat of the Sovran",
+  "rewards": [
+   {
+    "outcome": "both",
+    "xp": 2000,
+    "gold": 15000,
+    "items": [
+     "Ring of Skullduggery",
+     "Elite Camping Kit"
+    ]
+   },
+   {
+    "outcome": "Offulve/forgery",
+    "xp": 1000,
+    "gold": 3000,
+    "items": [
+     "Camping Kit"
+    ]
+   },
+   {
+    "outcome": "Everard",
+    "xp": 1000,
+    "gold": 12000,
+    "items": [
+     "Ring of Skullduggery"
+    ]
+   }
+  ],
+  "choices": [
+   "hunt-for-the-jadeite-orb-choice1"
+  ]
+ },
+ {
+  "id": "prey-for-the-pack",
+  "name": "Prey for the Pack",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Checkpoint Rest Town",
+  "premise": "Rescue a missing man before wolves get to him.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Morris",
+  "unlock": "On reaching Checkpoint Rest Town. Also: reach town; fail if Rodge not reached in time",
+  "timed": true,
+  "failure": "If you are too slow, Rodge dies.",
+  "rewards": [
+   {
+    "xp": 4000,
+    "gold": 11000,
+    "items": [
+     "2 Miracle Roborant"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "mercy-among-thieves",
+  "name": "Mercy among Thieves",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Checkpoint Rest Town",
+  "premise": "Look into a group of thieves who prey on travellers.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Lyssandro",
+  "unlock": "After crossing into Battahl. Also: pass border gate, offer food to Toumi",
+  "rewards": [
+   {
+    "xp": 4000,
+    "items": [
+     "8000G (NPCs Hugo",
+     "Tobias",
+     "Toumi)"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: related: Off the Pilfered Path."
+  ]
+ },
+ {
+  "id": "tolled-to-rest",
+  "name": "Tolled to Rest",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Ancient Battleground",
+  "premise": "Help a man recover a key and explore an old battleground.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Oskar",
+  "unlock": "On entering. Also: save Oskar on the road",
+  "rewards": [
+   {
+    "xp": 3000,
+    "gold": 9000,
+    "items": [
+     "Ancient Battleground Key"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "a-game-of-wits",
+  "name": "A Game of Wits",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "area": "Mountain Shrine",
+  "premise": "Answer the riddles of a mysterious sphinx.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Sphinx",
+  "unlock": "On finding the Sphinx. Also: reach shrine",
+  "rewards": [
+   {
+    "outcome": "final",
+    "items": [
+     "Eternal Wakestone"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: second Sphinx site after 5 riddles."
+  ],
+  "achievement": "Full Marks"
+ },
+ {
+  "id": "welcome-to-battahl",
+  "name": "Welcome to Battahl",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Get pulled into a fight at a Bakbattahl inn.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Roger",
+  "unlock": "On reaching Bakbattahl. Also: reach Bakbattahl",
+  "rewards": [
+   {
+    "outcome": "3-on-1 win",
+    "xp": 2800,
+    "gold": 13500,
+    "items": [
+     "Fruit Wine"
+    ]
+   },
+   {
+    "outcome": "duel win",
+    "gold": 8500
+   },
+   {
+    "outcome": "duel loss",
+    "gold": -3000
+   }
+  ],
+  "choices": [
+   "welcome-to-battahl-choice1"
+  ]
+ },
+ {
+  "id": "shadowed-prayers",
+  "name": "Shadowed Prayers",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Catch an assassin before they strike.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Menella",
+  "unlock": "On reaching Bakbattahl. Also: Lambent Flame progress",
+  "timed": true,
+  "failure": "If you fail, Nadinia dies, A Candle in the Storm and Crossing in Shadow fail, and you can't buy the Bakbattahl house.",
+  "rewards": [
+   {
+    "xp": 3500,
+    "gold": 18000,
+    "items": [
+     "5 Jasper"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Battahl Residence Permit."
+  ]
+ },
+ {
+  "id": "a-poisonous-proposal",
+  "name": "A Poisonous Proposal",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Help a man who fears his wife is being poisoned.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Jarle",
+  "unlock": "After Nation of the Lambent Flame",
+  "rewards": [
+   {
+    "outcome": "Jarle survives",
+    "xp": 5000,
+    "gold": 19000,
+    "items": [
+     "Ring of Purification"
+    ]
+   }
+  ],
+  "choices": [
+   "a-poisonous-proposal-choice1"
+  ]
+ },
+ {
+  "id": "steeled-resolve-blazing-forge",
+  "name": "Steeled Resolve, Blazing Forge",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Bring the ceremonial sword to Bakbattahl's master smith.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Sara",
+  "unlock": "After Dulled Steel, Cold Forge",
+  "rewards": [
+   {
+    "outcome": "return real sword",
+    "xp": 6000,
+    "gold": 35000
+   },
+   {
+    "outcome": "forgery",
+    "items": [
+     "11000G + Restored Regalia Sword"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Bakbattahl blacksmith."
+  ],
+  "choices": [
+   "steeled-resolve-blazing-forge-choice2",
+   "steeled-resolve-blazing-forge-choice1"
+  ]
+ },
+ {
+  "id": "out-of-the-forest-into-the-forge",
+  "name": "Out of the Forest, Into the Forge",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Help an elf deliver something to a smith in Bakbattahl.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Doireann",
+  "unlock": "After The Ailing Arborheart",
+  "timed": true,
+  "failure": "Timed. The penalty is not confirmed yet.",
+  "rewards": [
+   {
+    "gold": 13000,
+    "items": [
+     "Warbler Capelet"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "short-sighted-ambition",
+  "name": "Short-Sighted Ambition",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "A merchant asks for help finding a strange book.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Isaac",
+  "unlock": "After Nation of the Lambent Flame",
+  "rewards": [
+   {
+    "outcome": "fake book",
+    "xp": 3000,
+    "gold": 16000
+   },
+   {
+    "outcome": "real book",
+    "xp": 3000,
+    "items": [
+     "Ring of Disfavor"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: bad outcome opens a Hugo job (Off the Pilfered Path)."
+  ],
+  "choices": [
+   "short-sighted-ambition-choice1"
+  ]
+ },
+ {
+  "id": "off-the-pilfered-path",
+  "name": "Off the Pilfered Path",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Help find out who is behind a string of thefts.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Ekratt",
+  "unlock": "After Nation of the Lambent Flame + Mercy among Thieves. Also: certain quests",
+  "rewards": [
+   {
+    "outcome": "truth+job",
+    "xp": 4500,
+    "gold": 7000,
+    "items": [
+     "White-Leather Kerchief",
+     "Frosted Edges"
+    ]
+   },
+   {
+    "outcome": "Lanzo/Hugo found dead",
+    "xp": 4500,
+    "gold": 7000
+   }
+  ]
+ },
+ {
+  "id": "twixt-a-rock-and-a-hard-place",
+  "name": "'Twixt a Rock and a Hard Place",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Bakbattahl",
+  "premise": "Help someone caught between two bad options in Bakbattahl.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "On reaching Bakbattahl"
+ },
+ {
+  "id": "put-a-spring-in-thy-step",
+  "name": "Put a Spring in Thy Step",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m12",
+  "area": "Agamen Volcanic Island",
+  "premise": "Help an elder on the volcanic island and learn a new fighting style.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Gautstafr",
+  "unlock": "On reaching island. Also: explore Drabnir's Grotto, reach island",
+  "rewards": [
+   {
+    "xp": 4800,
+    "gold": 23000,
+    "items": [
+     "Laurel Circlet"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Magick Archer vocation."
+  ],
+  "achievement": "Arrows and Incantations"
+ },
+ {
+  "id": "the-sotted-sage",
+  "name": "The Sotted Sage",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m12",
+  "area": "Agamen Volcanic Island",
+  "premise": "Track down a drunken sage who can teach a unique vocation.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Lamond",
+  "unlock": "On reaching island. Also: reach hamlet",
+  "rewards": [
+   {
+    "items": [
+     "Grandmaster's Path"
+    ]
+   }
+  ],
+  "tips": [
+   "Unlocks: Warfarer vocation."
+  ],
+  "achievement": "Jack of All Trades, Master of…All Trades"
+ },
+ {
+  "id": "a-candle-in-the-storm",
+  "name": "A Candle in the Storm",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Agamen Volcanic Island",
+  "premise": "Protect an important figure during a risky meeting.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Menella",
+  "unlock": "After Shadowed Prayers",
+  "rewards": [
+   {
+    "outcome": "support",
+    "xp": 4800,
+    "gold": 25000,
+    "items": [
+     "Ring of Amplification"
+    ]
+   },
+   {
+    "outcome": "oppose",
+    "xp": 4800,
+    "gold": 19000,
+    "items": [
+     "3 Jasper"
+    ]
+   },
+   {
+    "outcome": "support+attack mastermind",
+    "xp": 4800,
+    "gold": 19000
+   }
+  ],
+  "related": [
+   "crossing-in-shadow",
+   "shadowed-prayers"
+  ],
+  "choices": [
+   "a-candle-in-the-storm-choice1"
+  ]
+ },
+ {
+  "id": "clash-and-conclusion",
+  "name": "Clash and Conclusion",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m15",
+  "area": "Agamen Volcanic Island",
+  "premise": "Settle things with an old rival during the giant's attack.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Raghnall",
+  "unlock": "During The Guardian Gigantus, only if Tensions on the Highroad done and Raghnall sided with. Also: Tensions on the Highroad + Guardian Gigantus",
+  "rewards": [
+   {
+    "outcome": "defeat",
+    "xp": 7600,
+    "gold": 15000
+   },
+   {
+    "outcome": "he departs",
+    "gold": 20000,
+    "items": [
+     "The Exalted",
+     "Moonglint Key"
+    ]
+   }
+  ],
+  "choices": [
+   "clash-and-conclusion-choice1"
+  ]
+ },
+ {
+  "id": "the-ailing-arborheart",
+  "name": "The Ailing Arborheart",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "area": "Sacred Arbor",
+  "premise": "Help the elves with their sickly sacred tree.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Doireann",
+  "unlock": "After A Trial of Archery + Steeled Resolve, Blazing Forge",
+  "rewards": [
+   {
+    "xp": 1600
+   }
+  ],
+  "tips": [
+   "Unlocks: Out of the Forest."
+  ]
+ },
+ {
+  "id": "dreams-apart",
+  "name": "Dreams Apart",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Help someone you know cope in the changed world.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "On reaching Unmoored World"
+ },
+ {
+  "id": "when-wills-collide",
+  "name": "When Wills Collide",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Settle a conflict in the changed world.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "After Dreams Apart"
+ },
+ {
+  "id": "a-scholarly-pursuit",
+  "name": "A Scholarly Pursuit",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Assist a scholar studying what happened to the world.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "After Unmoored World Trials"
+ },
+ {
+  "id": "halls-of-the-first-dawn",
+  "name": "Halls of the First Dawn",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Prepare for the final trials of the post-game.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "unlock": "After Unmoored World Trials",
+  "achievement": "The Hero"
+ },
+ {
+  "id": "the-regentkins-resolve",
+  "name": "The Regentkin's Resolve",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Help Brant with a task in the changed world.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Brant, Stardrop Inn",
+  "unlock": "After starting Halls of the First Dawn",
+  "rewards": [
+   {
+    "xp": 20000,
+    "gold": 25000,
+    "items": [
+     "35 Wyrmslife Crystals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "wandering-roots",
+  "name": "Wandering Roots",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Help the elves save something from the Arborheart.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Glyndwr, Sacred Arbor",
+  "unlock": "After starting Halls of the First Dawn",
+  "rewards": [
+   {
+    "xp": 20000,
+    "gold": 25000,
+    "items": [
+     "30 Crystals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "civil-unrest",
+  "name": "Civil Unrest",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Lead frightened people in Bakbattahl to safety.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Menella, Bakbattahl",
+  "unlock": "After starting Halls of the First Dawn",
+  "rewards": [
+   {
+    "xp": 20000,
+    "gold": 10000,
+    "items": [
+     "30 Crystals"
+    ]
+   }
+  ],
+  "achievement": "The Guardian"
+ },
+ {
+  "id": "the-importance-of-aiding-ernesto",
+  "name": "The Importance of Aiding Ernesto",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Help a man at the volcanic island camp.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Volcanic Island Camp",
+  "unlock": "After starting Halls of the First Dawn",
+  "rewards": [
+   {
+    "xp": 20000,
+    "gold": 15000,
+    "items": [
+     "40 Crystals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "shepherd-of-the-pawns",
+  "name": "Shepherd of the Pawns",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "pg",
+  "area": "Unmoored World",
+  "premise": "Help pawns find their way in the changed world.",
+  "refs": [
+   "powerpyx",
+   "fextralife"
+  ],
+  "giver": "Henrique, Excavation Site",
+  "unlock": "After starting Halls of the First Dawn",
+  "rewards": [
+   {
+    "xp": 20000,
+    "gold": 15000,
+    "items": [
+     "30 Crystals"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "chilling-tidings",
+  "name": "Chilling Tidings",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d01",
+  "area": "Norgan",
+  "premise": "Answer a call for help from the frozen north.",
+  "level": 40,
+  "refs": [
+   "game8"
+  ],
+  "tips": [
+   "Start: talk to Captain Brant at the Stardrop Inn, Vernworth, at night."
+  ],
+  "achievement": "The Forgotten North"
+ },
+ {
+  "id": "rumbles-in-the-north",
+  "name": "Rumbles in the North",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "area": "Norgan",
+  "premise": "Get your bearings in Norgan and meet its people.",
+  "level": 42,
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "seeking-the-sage",
+  "name": "Seeking the Sage",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Find a sage who can explain what is happening in Norgan.",
+  "level": 44,
+  "refs": [
+   "game8"
+  ],
+  "tips": [
+   "Includes three riddle sub-quests."
+  ]
+ },
+ {
+  "id": "sealed-history",
+  "name": "Sealed History",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d04",
+  "area": "Norgan",
+  "premise": "Uncover what Norgan's ruins are hiding.",
+  "level": 46,
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "the-castle-in-the-ice",
+  "name": "The Castle in the Ice",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d05",
+  "area": "Norgan",
+  "premise": "Reach the frozen castle and face what waits inside.",
+  "level": 48,
+  "refs": [
+   "game8"
+  ],
+  "tips": [
+   "A big choice happens here."
+  ],
+  "achievement": "Reunited"
+ },
+ {
+  "id": "soul-searching",
+  "name": "Soul Searching",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d06",
+  "area": "Norgan",
+  "premise": "Search for a lost soul.",
+  "level": 50,
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "where-theres-a-will-theres-a-way",
+  "name": "Where There's a Will, There's a Way",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d07",
+  "area": "Norgan",
+  "premise": "Push on toward the source of Norgan's trouble.",
+  "level": 52,
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "reunion",
+  "name": "Reunion",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d08",
+  "area": "Norgan",
+  "premise": "Bring the Norgan story to its climax.",
+  "level": 55,
+  "refs": [
+   "game8"
+  ],
+  "achievement": "Dogma Defended"
+ },
+ {
+  "id": "into-rancor",
+  "name": "Into Rancor",
+  "kind": "main",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d09",
+  "area": "Norgan",
+  "premise": "Descend into the depths for the DLC's true ending.",
+  "level": 60,
+  "refs": [
+   "game8"
+  ],
+  "tips": [
+   "Post-game of the DLC."
+  ]
+ },
+ {
+  "id": "sages-wisdom-riddle-of-the-body",
+  "name": "Sage's Wisdom: Riddle of the Body",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Solve one of the sage's three trials.",
+  "refs": [
+   "game8"
+  ],
+  "related": [
+   "seeking-the-sage"
+  ]
+ },
+ {
+  "id": "sages-wisdom-riddle-of-the-soul",
+  "name": "Sage's Wisdom: Riddle of the Soul",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Solve one of the sage's three trials.",
+  "refs": [
+   "game8"
+  ],
+  "related": [
+   "seeking-the-sage"
+  ]
+ },
+ {
+  "id": "sages-wisdom-riddle-of-the-will",
+  "name": "Sage's Wisdom: Riddle of the Will",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Solve one of the sage's three trials.",
+  "refs": [
+   "game8"
+  ],
+  "related": [
+   "seeking-the-sage"
+  ]
+ },
+ {
+  "id": "relics-of-the-past",
+  "name": "Relics of the Past",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "area": "Norgan",
+  "premise": "Learn how to appraise the relics (Spoils) found in Norgan.",
+  "rewards": [
+   {
+    "xp": 3000,
+    "unlocks": [
+     "appraisal"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "hammer-and-tongs",
+  "name": "Hammer and Tongs",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "area": "Norgan",
+  "premise": "Help get the settlement's workshop running so you can craft.",
+  "rewards": [
+   {
+    "xp": 6000,
+    "unlocks": [
+     "crafting"
+    ],
+    "items": [
+     "Azure Ore",
+     "Snowoak Bark"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "in-for-a-hare-in-for-a-hound",
+  "name": "In for a Hare, in for a Hound",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "area": "Norgan",
+  "premise": "Help a hunter and earn a hound that sniffs out Spoils.",
+  "rewards": [
+   {
+    "xp": 10000,
+    "unlocks": [
+     "Freki (finds Spoils)"
+    ],
+    "items": [
+     "3 Scrag of Beast"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "oh-to-be-in-vermund",
+  "name": "Oh, to be in Vermund",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "area": "Norgan",
+  "premise": "Bring a homesick settler a taste of home.",
+  "rewards": [
+   {
+    "xp": 5000,
+    "items": [
+     "Frigid Fungus",
+     "Boreal Tuber"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "sticks-and-stones",
+  "name": "Sticks and Stones",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Gather materials for new recipes.",
+  "rewards": [
+   {
+    "xp": 3000,
+    "gold": 10000,
+    "items": [
+     "Molten Ore",
+     "Sunstone",
+     "Heatstone recipes"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "a-direwolf-delicacy",
+  "name": "A Direwolf Delicacy",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d03",
+  "area": "Norgan",
+  "premise": "Hunt down a special meal.",
+  "rewards": [
+   {
+    "xp": 20000,
+    "items": [
+     "3 Beast-Steak",
+     "Hound's Scent Pouch"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "reaching-the-far-shore",
+  "name": "Reaching the Far Shore",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d04",
+  "area": "Norgan",
+  "premise": "Help a settler reach a distant shore. Unlocks layered armour (transmog).",
+  "rewards": [
+   {
+    "xp": 50000,
+    "gold": 10000,
+    "unlocks": [
+     "Transmog"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "flight-in-the-night",
+  "name": "Flight in the Night",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d04",
+  "area": "Norgan",
+  "premise": "Help a trader escape at night and open a new shop.",
+  "rewards": [
+   {
+    "xp": 70000,
+    "unlocks": [
+     "Ilda's Store"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "bout-of-passage",
+  "name": "Bout of Passage",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d04",
+  "area": "Norgan",
+  "premise": "Prove yourself in a fight against Dwayne.",
+  "rewards": [
+   {
+    "outcome": "defeat Dwayne",
+    "xp": 75000
+   },
+   {
+    "outcome": "let him win",
+    "xp": 50000
+   },
+   {
+    "items": [
+     "Fungal Cure-All",
+     "Regeneration Elixir",
+     "Enigma Chain",
+     "Girdle of Sagacity"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "when-the-culling-gets-tough",
+  "name": "When the Culling Gets Tough",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d04",
+  "area": "Norgan",
+  "premise": "Thin out monsters threatening the settlement.",
+  "rewards": [
+   {
+    "xp": 25000,
+    "items": [
+     "Ring of Brawling"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "a-howl-in-the-dark",
+  "name": "A Howl in the Dark",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d05",
+  "area": "Norgan",
+  "premise": "Hunt the beast that howls at night.",
+  "rewards": [
+   {
+    "xp": 55000,
+    "gold": 30000
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "quilt-me-down-with-a-feather",
+  "name": "Quilt Me Down With a Feather",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d05",
+  "area": "Norgan",
+  "premise": "Gather feathers for a warm quilt.",
+  "rewards": [
+   {
+    "xp": 50000,
+    "gold": 20000,
+    "items": [
+     "Firebird Cloak"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "the-truant-soldier",
+  "name": "The Truant Soldier",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d05",
+  "area": "Norgan",
+  "premise": "Find a soldier who left his post.",
+  "rewards": [
+   {
+    "xp": 35000,
+    "gold": 25000,
+    "items": [
+     "Spoils"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "the-snatching-beast",
+  "name": "The Snatching-Beast",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d05",
+  "area": "Norgan",
+  "premise": "Recover items stolen by a snow beast.",
+  "rewards": [
+   {
+    "xp": 40000,
+    "items": [
+     "Ancient Map of Derelict Passage"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ],
+  "achievement": "Abominable Snowstash"
+ },
+ {
+  "id": "hals-treasure-hunt",
+  "name": "Hal's Treasure Hunt",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d06",
+  "area": "Norgan",
+  "premise": "Follow Hal's clues to hidden treasure.",
+  "rewards": [
+   {
+    "xp": 35000,
+    "gold": 20000,
+    "items": [
+     "Frostbright Ring"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "a-keepsake-for-your-sake",
+  "name": "A Keepsake, for Your Sake",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d06",
+  "area": "Norgan",
+  "premise": "Return a treasured keepsake.",
+  "rewards": [
+   {
+    "xp": 80000,
+    "items": [
+     "Treatise of Proficiency"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "back-to-the-temple",
+  "name": "Back to the Temple",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d08",
+  "area": "Norgan",
+  "premise": "Return to the old temple for one last job.",
+  "rewards": [
+   {
+    "xp": 200000,
+    "gold": 100000
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "beyond-ruin-night",
+  "name": "Beyond Ruin-Night",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d09",
+  "area": "Norgan",
+  "premise": "Face what is left after the ruin.",
+  "rewards": [
+   {
+    "xp": 100000,
+    "items": [
+     "Brand of Fealty",
+     "Aegis of Allegiance",
+     "Arcanist's Tome"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "a-hound-and-his-bone",
+  "name": "A Hound and His Bone",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d06",
+  "area": "Norgan",
+  "premise": "Help your hound with a quest of its own.",
+  "rewards": [
+   {
+    "xp": 60000,
+    "items": [
+     "Treatise on Lupinity"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "no-spoils-get-left-behind",
+  "name": "No Spoils Get Left Behind",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d08",
+  "area": "Norgan",
+  "premise": "Collect the last of the relics.",
+  "rewards": [
+   {
+    "xp": 80000,
+    "gold": 50000,
+    "items": [
+     "Lv3-4 Spoils"
+    ]
+   }
+  ],
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "lost-rites",
+  "name": "Lost Rites dungeons",
+  "kind": "side",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "m04",
+  "area": "Vermund, Battahl and the Unmoored World",
+  "level": 20,
+  "premise": "Twelve repeatable dungeons added to the original map, each with gear for every vocation.",
+  "unlock": "Talk to Captain Brant at the Stardrop Inn, Vernworth, at night and ask about the uncovered ruins.",
+  "tips": [
+   "Recommended level is about 20.",
+   "Final chests give Offering Flames, needed for Norgan's Obelisks.",
+   "Final Proving Ground opens after you clear two other Unmoored World Lost Rites.",
+   "Vermund: Devilkin Hollow, Daemon's Corral, Sunken Spire, Interminable Corridor.",
+   "Battahl: Mired Conduit, Embersand Mine, Shrouded Warren, Precipitous Catacombs, Wyrmsblood Arena.",
+   "Unmoored World: Molten Gauntlet, Seafloor Sepulcher, Final Proving Ground."
+  ],
+  "refs": [
+   "game8"
+  ],
+  "achievement": "Dogma Defied"
+ }
+]

@@ -1,0 +1,49 @@
+{
+ "_source": "Game8 'How to Level Up Fast' + earlier community claims (2026-11-15). Rewrite in our words. XP figures per kill from Game8.",
+ "general": [
+  "Kill groups: ~10 goblins ~ one Cyclops in XP",
+  "Rest at campfires to respawn enemies (random timers); cook food with a camping kit for stat boosts",
+  "Cyclops and Minotaur respawn ~3 in-game days; Drake ~7 days",
+  "AoE pawns (Sorcerer, Warrior) clear mobs faster; Thief pawn with Bump and Lift steals items",
+  "Ring of Ambition gives slight bonus XP",
+  "Warfarer splits earned XP and DCP across all unlocked vocations: keep only the target vocation unlocked to level it quickly"
+ ],
+ "spots": [
+  {
+   "stage": "early",
+   "where": "Campfire near Checkpoint Rest Town (west Vernworth oxcart ~200G)",
+   "what": "many Rock Lizards (624 xp each); passage beyond has Armored Cyclops 2,678, two Minotaurs 3,296 each, hidden Chimera 5,047",
+   "route": "descend bridge, follow stream to cave, hug right and climb out, cross wooden bridge to campfire"
+  },
+  {
+   "stage": "early",
+   "where": "Reach Bakbattahl early via Guerco Cavern (easier: one Stone Golem + Chimera) or the northern canyon from Checkpoint (hard: Cyclops, 2 Minotaurs, Chimera)",
+   "what": "Knackers there give 200-500 xp and 100-150 DCP vs goblins near Vernworth 100-150 xp, 20-50 DCP"
+  },
+  {
+   "stage": "early (claim)",
+   "where": "Griffin near tower by Melve",
+   "what": "~7,000 xp + 200 DCP, respawns (community claim)"
+  },
+  {
+   "stage": "mid",
+   "where": "Western road of Bakbattahl, campfire south of road",
+   "what": "Hobgoblins 295-550 xp each"
+  },
+  {
+   "stage": "mid",
+   "where": "Volcanic Island (after Put a Spring in Thy Step: Magick Archer + Martyr's Bolt, or Sotted Sage: Warfarer)",
+   "what": "strong xp/DCP; Martyr's Bolt can drop Drakes in 1-2 hits at HP cost"
+  },
+  {
+   "stage": "late",
+   "where": "Road to Dragonsbreath Tower, Bakbattahl",
+   "what": "Knacker 417, Redwolf 479, Lost Mercenary 556 xp; Gore Harpies need a ranged weapon; Medusan Spellbow adds bonus XP"
+  },
+  {
+   "stage": "late",
+   "where": "Drake fights, Lost Rites dungeons (DLC, repeatable)",
+   "what": "see Game8 for numbers; DLC xp rewards are large (side quests 25,000-200,000)"
+  }
+ ]
+}

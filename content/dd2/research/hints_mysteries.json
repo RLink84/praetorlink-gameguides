@@ -1,0 +1,78 @@
+{
+ "_source": "Game8 Sphinx riddle table + Fextralife endings; spoilers level 3",
+ "sphinx": {
+  "locations": [
+   "Mountain Shrine (Vermund, reached after speaking to the Sphinx)",
+   "Frontier Shrine (Battahl)"
+  ],
+  "riddles": [
+   [
+    "Eyes",
+    "Submit the Sealing Phial from the chest above the opened doorway",
+    "Wakestone"
+   ],
+   [
+    "Madness",
+    "Bring the pawn or NPC you are closest to (carrying your pawn onto the platform works)",
+    "Portcrystal"
+   ],
+   [
+    "Wisdom",
+    "Bring a pawn named SphinxFather/SphinxMother/SphinxParent",
+    "1,200 Rift Crystals"
+   ],
+   [
+    "Conviction",
+    "Submit any item",
+    "the submitted item"
+   ],
+   [
+    "Rumination",
+    "Submit a Finder's Token",
+    "Ferrystone"
+   ],
+   [
+    "Reunion",
+    "Go to Frontier Shrine in Battahl",
+    "Gold"
+   ],
+   [
+    "Recollection",
+    "Bring the correct number of statues",
+    "Unmaking Arrow"
+   ],
+   [
+    "Contest",
+    "Defeat the enemy",
+    "Ring of Ambition"
+   ],
+   [
+    "Futility",
+    "Bring Maurits to the amphora or deliver the amphora to Maurits",
+    "Eternal Bond"
+   ],
+   [
+    "Differentiation",
+    "Bring Vergil or Dante (pawns)",
+    "Whimsical Daydream"
+   ]
+  ],
+  "finale": "Kill the Sphinx after the riddles to get Key of Sagacity, opens the big chest with an Eternal Wakestone; easiest with the Unmaking Arrow (only Archer or Warfarer can fire it)."
+ },
+ "timed_quests": {
+  "Every Rose Has Its Thorn": "Wilhelmina jailed if failed; complete all Brant quests first",
+  "Ordeals of a New Recruit": "Accardo dies",
+  "Prey for the Pack": "Rodge dies",
+  "Shadowed Prayers": "Nadinia dies; fail Candle in the Storm and Crossing in Shadow; cannot buy Bakbattahl house",
+  "Till Death Do Us Part": "Gregor dies",
+  "Oxcart Courier": "no consequence",
+  "Out of the Forest, Into the Forge": "timed, consequence not listed"
+ },
+ "other_mysteries": [
+  "Endings: see main_quests_detail.md",
+  "DLC choice: destroying Sir Rovall's corpse = nightmare fulfilled, game over; sparing continues the story (Eir asks you to seek the Sage)",
+  "DLC choice: helping Eir fight the Fallen Dragon only changes later Eir dialogue; running to Rovall's soul saves time",
+  "Romance: Ulrika, Wilhelmina (base); Eir question page exists (TODO)"
+ ],
+ "todo": "Dragonsplague, Unmoored World secrets, pawn mysteries, DLC Sphinx riddle answers"
+}

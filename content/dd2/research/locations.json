@@ -1,0 +1,17 @@
+{
+ "_source": "Fextralife wiki Locations index (names only, fetched 2026-11-15; ~350 entries, full list curated here by grouping). No descriptions copied. TODO: coordinates (build our own from Rob's playthrough), what each has, quest tie-ins.",
+ "regions": [
+  "Vermund",
+  "Battahl",
+  "Unmoored World (postgame)"
+ ],
+ "groups": {
+  "Settlements/hubs": "Vernworth, Melve, Harve Village, Checkpoint Rest Town, Borderwatch Outpost, Bakbattahl, Nameless Village, Rivage, Geyser Hamlet, Marshland Settlement, Volcanic Island Camp, Seafloor Shrine, Sacred Arbor, Moonglow Garden, Mountain Shrine, Agamen Volcanic Island",
+  "Vernworth districts": "Common Quarter, Merchant Quarter, Noble Quarter, Mercantile Ward, Residential Ward, Cropper's Quarter, Slums, Vernworth Castle (Audience Chamber, Fountain Garden, Magistrate's Office, Gaol Tower, Vault, Kitchens, Dining Hall), The Gracious Hand (and Vaults), Vernworth Pawn Guild, Vernworth Vocation Guild, Satellite Tower, Watchtower",
+  "Battahl": "Bakbattahl, Flamebearer Palace (Audience Chamber, Empress's Chambers, Prayer Hall, History Chamber etc.), Flamebearer Ward, Bakbattahl Gaol, Bakbattahl Pawn Guild, Bakbattahl Vocation Guild, Oxcart Station, Battahl Ropeway stations (Central + One-Four), Ancient Battleground, Indigent Bedlands, Wyrmsblood Forest, Misty Marshes, Malachite Forest, Windworn Gully, Shutram Falls",
+  "Dungeons/caves/ruins": "Tomb of Al'Guttos, Tomb of Am'Ranna, Tomb of Ja'Nuwa, Tomb of Ku'Myage, Tomb of Renu'Lebarr, Tomb of Te'Glarr, Laboratorium (Library, Workshop, Testing Room, Phaesus's Chamber etc.), Caliginous Depths, Echoing Depths, Cavern of the Forsaken, Darkhorde Cave, Darkbeasts' Den, Drabnir's Grotto, Excavation Site, Forbidden Magick Research Lab, Holy Mausoleum Ruins, Worldsend Cavern, Moonglint Tower, Dragonsbreath Tower, Trevo Mine, Derelict Mine, Collapsed Mine, Thunderclap Cave, Stormwind Cave, Twilight Cave, Putrid Cave, Howling Cave, Waterfall Cave, Sandsear Cave, Sandspire Den, Rocky Lair, plus ~40 more small caves/hollows/ruins",
+  "Griffin nests": "Backwoods Nest, Forested Griffin's Nest, Wasteland Griffin's Nest",
+  "Riftstones": "Agamen Ruins, Arborheart, Border Checkpoint, Borderwatch, Moonglint Tower, Volcanic Island, Grand Riftstones of Battahl, the Shrine, Vermund",
+  "Inns/shops (named)": "Pilgrims' Inn (+Flagship), Stardrop Inn, Tristan's Inn, Kough's Inn, Shakir's Inn, Zeplin's Inn, Nameless Inn, Coastal Inn, Sword & Staff, Wanderer's Haven, Ibrahim's Scrap Store, Chandler's General Store, Morris's Apothecary, Eldart's Apothecary, Runne's Apothecary, Awaran's Arms, Bjorn's Armory, Bodas's Armory, Grisha's Armory, Brokkr's Smithy, Celeste's Smithy, Roderick's Smithy, Isaac's Wares, Philbert's Sundries, Rare Book Stand, Clovis's Barberie, Mettefere's Cosmetics"
+ }
+}

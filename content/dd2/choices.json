@@ -1,0 +1,497 @@
+[
+ {
+  "id": "the-arisens-shadow-choice1",
+  "name": "The Arisen's Shadow: What do you do?",
+  "quest": "the-arisens-shadow",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Refuse compensation",
+    "result": "Brant attacks; Bermudo killed",
+    "alignment": "evil"
+   },
+   {
+    "label": "Demand compensation",
+    "result": "Bermudo escapes; keeps him alive, some later Brant quests use him; 5,000 gold",
+    "alignment": "neutral"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "a-beggars-tale-choice1",
+  "name": "A Beggar's Tale: What do you do?",
+  "quest": "a-beggars-tale",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Give garb to Hilda",
+    "result": "Albert returns to work; Onyx reward",
+    "alignment": "good"
+   },
+   {
+    "label": "Give garb to Celina",
+    "result": "Albert exposed as a disguised noble; Albert and Celina die after a few days; gold + Noobloom",
+    "alignment": "evil"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "the-ornate-box-choice1",
+  "name": "The Ornate Box: What do you do?",
+  "quest": "the-ornate-box",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Give Sven gold (box bought and stored)",
+    "result": "Sven happy; reported 5,000 gold + Courtly Breeches/Tunic",
+    "alignment": "neutral"
+   },
+   {
+    "label": "Give Sven the box itself",
+    "result": "Sven pleased but less so; reported 4,000 gold + ring/items",
+    "alignment": "neutral"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "the-phantom-oxcart-choice1",
+  "name": "The Phantom Oxcart: What do you do?",
+  "quest": "the-phantom-oxcart",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Accept gold",
+    "result": "Navil escapes; 5,000 gold",
+    "alignment": "evil"
+   },
+   {
+    "label": "Escort to Vermund",
+    "result": "Navil sent to dungeons",
+    "alignment": "good"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "tensions-on-the-highroad-choice1",
+  "name": "Tensions on the Highroad: What do you do?",
+  "quest": "tensions-on-the-highroad",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Pick Simon",
+    "result": "Chase Raghnall; ambush; talk to Raghnall at campfire",
+    "alignment": "neutral"
+   },
+   {
+    "label": "Pick Raghnall",
+    "result": "Fight beside him; he ends up trapped in cave",
+    "alignment": "neutral"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "short-sighted-ambition-choice1",
+  "name": "Short-Sighted Ambition: What do you do?",
+  "quest": "short-sighted-ambition",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Give Isaac the book",
+    "result": "He turns wife and daughter to dust; he leaves in denial; Ring of Disfavor",
+    "alignment": "evil"
+   },
+   {
+    "label": "Withhold, give fake",
+    "result": "Family spared; 16,000 gold + a volume of the book",
+    "alignment": "good"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "a-candle-in-the-storm-choice1",
+  "name": "A Candle in the Storm: What do you do?",
+  "quest": "a-candle-in-the-storm",
+  "prompt": "What do you do?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Support the Empress's proposal",
+    "result": "Night bandits; asked to eliminate the Empress",
+    "alignment": "neutral"
+   },
+   {
+    "label": "Oppose it",
+    "result": "Assassin flees on finding Empress fake; Menella says you failed",
+    "alignment": "neutral"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "seat-of-the-sovran-choice1",
+  "name": "Vernworth story: A guard asks where a running urchin went",
+  "quest": "seat-of-the-sovran",
+  "prompt": "A guard asks where a running urchin went",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Tell the truth",
+    "result": "The guard chases the urchin off.",
+    "alignment": "good"
+   },
+   {
+    "label": "Lie",
+    "result": "The urchin gets away for now. The guard finds him later and asks you to look again.",
+    "alignment": "evil"
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "the-caged-magistrate-choice1",
+  "name": "The Caged Magistrate: Waldhar keeps talking while you free him",
+  "quest": "the-caged-magistrate",
+  "prompt": "Waldhar keeps talking while you free him",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m07",
+  "options": [
+   {
+    "label": "Urge him to escape",
+    "result": "He won't go until he has his tomes. The Gracious Hand's Vault (opened by The Heel of History) has room for them.",
+    "links": [
+     "the-heel-of-history"
+    ]
+   },
+   {
+    "label": "Tell him to stop talking",
+    "result": "He keeps chatting but still follows the law."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "hunt-for-the-jadeite-orb-choice1",
+  "name": "Hunt for the Jadeite Orb: Who gets the orb?",
+  "quest": "hunt-for-the-jadeite-orb",
+  "prompt": "Who gets the orb?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Real orb to Everard",
+    "result": "You get 2,000 gold and the Ring of Skullduggery."
+   },
+   {
+    "label": "Real orb to Offulve",
+    "result": "You get 3,000 gold and the Elite Camping Kit."
+   },
+   {
+    "label": "Buy fakes from Ibrahim (12,000 gold) and satisfy both",
+    "result": "You get 5,000 gold and both items. Costs more up front."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ],
+  "advice": "Want both rewards? Buy the forgeries from Ibrahim's Scrap Store and hand one to each buyer."
+ },
+ {
+  "id": "steeled-resolve-blazing-forge-choice1",
+  "name": "Regalia Sword: Who repairs the sword?",
+  "quest": "steeled-resolve-blazing-forge",
+  "prompt": "Who repairs the sword?",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Trust Sara with it",
+    "result": "Sara repairs it using 15 Glimmercoal."
+   },
+   {
+    "label": "Refuse",
+    "result": "It gets repaired without Sara."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "legacy-choice1",
+  "name": "Legacy: The Dragon offers you a way out",
+  "quest": "legacy",
+  "prompt": "The Dragon offers you a way out",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m16",
+  "options": [
+   {
+    "label": "Flee and accept",
+    "result": "Bad ending: a sad coronation and the credits roll."
+   },
+   {
+    "label": "Fight and win",
+    "result": "Good ending: coronation and banquet. Sit on the throne for an achievement."
+   },
+   {
+    "label": "Fight, then retry with the Empowered Godsbane Blade",
+    "result": "True ending path: talk to the Pathfinder instead of taking the throne, ride the Dragon to its heart and use the blade. Leads to the Unmoored World."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ],
+  "advice": "To keep the true ending open, you need the Empowered Godsbane Blade from A New Godsway."
+ },
+ {
+  "id": "a-case-of-sculptors-block-choice1",
+  "name": "A Case of Sculptor's Block: How it can end",
+  "quest": "a-case-of-sculptors-block",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "options": [
+   {
+    "label": "Pose and help well",
+    "result": "Perfect statue: bigger gold reward."
+   },
+   {
+    "label": "Poor result",
+    "result": "Smaller gold reward."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "welcome-to-battahl-choice1",
+  "name": "Welcome to Battahl: How it can end",
+  "quest": "welcome-to-battahl",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Win the 3-on-1 fight",
+    "result": "Best reward."
+   },
+   {
+    "label": "Win the duel",
+    "result": "Gold reward."
+   },
+   {
+    "label": "Lose the duel",
+    "result": "You lose 3,000 gold."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "a-poisonous-proposal-choice1",
+  "name": "A Poisonous Proposal: How it can end",
+  "quest": "a-poisonous-proposal",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Keep Jarle alive",
+    "result": "Ring of Purification and the full reward."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "every-rose-has-its-thorn-choice1",
+  "name": "Every Rose Has Its Thorn: How it can end",
+  "quest": "every-rose-has-its-thorn",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Help with the assassination",
+    "result": "Ring of Benevolence and gold."
+   },
+   {
+    "label": "Refuse",
+    "result": "Gold, Tiger Eye and an Allheal Elixir."
+   },
+   {
+    "label": "Tell Allard",
+    "result": "A small gold reward."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "a-veil-of-gossamer-clouds-choice1",
+  "name": "A Veil of Gossamer Clouds: How it can end",
+  "quest": "a-veil-of-gossamer-clouds",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m10",
+  "options": [
+   {
+    "label": "Show the unfinished letter",
+    "result": "Smaller reward."
+   },
+   {
+    "label": "Find the delivered letter",
+    "result": "Bigger gold reward plus a Ferrystone."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "clash-and-conclusion-choice1",
+  "name": "Clash and Conclusion: How it can end",
+  "quest": "clash-and-conclusion",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m15",
+  "options": [
+   {
+    "label": "Defeat him",
+    "result": "Gold and XP."
+   },
+   {
+    "label": "Let him leave",
+    "result": "The Exalted mace, more gold and the Moonglint Key."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "steeled-resolve-blazing-forge-choice2",
+  "name": "Steeled Resolve, Blazing Forge: How it can end",
+  "quest": "steeled-resolve-blazing-forge",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m11",
+  "options": [
+   {
+    "label": "Return the real sword",
+    "result": "The full reward."
+   },
+   {
+    "label": "Return a forgery",
+    "result": "Less gold, and you keep the Restored Regalia Sword."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "a-noble-exchange-choice1",
+  "name": "A Noble Exchange: How it can end",
+  "quest": "a-noble-exchange",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m14",
+  "options": [
+   {
+    "label": "Catch the thief and discard the staff",
+    "result": "Full reward."
+   },
+   {
+    "label": "Keep the staff",
+    "result": "Less gold."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ },
+ {
+  "id": "home-is-where-the-hearth-is-choice1",
+  "name": "Home is Where the Hearth Is: How it can end",
+  "quest": "home-is-where-the-hearth-is",
+  "prompt": "How it can end",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m09",
+  "options": [
+   {
+    "label": "Help fight the soldiers",
+    "result": "Ring of Assurance and gold."
+   },
+   {
+    "label": "Let villagers fight alone",
+    "result": "Experience only."
+   }
+  ],
+  "refs": [
+   "samurai-gamers"
+  ]
+ }
+]

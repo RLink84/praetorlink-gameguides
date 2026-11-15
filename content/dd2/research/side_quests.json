@@ -1,0 +1,815 @@
+{
+ "_source": "Quest names/areas/unlocks: PowerPyx (checked 2026-11-15). Choices: Samurai Gamers dialogue guide. Facts only; reword prose. Rewards and alignment labels provisional (alignment = our own judgment). Missable flags partly from reader comments.",
+ "quests": [
+  {
+   "name": "The Provisioner's Plight",
+   "area": "Borderwatch Outpost",
+   "unlock": "after In Dragon's Wake",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Ordeals of a New Recruit",
+   "area": "Borderwatch Outpost",
+   "unlock": "after In Dragon's Wake",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Claw Them Into Shape",
+   "area": "Moonglow Garden",
+   "unlock": "after In Dragon's Wake",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Beren's Final Lesson",
+   "area": "Moonglow Garden",
+   "unlock": "after Seat of the Sovran + Claw Them Into Shape",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Spellbound",
+   "area": "Eini's House",
+   "unlock": "after In Dragon's Wake",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Medicament Predicament",
+   "area": "Melve",
+   "unlock": "after Seat of the Sovran",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Brothers Brave and Timid",
+   "area": "Melve",
+   "unlock": "after Seat of the Sovran;MISSABLE(reported)",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Nesting Troubles",
+   "area": "Melve",
+   "unlock": "after Seat of the Sovran",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Readvent of Calamity",
+   "area": "Melve",
+   "unlock": "during Vernworth main quests; MISSABLE (do before Feast of Deception)",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [
+    "Home is Where the Hearth Is",
+    "Trouble on the Cape"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Home is Where the Hearth Is",
+   "area": "Melve",
+   "unlock": "after Readvent of Calamity + An Unsettling Encounter",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Oxcart Courier",
+   "area": "Vernworth",
+   "unlock": "after Seat of the Sovran",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Vocation Frustration",
+   "area": "Vernworth",
+   "unlock": "after Seat of the Sovran",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Place to Call Home",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Heel of History",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [
+    "Waldhar main-quest choice (The Gracious Hand's Vault holds many tomes)",
+    "Saint of the Slums"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Case of Sculptor's Block",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Gift of Giving",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "House of the Blue Sunbright",
+   "area": "Vernworth",
+   "unlock": "after The Gift of Giving",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Nameless Village",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests; MISSABLE",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Arisen's Shadow",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests; MISSABLE",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "evil vs neutral (provisional)",
+    "options": [
+     [
+      "Refuse compensation",
+      "Brant attacks; Bermudo killed"
+     ],
+     [
+      "Demand compensation",
+      "Bermudo escapes; keeps him alive, some later Brant quests use him; 5,000 gold"
+     ]
+    ]
+   },
+   "links": [
+    "later Brant-related quests need Bermudo alive"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Beggar's Tale",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "good vs evil (provisional)",
+    "options": [
+     [
+      "Give garb to Hilda",
+      "Albert returns to work; Onyx reward"
+     ],
+     [
+      "Give garb to Celina",
+      "Albert exposed as a disguised noble; Albert and Celina die after a few days; gold + Noobloom"
+     ]
+    ]
+   },
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Gift of the Bow",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Trial of Archery",
+   "area": "Vernworth",
+   "unlock": "after Gift of the Bow",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Till Death Do Us Part",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Saint of the Slums",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests, maybe after The Heel of History",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Ornate Box",
+   "area": "Vernworth",
+   "unlock": "after In Dragon's Wake",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "neutral",
+    "options": [
+     [
+      "Give Sven gold (box bought and stored)",
+      "Sven happy; reported 5,000 gold + Courtly Breeches/Tunic"
+     ],
+     [
+      "Give Sven the box itself",
+      "Sven pleased but less so; reported 4,000 gold + ring/items"
+     ]
+    ]
+   },
+   "links": [
+    "Sven also appears in a main-quest choice (Running Urchin)",
+    "Masked Correspondence"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Masked Correspondence",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests, likely after The Ornate Box; MISSABLE (reported)",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Dulled Steel, Cold Forge",
+   "area": "Vernworth",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [
+    "Steeled Resolve, Blazing Forge",
+    "Out of the Forest, Into the Forge",
+    "The Ailing Arborheart"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Magisterial Amenity",
+   "area": "Vernworth",
+   "unlock": "after The Caged Magistrate",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Every Rose Has Its Thorn",
+   "area": "Vernworth",
+   "unlock": "after Feast of Deception; MISSABLE",
+   "missable": true,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Veil of Gossamer Clouds",
+   "area": "Vernworth",
+   "unlock": "after Feast of Deception",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Phantom Oxcart",
+   "area": "Vernworth",
+   "unlock": "after Nation of the Lambent Flame",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "evil vs good (provisional)",
+    "options": [
+     [
+      "Accept gold",
+      "Navil escapes; 5,000 gold"
+     ],
+     [
+      "Escort to Vermund",
+      "Navil sent to dungeons"
+     ]
+    ]
+   },
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Tensions on the Highroad",
+   "area": "Vernworth",
+   "unlock": "after Nation of the Lambent Flame",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "neutral",
+    "options": [
+     [
+      "Pick Simon",
+      "Chase Raghnall; ambush; talk to Raghnall at campfire"
+     ],
+     [
+      "Pick Raghnall",
+      "Fight beside him; he ends up trapped in cave"
+     ]
+    ]
+   },
+   "links": [
+    "Clash and Conclusion (appears in The Guardian Gigantus only if Raghnall sided with)"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Noble Exchange",
+   "area": "Vernworth",
+   "unlock": "between Nation of the Lambent Flame and A New Godsway",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Crossing in Shadow",
+   "area": "Vernworth",
+   "unlock": "after A Place to Call Home + A Candle in the Storm",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Scaly Invaders",
+   "area": "Harve Village",
+   "unlock": "during Monster Culling",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Trouble on the Cape",
+   "area": "Harve Village",
+   "unlock": "during Readvent of Calamity",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Sorcerer's Appraisal",
+   "area": "Checkpoint Rest Town",
+   "unlock": "during Vernworth main quests",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Hunt for the Jadeite Orb",
+   "area": "Checkpoint Rest Town",
+   "unlock": "after Seat of the Sovran",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [
+    "Jadeite Orb choice (see main_quest_choices)"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Prey for the Pack",
+   "area": "Checkpoint Rest Town",
+   "unlock": "on reaching Checkpoint Rest Town",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Mercy among Thieves",
+   "area": "Checkpoint Rest Town",
+   "unlock": "after crossing into Battahl",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Tolled to Rest",
+   "area": "Ancient Battleground",
+   "unlock": "on entering",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Game of Wits",
+   "area": "Mountain Shrine",
+   "unlock": "on finding the Sphinx",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Welcome to Battahl",
+   "area": "Bakbattahl",
+   "unlock": "on reaching Bakbattahl",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Shadowed Prayers",
+   "area": "Bakbattahl",
+   "unlock": "on reaching Bakbattahl",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Poisonous Proposal",
+   "area": "Bakbattahl",
+   "unlock": "after Nation of the Lambent Flame",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Steeled Resolve, Blazing Forge",
+   "area": "Bakbattahl",
+   "unlock": "after Dulled Steel, Cold Forge",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Out of the Forest, Into the Forge",
+   "area": "Bakbattahl",
+   "unlock": "after The Ailing Arborheart",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Short-Sighted Ambition",
+   "area": "Bakbattahl",
+   "unlock": "after Nation of the Lambent Flame",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "evil vs good (provisional)",
+    "options": [
+     [
+      "Give Isaac the book",
+      "He turns wife and daughter to dust; he leaves in denial; Ring of Disfavor"
+     ],
+     [
+      "Withhold, give fake",
+      "Family spared; 16,000 gold + a volume of the book"
+     ]
+    ]
+   },
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Off the Pilfered Path",
+   "area": "Bakbattahl",
+   "unlock": "after Nation of the Lambent Flame + Mercy among Thieves",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "'Twixt a Rock and a Hard Place",
+   "area": "Bakbattahl",
+   "unlock": "on reaching Bakbattahl",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Put a Spring in Thy Step",
+   "area": "Agamen Volcanic Island",
+   "unlock": "on reaching island",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Sotted Sage",
+   "area": "Agamen Volcanic Island",
+   "unlock": "on reaching island",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Candle in the Storm",
+   "area": "Agamen Volcanic Island",
+   "unlock": "after Shadowed Prayers",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": {
+    "alignment_provisional": "neutral",
+    "options": [
+     [
+      "Support the Empress's proposal",
+      "Night bandits; asked to eliminate the Empress"
+     ],
+     [
+      "Oppose it",
+      "Assassin flees on finding Empress fake; Menella says you failed"
+     ]
+    ]
+   },
+   "links": [
+    "Crossing in Shadow",
+    "Shadowed Prayers (prerequisite)"
+   ],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Clash and Conclusion",
+   "area": "Agamen Volcanic Island",
+   "unlock": "during The Guardian Gigantus, only if Tensions on the Highroad done and Raghnall sided with",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Ailing Arborheart",
+   "area": "Sacred Arbor",
+   "unlock": "after A Trial of Archery + Steeled Resolve, Blazing Forge",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Dreams Apart",
+   "area": "Unmoored World (postgame)",
+   "unlock": "on reaching Unmoored World",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "When Wills Collide",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after Dreams Apart",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "A Scholarly Pursuit",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after Unmoored World Trials",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Halls of the First Dawn",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after Unmoored World Trials",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Regentkin's Resolve",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after starting Halls of the First Dawn",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Wandering Roots",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after starting Halls of the First Dawn",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Civil Unrest",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after starting Halls of the First Dawn",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "The Importance of Aiding Ernesto",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after starting Halls of the First Dawn",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  },
+  {
+   "name": "Shepherd of the Pawns",
+   "area": "Unmoored World (postgame)",
+   "unlock": "after starting Halls of the First Dawn",
+   "missable": false,
+   "play_order_hint": "see unlock",
+   "choice": null,
+   "links": [],
+   "spoiler": 1,
+   "verified_rewards": false
+  }
+ ]
+}

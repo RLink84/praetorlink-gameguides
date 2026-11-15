@@ -1,0 +1,70 @@
+{
+ "_source": "Samurai Gamers dialogue guide",
+ "choices": [
+  {
+   "quest": "Sven: Running Urchin (during Vernworth story)",
+   "options": [
+    [
+     "Tell the truth",
+     "Guard Norman chases the urchin away"
+    ],
+    [
+     "Lie",
+     "Urchin escapes for now; guard later finds him, asks you to look again"
+    ]
+   ],
+   "alignment_provisional": "good vs evil"
+  },
+  {
+   "quest": "Waldhar (Caged Magistrate era)",
+   "options": [
+    [
+     "Urge him to escape",
+     "He won't flee until he has many tomes; Gracious Hand's Vault (unlocked by The Heel of History) has them"
+    ],
+    [
+     "Tell him to stop talking",
+     "He stays chatty but still obeys the law"
+    ]
+   ],
+   "links": [
+    "The Heel of History"
+   ]
+  },
+  {
+   "quest": "Jadeite Orb (Hunt for the Jadeite Orb)",
+   "options": [
+    [
+     "True orb to Everard",
+     "2,000 gold + Ring of Skullduggery"
+    ],
+    [
+     "True orb to Offulve",
+     "3,000 gold + Elite Camping Kit"
+    ],
+    [
+     "Fake orbs, pay Ibrahim 12,000 gold",
+     "5,000 gold + both items"
+    ]
+   ],
+   "links": [
+    "Hunt for the Jadeite Orb"
+   ]
+  },
+  {
+   "quest": "Regalia Sword repair",
+   "options": [
+    [
+     "Entrust to Sara",
+     "Sara repairs it using 15 Glimmercoal"
+    ],
+    [
+     "Refuse",
+     "Repaired without Sara"
+    ]
+   ]
+  }
+ ],
+ "endings": "3 endings reported: Bad, Normal, True (details TODO)",
+ "point_of_no_return": "Reported: side quests largely missable after Main Quest 14 'A New Godsway' (PowerPyx); Guardian Gigantus/Legacy lock-in (other sources) - reconcile in pass 3"
+}

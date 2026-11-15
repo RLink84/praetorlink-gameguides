@@ -1,0 +1,5 @@
+{"_note":"Names from general knowledge, skills/stats TODO pass 2 (Fextralife, Gamer Guides). Note: skill lists are numeric facts, rewrite descriptions.",
+"vocations":[
+{"name":"Fighter","type":"starter","unlock":"TODO"},{"name":"Archer","type":"starter"},{"name":"Mage","type":"starter"},{"name":"Thief","type":"starter"},
+{"name":"Warrior","type":"advanced"},{"name":"Sorcerer","type":"advanced"},
+{"name":"Mystic Spearhand","type":"hybrid"},{"name":"Magick Archer","type":"hybrid"},{"name":"Trickster","type":"hybrid"},{"name":"Warfarer","type":"special"}]}
