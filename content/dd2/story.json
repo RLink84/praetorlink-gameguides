@@ -1,0 +1,225 @@
+[
+ {
+  "id": "m01",
+  "name": "A Gaoled Awakening",
+  "dlc": false,
+  "track": "base",
+  "order": 0,
+  "level": 1,
+  "note": "Prologue. Learn the controls."
+ },
+ {
+  "id": "m02",
+  "name": "Tale's Beginning",
+  "dlc": false,
+  "track": "base",
+  "order": 1,
+  "level": 2,
+  "note": "First steps in the open world."
+ },
+ {
+  "id": "m03",
+  "name": "In Dragon's Wake",
+  "dlc": false,
+  "track": "base",
+  "order": 2,
+  "level": 4,
+  "note": "Borderwatch Outpost and Melve open up."
+ },
+ {
+  "id": "m04",
+  "name": "Seat of the Sovran",
+  "dlc": false,
+  "track": "base",
+  "order": 3,
+  "level": 8,
+  "note": "Reach the capital, Vernworth. Lots of side quests open."
+ },
+ {
+  "id": "m05",
+  "name": "Monster Culling",
+  "dlc": false,
+  "track": "base",
+  "order": 4,
+  "level": 12,
+  "note": "Three jobs around Vermund."
+ },
+ {
+  "id": "m06",
+  "name": "Disa's Plot",
+  "dlc": false,
+  "track": "base",
+  "order": 5,
+  "level": 15,
+  "note": "Night-time mission in Vernworth."
+ },
+ {
+  "id": "m07",
+  "name": "The Caged Magistrate",
+  "dlc": false,
+  "track": "base",
+  "order": 6,
+  "level": 17
+ },
+ {
+  "id": "m08",
+  "name": "The Stolen Throne",
+  "dlc": false,
+  "track": "base",
+  "order": 7,
+  "level": 19
+ },
+ {
+  "id": "m09",
+  "name": "An Unsettling Encounter",
+  "dlc": false,
+  "track": "base",
+  "order": 8,
+  "level": 21
+ },
+ {
+  "id": "m10",
+  "name": "Feast of Deception",
+  "dlc": false,
+  "track": "base",
+  "order": 9,
+  "level": 23,
+  "note": "Some Vernworth side quests close here. Check the Missable list first."
+ },
+ {
+  "id": "m11",
+  "name": "Nation of the Lambent Flame",
+  "dlc": false,
+  "track": "base",
+  "order": 10,
+  "level": 25,
+  "note": "Cross into Battahl."
+ },
+ {
+  "id": "m12",
+  "name": "Flickering Shadows",
+  "dlc": false,
+  "track": "base",
+  "order": 11,
+  "level": 30
+ },
+ {
+  "id": "m13",
+  "name": "Convergence",
+  "dlc": false,
+  "track": "base",
+  "order": 12,
+  "level": 35
+ },
+ {
+  "id": "m14",
+  "name": "A New Godsway",
+  "dlc": false,
+  "track": "base",
+  "order": 13,
+  "level": 38,
+  "note": "Last safe point for most side quests. Finish what you want first."
+ },
+ {
+  "id": "m15",
+  "name": "The Guardian Gigantus",
+  "dlc": false,
+  "track": "base",
+  "order": 14,
+  "level": 42,
+  "note": "Most side quests close after this."
+ },
+ {
+  "id": "m16",
+  "name": "Legacy",
+  "dlc": false,
+  "track": "base",
+  "order": 15,
+  "level": 45,
+  "note": "Final quest. Your choices here decide the ending."
+ },
+ {
+  "id": "pg",
+  "name": "Post-game",
+  "dlc": false,
+  "track": "base",
+  "order": 16,
+  "level": 50
+ },
+ {
+  "id": "d01",
+  "name": "Chilling Tidings",
+  "dlc": true,
+  "track": "dlc",
+  "order": 0,
+  "level": 40,
+  "note": "Start: talk to Captain Brant at the Stardrop Inn, Vernworth, at night."
+ },
+ {
+  "id": "d02",
+  "name": "Rumbles in the North",
+  "dlc": true,
+  "track": "dlc",
+  "order": 1,
+  "level": 42
+ },
+ {
+  "id": "d03",
+  "name": "Seeking the Sage",
+  "dlc": true,
+  "track": "dlc",
+  "order": 2,
+  "level": 44,
+  "note": "Includes three riddle sub-quests."
+ },
+ {
+  "id": "d04",
+  "name": "Sealed History",
+  "dlc": true,
+  "track": "dlc",
+  "order": 3,
+  "level": 46
+ },
+ {
+  "id": "d05",
+  "name": "The Castle in the Ice",
+  "dlc": true,
+  "track": "dlc",
+  "order": 4,
+  "level": 48,
+  "note": "A big choice happens here."
+ },
+ {
+  "id": "d06",
+  "name": "Soul Searching",
+  "dlc": true,
+  "track": "dlc",
+  "order": 5,
+  "level": 50
+ },
+ {
+  "id": "d07",
+  "name": "Where There's a Will, There's a Way",
+  "dlc": true,
+  "track": "dlc",
+  "order": 6,
+  "level": 52
+ },
+ {
+  "id": "d08",
+  "name": "Reunion",
+  "dlc": true,
+  "track": "dlc",
+  "order": 7,
+  "level": 55
+ },
+ {
+  "id": "d09",
+  "name": "Into Rancor",
+  "dlc": true,
+  "track": "dlc",
+  "order": 8,
+  "level": 60,
+  "note": "Post-game of the DLC."
+ }
+]

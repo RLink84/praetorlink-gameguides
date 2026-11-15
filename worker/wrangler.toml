@@ -1,0 +1,20 @@
+# Deploy: npx wrangler d1 create gameguides-pawns  (paste the database_id below)
+#         npx wrangler d1 execute gameguides-pawns --remote --file=schema.sql
+#         npx wrangler deploy
+name = "gameguides-pawns"
+main = "src/index.ts"
+compatibility_date = "2026-11-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "gameguides-pawns"
+database_id = "REPLACE_AFTER_d1_create"
+
+[[unsafe.bindings]]
+name = "RATE"
+type = "ratelimit"
+namespace_id = "1001"
+simple = { limit = 5, period = 60 }
+
+[vars]
+ALLOWED_ORIGINS = "https://rlink84.github.io,https://gameguides.praetorlink.com,tauri://localhost,http://tauri.localhost,http://localhost:5173"

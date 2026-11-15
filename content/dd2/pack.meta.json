@@ -1,0 +1,16 @@
+{
+ "game": "dd2",
+ "title": "Dragon's Dogma 2",
+ "version": "2026.11.15.1",
+ "minAppVersion": "0.1.0",
+ "disclaimer": "PraetorLink Game Guides is an unofficial, free fan guide. It is not made, endorsed or sponsored by Capcom. Dragon's Dogma is a trademark of Capcom Co., Ltd. All guide text is written by PraetorLink from facts gathered by players; no game art, music or wiki text is included.",
+ "sourceList": {
+  "fextralife": { "name": "Fextralife Dragon's Dogma 2 Wiki", "url": "https://dragonsdogma2.wiki.fextralife.com" },
+  "game8": { "name": "Game8", "url": "https://game8.co/games/Dragons-Dogma-2" },
+  "powerpyx": { "name": "PowerPyx", "url": "https://www.powerpyx.com" },
+  "samurai-gamers": { "name": "Samurai Gamers", "url": "https://samurai-gamers.com" },
+  "community": { "name": "Player reports (Steam forums and gaming sites)" },
+  "capcom-steam-post": { "name": "Capcom's pinned Steam support post" },
+  "praetorlink": { "name": "PraetorLink" }
+ }
+}

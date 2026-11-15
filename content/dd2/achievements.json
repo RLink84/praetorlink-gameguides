@@ -1,0 +1,527 @@
+[
+ {
+  "id": "first-taste-of-freedom",
+  "name": "First Taste of Freedom",
+  "how": "Finish the prologue escape.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": [
+   "a-gaoled-awakening",
+   "m02"
+  ]
+ },
+ {
+  "id": "arisen",
+  "name": "Arisen",
+  "how": "Story: get your memories back.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "m04"
+  ]
+ },
+ {
+  "id": "seat-of-the-proxy",
+  "name": "Seat of the Proxy",
+  "how": "Story: reach Vernworth.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "m04"
+  ]
+ },
+ {
+  "id": "across-the-border",
+  "name": "Across the Border",
+  "how": "Story: pass through the border gate.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "m11"
+  ]
+ },
+ {
+  "id": "back-where-it-all-began",
+  "name": "Back Where It All Began",
+  "how": "Story: return to the volcanic island.",
+  "dlc": false,
+  "spoiler": 2,
+  "marks": [
+   "m15"
+  ]
+ },
+ {
+  "id": "peace",
+  "name": "Peace",
+  "how": "Become Sovran. Sit on the throne after the good ending.",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": [
+   "legacy",
+   "m16"
+  ]
+ },
+ {
+  "id": "dragons-dogma-2",
+  "name": "Dragon's Dogma 2",
+  "how": "See the Unmoored World (true ending path).",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": [
+   "legacy",
+   "pg"
+  ]
+ },
+ {
+  "id": "the-hero",
+  "name": "The Hero",
+  "how": "Finish the Unmoored World trials (within 4 days).",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": [
+   "pg"
+  ]
+ },
+ {
+  "id": "the-guardian",
+  "name": "The Guardian",
+  "how": "Lead people to safety in the Unmoored World.",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": [
+   "civil-unrest"
+  ]
+ },
+ {
+  "id": "i-talos",
+  "name": "I, Talos",
+  "how": "Help the giant walk again in the Unmoored World.",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": []
+ },
+ {
+  "id": "closure",
+  "name": "Closure",
+  "how": "See the end of the cycle.",
+  "dlc": false,
+  "spoiler": 3,
+  "marks": []
+ },
+ {
+  "id": "master-of-the-maisters",
+  "name": "Master of the Maisters",
+  "how": "Learn all 10 maister teachings.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "full-marks",
+  "name": "Full Marks",
+  "how": "Solve every Sphinx riddle.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "a-game-of-wits"
+  ]
+ },
+ {
+  "id": "versatile",
+  "name": "Versatile",
+  "how": "Change vocation once.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "duo-destinies",
+  "name": "Duo Destinies",
+  "how": "Become a Mystic Spearhand.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "trickster-of-the-trade",
+  "name": "Trickster of the Trade",
+  "how": "Become a Trickster.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "arrows-and-incantations",
+  "name": "Arrows and Incantations",
+  "how": "Become a Magick Archer.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "put-a-spring-in-thy-step"
+  ]
+ },
+ {
+  "id": "jack-of-all-trades-master-of-all-trades",
+  "name": "Jack of All Trades, Master of…All Trades",
+  "how": "Become a Warfarer.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "the-sotted-sage"
+  ]
+ },
+ {
+  "id": "an-in-tents-adventure",
+  "name": "An In-Tents Adventure",
+  "how": "Camp at a campsite with a camping kit.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "a-house-in-this-economy",
+  "name": "A House? In This Economy?",
+  "how": "Buy a house.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "one-speed-only",
+  "name": "One Speed Only",
+  "how": "Ride an oxcart.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "the-savior",
+  "name": "The Savior",
+  "how": "Revive a dead person with a Wakestone.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "just-a-stones-throw-away",
+  "name": "Just a Stone's Throw Away",
+  "how": "Use a Ferrystone.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "a-badge-of-honor",
+  "name": "A Badge of Honor",
+  "how": "Your pawn earns a badge for beating many large monsters.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "gigantus-i-hardly-knew-ye",
+  "name": "Gigantus, I Hardly Knew Ye",
+  "how": "Break all of the giant's weak spots quickly.",
+  "dlc": false,
+  "spoiler": 2,
+  "marks": []
+ },
+ {
+  "id": "off-with-its-head",
+  "name": "Off with Its Head!",
+  "how": "Cut off a Medusa's head.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "getting-a-head",
+  "name": "Getting a Head",
+  "how": "Get a preserved Medusa head.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "an-eye-for-an-eye",
+  "name": "An Eye for an Eye",
+  "how": "Turn a Medusa to stone.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "the-specialist",
+  "name": "The Specialist",
+  "how": "Reach the top rank (9) in a vocation.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "a-pawn-of-many-talents",
+  "name": "A Pawn of Many Talents",
+  "how": "Teach your pawn a specialization.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "wish-upon-the-rift",
+  "name": "Wish upon the Rift",
+  "how": "Set a pawn quest at a Riftstone.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "myrmecoleon-delights",
+  "name": "Myrmecoleon Delights",
+  "how": "Get inside the Rose Chateau.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "the-collector",
+  "name": "The Collector",
+  "how": "Collect 80 Seeker's Tokens.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "the-philanthropist",
+  "name": "The Philanthropist",
+  "how": "Win the affection of 50 people.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "affinity-and-beyond",
+  "name": "Affinity and Beyond",
+  "how": "Max out one person's affinity.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "dragon-forged",
+  "name": "Dragon Forged",
+  "how": "Strengthen a weapon in wyrmfire.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "thisll-cure-what-ails-ye",
+  "name": "This'll Cure What Ails Ye",
+  "how": "Soak in the hot spring on the volcanic island.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "cyclops-abridged",
+  "name": "Cyclops Abridged",
+  "how": "Get a Cyclops to cross a broken bridge.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "harpy-joyride",
+  "name": "Harpy Joyride",
+  "how": "Summon a harpy with a Harpysnare Smoke Beacon and fly on it.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "quit-playing-dead",
+  "name": "Quit Playing Dead",
+  "how": "Revive two pawns at once.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "dragons-dogma",
+  "name": "Dragon's Dogma",
+  "how": "Get the sword of the same name from the Dragonforged.",
+  "dlc": false,
+  "spoiler": 2,
+  "marks": []
+ },
+ {
+  "id": "the-barbecue-maister",
+  "name": "The Barbecue-Maister",
+  "how": "Grill every kind of meat, by day and by night.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "nobles-night-out",
+  "name": "Nobles' Night Out",
+  "how": "Attend a palace masquerade in formal clothes.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": [
+   "m08"
+  ]
+ },
+ {
+  "id": "thought-id-lost-you",
+  "name": "Thought I'd Lost You",
+  "how": "Revive someone at a morgue or charnel house.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "before-dawn-breaks",
+  "name": "Before Dawn Breaks",
+  "how": "Defeat the headless horseman (night only).",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "the-tourist",
+  "name": "The Tourist",
+  "how": "Discover 50 locations (caves count).",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "are-we-there-yet",
+  "name": "Are We There Yet?",
+  "how": "Board the phantom oxcart.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "the-regriffining",
+  "name": "The Regriffining",
+  "how": "Fly on a griffin a second time.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "plenty-arisen-to-go-round",
+  "name": "Plenty Arisen to Go Round",
+  "how": "Two admirers start a fight in your house.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "roost-of-the-dragon",
+  "name": "Roost of the Dragon",
+  "how": "Reach Dragonsbreath Tower.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "hope-you-brought-a-lantern",
+  "name": "Hope You Brought a Lantern",
+  "how": "Reach Drabnir's Grotto.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "to-the-victor-go-the-spoils",
+  "name": "To the Victor Go the Spoils",
+  "how": "Get your stolen items back from a scavenger.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "im-in",
+  "name": "I'm In",
+  "how": "Sneak through the border gate.",
+  "dlc": false,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "reapers-scorn",
+  "name": "Reaper's Scorn",
+  "how": "Revive several people at once with the Eternal Wakestone.",
+  "dlc": false,
+  "spoiler": 2,
+  "marks": []
+ },
+ {
+  "id": "the-true-arisen",
+  "name": "The True Arisen",
+  "how": "Get every other achievement.",
+  "dlc": false,
+  "spoiler": 0,
+  "marks": []
+ },
+ {
+  "id": "the-forgotten-north",
+  "name": "The Forgotten North",
+  "how": "Arrive in Norgan.",
+  "dlc": true,
+  "spoiler": 1,
+  "marks": [
+   "d01"
+  ]
+ },
+ {
+  "id": "dogma-defied",
+  "name": "Dogma Defied",
+  "how": "Finish the Final Proving Ground without recovering your loss gauge.",
+  "dlc": true,
+  "spoiler": 2,
+  "marks": []
+ },
+ {
+  "id": "dogma-defended",
+  "name": "Dogma Defended",
+  "how": "Do what Norgan's guardian asks after the Fallen Dragon.",
+  "dlc": true,
+  "spoiler": 3,
+  "marks": [
+   "reunion"
+  ]
+ },
+ {
+  "id": "strike",
+  "name": "Strike",
+  "how": "Break five vile eye barriers at once.",
+  "dlc": true,
+  "spoiler": 1,
+  "marks": []
+ },
+ {
+  "id": "abominable-snowstash",
+  "name": "Abominable Snowstash",
+  "how": "Get back everything stolen in The Snatching-Beast.",
+  "dlc": true,
+  "spoiler": 1,
+  "marks": [
+   "the-snatching-beast"
+  ]
+ },
+ {
+  "id": "reunited",
+  "name": "Reunited",
+  "how": "Grant Eir's wish.",
+  "dlc": true,
+  "spoiler": 3,
+  "marks": [
+   "d05"
+  ]
+ }
+]

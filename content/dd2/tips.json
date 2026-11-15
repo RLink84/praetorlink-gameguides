@@ -1,0 +1,678 @@
+[
+ {
+  "id": "riddle-eyes",
+  "name": "Sphinx riddle 1: Eyes",
+  "topic": "riddle",
+  "body": "Hand over the Sealing Phial. It is in the chest above the doorway that opens nearby.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Wakestone."
+  ]
+ },
+ {
+  "id": "riddle-madness",
+  "name": "Sphinx riddle 2: Madness",
+  "topic": "riddle",
+  "body": "Bring the pawn or person you are closest to. Carrying your pawn onto the platform also works.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Portcrystal."
+  ]
+ },
+ {
+  "id": "riddle-wisdom",
+  "name": "Sphinx riddle 3: Wisdom",
+  "topic": "riddle",
+  "body": "Bring a pawn named SphinxFather, SphinxMother or SphinxParent. Search the rift for one by name.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: 1,200 Rift Crystals."
+  ]
+ },
+ {
+  "id": "riddle-conviction",
+  "name": "Sphinx riddle 4: Conviction",
+  "topic": "riddle",
+  "body": "Hand over any item at all.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: the submitted item."
+  ]
+ },
+ {
+  "id": "riddle-rumination",
+  "name": "Sphinx riddle 5: Rumination",
+  "topic": "riddle",
+  "body": "Hand over a Finder's Token. It appears where you picked up your first Seeker's Token.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Ferrystone."
+  ]
+ },
+ {
+  "id": "riddle-reunion",
+  "name": "Sphinx riddle 6: Reunion",
+  "topic": "riddle",
+  "body": "Go to the Frontier Shrine in Battahl.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Gold."
+  ]
+ },
+ {
+  "id": "riddle-recollection",
+  "name": "Sphinx riddle 7: Recollection",
+  "topic": "riddle",
+  "body": "Bring the right number of statues.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Unmaking Arrow."
+  ]
+ },
+ {
+  "id": "riddle-contest",
+  "name": "Sphinx riddle 8: Contest",
+  "topic": "riddle",
+  "body": "Beat the enemy she sends at you.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Ring of Ambition."
+  ]
+ },
+ {
+  "id": "riddle-futility",
+  "name": "Sphinx riddle 9: Futility",
+  "topic": "riddle",
+  "body": "Bring Maurits to the amphora, or carry the amphora to Maurits.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Eternal Bond."
+  ]
+ },
+ {
+  "id": "riddle-differentiation",
+  "name": "Sphinx riddle 10: Differentiation",
+  "topic": "riddle",
+  "body": "Bring a pawn named Vergil or Dante.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Reward: Whimsical Daydream."
+  ]
+ },
+ {
+  "id": "riddle-finale",
+  "name": "Sphinx finale",
+  "topic": "riddle",
+  "body": "After her riddles you can fight the Sphinx. Beating her gives the Key of Sagacity, which opens a big chest holding an Eternal Wakestone. The Unmaking Arrow makes it much easier, but only an Archer or Warfarer can fire it.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "riddle-where",
+  "name": "Where the Sphinx is",
+  "topic": "riddle",
+  "body": "Her riddles start at the Mountain Shrine in Vermund and continue at the Frontier Shrine in Battahl.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "leveling-rock-lizards-near-checkpoint-rest-town",
+  "name": "Rock lizards near Checkpoint Rest Town",
+  "topic": "leveling",
+  "body": "A campfire near Checkpoint Rest Town has lots of rock lizards (about 624 XP each). Further along are an armoured Cyclops (about 2,678), two Minotaurs (about 3,296 each) and a hidden Chimera (about 5,047).",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Take the west Vernworth oxcart (about 200 gold).",
+   "Go down the bridge and follow the stream to a cave.",
+   "Keep right, climb out and cross the wooden bridge to the campfire."
+  ],
+  "level": [
+   10,
+   25
+  ]
+ },
+ {
+  "id": "leveling-go-to-bakbattahl-early",
+  "name": "Go to Bakbattahl early",
+  "topic": "leveling",
+  "body": "Enemies around Bakbattahl give 200 to 500 XP each, against 100 to 150 near Vernworth. The Guerco Cavern route is easier (one Stone Golem and a Chimera). The northern canyon from Checkpoint is harder.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   10,
+   25
+  ]
+ },
+ {
+  "id": "leveling-griffin-near-melve",
+  "name": "Griffin near Melve",
+  "topic": "leveling",
+  "body": "Players report the Griffin near the tower by Melve gives about 7,000 XP and respawns. Not yet confirmed by us.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   10,
+   25
+  ]
+ },
+ {
+  "id": "leveling-hobgoblins-west-of-bakbattahl",
+  "name": "Hobgoblins west of Bakbattahl",
+  "topic": "leveling",
+  "body": "Use the campfire south of Bakbattahl's western road. Hobgoblins give about 295 to 550 XP each.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   25,
+   40
+  ]
+ },
+ {
+  "id": "leveling-volcanic-island",
+  "name": "Volcanic Island",
+  "topic": "leveling",
+  "body": "Strong XP and DCP (the points you spend on vocation skills) after you unlock Magick Archer or Warfarer there. Martyr's Bolt can drop a Drake in one or two hits, at a cost to your health.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   25,
+   40
+  ]
+ },
+ {
+  "id": "leveling-road-to-dragonsbreath-tower",
+  "name": "Road to Dragonsbreath Tower",
+  "topic": "leveling",
+  "body": "Knackers (about 417 XP), Redwolves (about 479) and Lost Mercenaries (about 556). Bring a ranged weapon for the Gore Harpies.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m14",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   40,
+   60
+  ]
+ },
+ {
+  "id": "leveling-drakes",
+  "name": "Drakes",
+  "topic": "leveling",
+  "body": "Drakes give some of the best XP late in the game. Bring holy or ice damage.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m14",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   40,
+   60
+  ]
+ },
+ {
+  "id": "leveling-basics",
+  "name": "Levelling basics",
+  "topic": "leveling",
+  "body": "A few habits that speed up levelling all game long.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Big groups add up: about ten goblins are worth one Cyclops.",
+   "Resting at a campfire respawns many enemies. Cook food with a camping kit for stat boosts.",
+   "Cyclops and Minotaurs come back about every 3 in-game days, Drakes about every 7.",
+   "Area-damage pawns (Sorcerer, Warrior) clear groups faster.",
+   "The Ring of Ambition gives a little extra XP.",
+   "Warfarer splits XP across every vocation you have unlocked. To level one vocation fast, keep only that one unlocked."
+  ]
+ },
+ {
+  "id": "ending-base",
+  "name": "Base game endings",
+  "topic": "ending",
+  "body": "Flee from the Dragon and agree: bad ending. Fight and defeat the Dragon: good ending. True ending: you need the Empowered Godsbane Blade. Talk to the Pathfinder instead of taking the throne, retry the fight, ride the Dragon to its chest and use the blade. This opens the Unmoored World. Not uncovering the truth unlocks New Game Plus.",
+  "spoiler": 3,
+  "dlc": false,
+  "stage": "m14",
+  "refs": [
+   "fextralife"
+  ]
+ },
+ {
+  "id": "ending-dlc",
+  "name": "Dark Arisen endings",
+  "topic": "ending",
+  "body": "Normal: spare Ser Rovall's remains in The Castle in the Ice, then finish Reunion and beat the Fallen Dragon. Bad: destroy the remains and fight Eir, which ends your game (reload). True: after Reunion, finish Into Rancor and beat Satanachia in Nifhel Depth.",
+  "spoiler": 3,
+  "dlc": true,
+  "stage": "d05",
+  "refs": [
+   "fextralife"
+  ]
+ },
+ {
+  "id": "secret-eir-help",
+  "name": "Helping Eir in the dragon fight",
+  "topic": "secret",
+  "body": "Helping Eir against the Fallen Dragon only changes some later dialogue. Running to Rovall's soul instead saves time.",
+  "spoiler": 3,
+  "dlc": true,
+  "stage": "d08",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "secret-romance",
+  "name": "Romance",
+  "topic": "secret",
+  "body": "People reported as romance options: Ulrika and Wilhelmina in the base game, and Eir in Dark Arisen (not yet confirmed).",
+  "spoiler": 2,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "leveling-lost-rites",
+  "name": "Lost Rites for XP",
+  "topic": "leveling",
+  "body": "The repeatable Lost Rites dungeons are a strong late-game XP source.",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "m14",
+  "refs": [
+   "game8"
+  ],
+  "level": [
+   40,
+   60
+  ]
+ },
+ {
+  "id": "general-hard-mode",
+  "name": "Hard Mode",
+  "topic": "general",
+  "body": "A free update added Hard Mode for everyone. Enemies hit harder and take more, and you earn more XP and DCP.",
+  "spoiler": 0,
+  "dlc": false,
+  "stage": "m01",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "general-spoils",
+  "name": "Spoils (Norgan relics)",
+  "topic": "general",
+  "body": "Norgan drops unappraised Spoils. Get them appraised at the settlement for random stats. Hal's workshop can make some pieces outright after Hammer and Tongs.",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "secret-obelisks",
+  "name": "Obelisks of Benediction",
+  "topic": "secret",
+  "body": "Nine Obelisks in Norgan teach new weapon skills (none for Warfarer). To use one fully, bring an Offering Flame from the last chest of a Lost Rites dungeon.",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "refs": [
+   "game8"
+  ],
+  "steps": [
+   "Mage: just east of the settlement. You need a Climbing Hook (one is in a house in the Abandoned Village further east).",
+   "Fighter: north-east of the settlement on a hill you can climb, guarded by a Beorcan group.",
+   "Archer: north-west of Valgr Ravine, high on the mountain. Approach from the north.",
+   "Thief: north-east of the Beorcan Stronghold near the main road. Hostiles around.",
+   "Sorcerer: south of the Beorcan Stronghold, across the lake north-west of the settlement.",
+   "Warrior: inside the Mad Lord's Chapel near the Shrine of Wisdom Portcrystal. Beat the Mad Lord.",
+   "Mystic Spearhand: north-east of Inner Valley Grotto. Opens after Sage's Wisdom: Riddle of the Body.",
+   "Magick Archer: Norgan Snowfield near the Snowslide Pass cave. Ghouls guard it.",
+   "Trickster: west of the marked spot using a Climbing Hook, or through the east exit of Gagana's Grotto. An ice dragon guards it."
+  ]
+ },
+ {
+  "id": "secret-slimes",
+  "name": "Slimes in Norgan",
+  "topic": "secret",
+  "body": "Blue and purple slimes can only be killed with poison.",
+  "spoiler": 1,
+  "dlc": true,
+  "stage": "d02",
+  "refs": [
+   "game8"
+  ]
+ },
+ {
+  "id": "error-d3d",
+  "name": "Fatal D3D error / device hung",
+  "topic": "error",
+  "body": "A common PC crash. Try these one at a time and test after each.",
+  "spoiler": 0,
+  "dlc": false,
+  "stage": "m01",
+  "refs": [
+   "community"
+  ],
+  "steps": [
+   "Verify the game files in Steam (right-click the game, Properties, Installed Files).",
+   "Turn off overlays (Steam, Discord, GPU tools) and close background apps.",
+   "Update your graphics driver, and lower graphics settings if crashes happen in busy areas.",
+   "Advanced: raise Windows' GPU timeout (TdrDelay in the registry). Back up the registry first."
+  ],
+  "platform": "PC"
+ },
+ {
+  "id": "error-server",
+  "name": "Failed to retrieve server information",
+  "topic": "error",
+  "body": "Online features (pawn rift) can't connect. Usually a server or network blip. Check your connection, restart the game and try again later.",
+  "spoiler": 0,
+  "dlc": false,
+  "stage": "m01",
+  "refs": [
+   "community"
+  ]
+ },
+ {
+  "id": "error-0x2000000",
+  "name": "Error 0x2000000 (pawn creation)",
+  "topic": "error",
+  "body": "Reported when creating a pawn. No confirmed fix yet. Try restarting the game.",
+  "spoiler": 0,
+  "dlc": false,
+  "stage": "m01",
+  "refs": [
+   "community"
+  ]
+ },
+ {
+  "id": "error-ctd",
+  "name": "Crashes to desktop",
+  "topic": "error",
+  "body": "Capcom's own advice: add the game to your antivirus exclusions, install Windows updates and verify the game files. Below minimum specs is not supported.",
+  "spoiler": 0,
+  "dlc": false,
+  "stage": "m01",
+  "refs": [
+   "capcom-steam-post"
+  ],
+  "platform": "PC"
+ },
+ {
+  "id": "boss-cyclops",
+  "name": "Cyclops",
+  "topic": "boss",
+  "body": "Big, slow giant with one eye.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m02",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Aim for the eye, it is the weak spot.",
+   "Climb up and hit the head, or break its armour first.",
+   "Knock it down by hitting its legs, then go for the eye."
+  ]
+ },
+ {
+  "id": "boss-griffin",
+  "name": "Griffin",
+  "topic": "boss",
+  "body": "Flying beast that swoops in and out.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Use fire or ranged attacks to bring it down.",
+   "Grab its back and hit the wings to ground it.",
+   "Hang on when it flies, then drop and attack when it lands."
+  ]
+ },
+ {
+  "id": "boss-ogre",
+  "name": "Ogre",
+  "topic": "boss",
+  "body": "Strong brute that charges and grabs.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m03",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Its weak spot is the head.",
+   "Dodge the charges and attack its back.",
+   "It likes to grab women, so watch your female pawns."
+  ]
+ },
+ {
+  "id": "boss-minotaur",
+  "name": "Minotaur",
+  "topic": "boss",
+  "body": "Bull-headed charger.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Dodge the charge sideways.",
+   "Break its horns.",
+   "Fire works well."
+  ]
+ },
+ {
+  "id": "boss-golem",
+  "name": "Golem",
+  "topic": "boss",
+  "body": "Stone construct powered by glowing discs.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Destroy the glowing discs on its body.",
+   "Normal hits barely work until the discs are gone.",
+   "Climb it to reach the high ones."
+  ]
+ },
+ {
+  "id": "boss-drake",
+  "name": "Drake",
+  "topic": "boss",
+  "body": "A lesser dragon, a real test.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Find its heart (a glowing spot on its chest) and hit it hard.",
+   "Holy and ice magic help. Fire usually doesn't.",
+   "Stay out of its breath attack."
+  ]
+ },
+ {
+  "id": "boss-medusa",
+  "name": "Medusa",
+  "topic": "boss",
+  "body": "Snake-woman whose gaze turns you to stone.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Don't look at her: stay behind her or crouch out of the gaze.",
+   "Cutting off her head gives you a Medusa Head that can petrify other enemies.",
+   "Carry potions that cure petrification."
+  ]
+ },
+ {
+  "id": "boss-lich",
+  "name": "Lich",
+  "topic": "boss",
+  "body": "Undead spellcaster.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Holy magic does big damage.",
+   "Hit it during its casting animation.",
+   "Kill the undead it summons."
+  ]
+ },
+ {
+  "id": "boss-dullahan",
+  "name": "Dullahan",
+  "topic": "boss",
+  "body": "Headless horseman that appears at night.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m11",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Holy damage works well.",
+   "Attack its glowing body pieces.",
+   "Bring a lantern and light sources."
+  ]
+ },
+ {
+  "id": "boss-chimera",
+  "name": "Chimera",
+  "topic": "boss",
+  "body": "Three heads in one: lion, goat and snake.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m04",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Cut off the snake tail first, it poisons you.",
+   "Then kill the goat head, which casts spells.",
+   "Finish the lion."
+  ]
+ },
+ {
+  "id": "boss-talos-the-gigantus",
+  "name": "Talos (the Gigantus)",
+  "topic": "boss",
+  "body": "The giant from The Guardian Gigantus.",
+  "spoiler": 1,
+  "dlc": false,
+  "stage": "m15",
+  "refs": [
+   "praetorlink"
+  ],
+  "steps": [
+   "Climb it and break its weak points one by one.",
+   "Breaking them all quickly earns an achievement."
+  ]
+ }
+]
