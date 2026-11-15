@@ -48,7 +48,11 @@ export async function checkForPackUpdate(current: Pack, opts: { force?: boolean 
     const base = UPDATE_BASE.endsWith("/") ? UPDATE_BASE : UPDATE_BASE + "/";
     const m = (await (await fetch(`${base}packs/${game}/manifest.json`, { cache: "no-store" })).json()) as Manifest;
     localStorage.setItem(K_CHECK(game), String(Date.now()));
-    if (compareVersions(m.version, current.version) <= 0) return { status: "none" };
+    // Compare against what is already downloaded too, so a running app doesn't refetch the same update
+    // every few hours and overwrite the rollback copy with it.
+    const have = cached(game);
+    const newest = have && compareVersions(have.version, current.version) > 0 ? have.version : current.version;
+    if (compareVersions(m.version, newest) <= 0) return { status: "none" };
     if (compareVersions(APP_VERSION, m.minAppVersion) < 0) return { status: "needs-app-update", version: m.version };
     const body = await (await fetch(new URL(m.url, `${base}packs/${game}/`).toString(), { cache: "no-store" })).text();
     if ((await sha256(body)) !== m.sha256) return { status: "error", message: "Download didn't match its checksum, so it was ignored." };

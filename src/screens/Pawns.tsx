@@ -1,6 +1,6 @@
 // Pawn board: players post their main pawn so others can find and hire it. Needs the small pawn-board
 // server (worker/). Until it's set up (VITE_PAWN_API), the screen shows community links instead.
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useApp } from "../ui/state";
 import { Page, Empty } from "../ui/components";
 
@@ -10,7 +10,7 @@ const PLATFORMS: [string, string][] = [["pc", "PC (Steam)"], ["playstation", "Pl
 const MINE = "plgg.pawns.mine";
 
 interface Pawn { id: string; pawnId: string; name: string; level: number; vocation: string; platform: string; specialization?: string; notes?: string; createdAt: number }
-type Mine = { id: string; deleteCode: string; name: string }[];
+type Mine = { id: string; deleteCode: string; name: string; pawnId?: string; platform?: string }[];
 const mine = (): Mine => { try { return JSON.parse(localStorage.getItem(MINE) || "[]"); } catch { return []; } };
 
 function Post({ onDone }: { onDone: () => void }) {
@@ -21,10 +21,12 @@ function Post({ onDone }: { onDone: () => void }) {
   const send = async () => {
     setBusy(true);
     try {
-      const r = await fetch(`${API}/pawns`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...f, game: "dd2" }) });
-      const j = await r.json();
+      const pawnId = f.pawnId.toUpperCase().replace(/[^A-Z0-9]/g, "");
+      const prev = mine().find((m) => m.pawnId === pawnId && m.platform === f.platform);
+      const r = await fetch(`${API}/pawns`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ ...f, game: "dd2", deleteCode: prev?.deleteCode }) });
+      const j = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(j.error || "Couldn't post");
-      localStorage.setItem(MINE, JSON.stringify([...mine(), { id: j.id, deleteCode: j.deleteCode, name: f.name }]));
+      localStorage.setItem(MINE, JSON.stringify([...mine().filter((m) => m.id !== j.id), { id: j.id, deleteCode: j.deleteCode, name: f.name, pawnId, platform: f.platform }]));
       toast("Pawn posted. It stays up for 60 days.");
       onDone();
     } catch (e) {
@@ -61,10 +63,12 @@ export function Pawns() {
   const [list, setList] = useState<Pawn[] | null>(null);
   const [posting, setPosting] = useState(false);
   const [err, setErr] = useState("");
+  const seq = useRef(0);
 
   const load = async () => {
     if (!API) return;
     setErr("");
+    const n = ++seq.current;
     try {
       const u = new URL(`${API}/pawns`);
       u.searchParams.set("game", "dd2");
@@ -72,22 +76,38 @@ export function Pawns() {
       if (voc) u.searchParams.set("vocation", voc);
       if (q.trim()) u.searchParams.set("q", q.trim());
       const r = await fetch(u.toString());
-      setList(((await r.json()) as { pawns: Pawn[] }).pawns);
+      if (!r.ok) throw new Error(String(r.status));
+      const j = (await r.json()) as { pawns: Pawn[] };
+      if (n === seq.current) setList(j.pawns ?? []); // ignore answers to older searches
     } catch {
-      setErr("Couldn't reach the pawn board. Check your connection.");
+      if (n === seq.current) setErr("Couldn't reach the pawn board. Check your connection.");
     }
   };
   // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { void load(); }, [platform, voc]);
 
   const report = async (id: string) => {
-    await fetch(`${API}/pawns/${id}/report`, { method: "POST" });
-    toast("Thanks. Posts with several reports are hidden.");
+    try {
+      const r = await fetch(`${API}/pawns/${id}/report`, { method: "POST" });
+      if (!r.ok) throw new Error(String(r.status));
+      toast("Thanks. Posts with several reports are hidden.");
+    } catch {
+      toast("Couldn't send the report. Try again in a minute.");
+    }
   };
   const remove = async (m: Mine[number]) => {
-    await fetch(`${API}/pawns/${m.id}`, { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ deleteCode: m.deleteCode }) });
+    let j: { ok?: boolean };
+    try {
+      const r = await fetch(`${API}/pawns/${m.id}`, { method: "DELETE", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ deleteCode: m.deleteCode }) });
+      if (!r.ok) throw new Error(String(r.status));
+      j = await r.json();
+    } catch {
+      // Keep the delete code so the player can try again.
+      toast("Couldn't remove your pawn right now. Try again in a minute.");
+      return;
+    }
     localStorage.setItem(MINE, JSON.stringify(mine().filter((x) => x.id !== m.id)));
-    toast("Your pawn was removed.");
+    toast(j.ok ? "Your pawn was removed." : "That post was already gone (it may have expired).");
     void load();
   };
 

@@ -79,16 +79,22 @@ export default {
       if (!(level >= 1 && level <= 300)) return json({ error: "Level must be 1 to 300." }, 400);
       if (!VOCATIONS.includes(vocation)) return json({ error: "Pick a vocation." }, 400);
       if (!PLATFORMS.includes(platform)) return json({ error: "Pick a platform." }, 400);
-      const id = crypto.randomUUID();
       const deleteCode = crypto.randomUUID().replace(/-/g, "").slice(0, 16);
-      await env.DB.prepare(
+      // Re-posting the same pawn updates the existing post only for its owner (the old delete code) or once
+      // it has expired. Otherwise anyone could take over a post, or clear its reports by posting again.
+      const row = await env.DB.prepare(
         `INSERT INTO pawns (id, game, pawn_id, name, level, vocation, platform, specialization, notes, delete_hash, created_at, expires_at)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
          ON CONFLICT(game, platform, pawn_id) DO UPDATE SET name=excluded.name, level=excluded.level, vocation=excluded.vocation,
-           specialization=excluded.specialization, notes=excluded.notes, delete_hash=excluded.delete_hash, reports=0,
-           created_at=excluded.created_at, expires_at=excluded.expires_at`,
-      ).bind(id, clean(b.game || "dd2", 16), pawnId, name, level, vocation, platform, clean(b.specialization, 40), clean(b.notes, 160),
-        await sha256(deleteCode), now, now + 60 * DAY).run();
+           specialization=excluded.specialization, notes=excluded.notes, delete_hash=excluded.delete_hash,
+           reports=CASE WHEN pawns.expires_at <= ? THEN 0 ELSE pawns.reports END,
+           created_at=excluded.created_at, expires_at=excluded.expires_at
+         WHERE pawns.delete_hash = ? OR pawns.expires_at <= ?
+         RETURNING id`,
+      ).bind(crypto.randomUUID(), clean(b.game || "dd2", 16), pawnId, name, level, vocation, platform, clean(b.specialization, 40), clean(b.notes, 160),
+        await sha256(deleteCode), now, now + 60 * DAY, now, await sha256(clean(b.deleteCode, 40)), now).first<{ id: string }>();
+      if (!row) return json({ error: "This pawn is already on the board. Remove the old post first, from the device that posted it." }, 409);
+      const id = row.id;
       return json({ id, deleteCode }, 201);
     }
 

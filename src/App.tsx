@@ -28,7 +28,9 @@ function Shell() {
     const m = /#sync=([^&]+)/.exec(location.hash);
     if (!m) return;
     try {
-      setProfile((p) => applySync(m[1], pack, p));
+      // Decode outside the state updater so a bad code is caught here instead of crashing the render.
+      const next = applySync(m[1], pack, profile);
+      setProfile(() => next);
       toast("Progress imported from your other device");
     } catch (e) {
       toast(e instanceof Error ? e.message : "That sync code didn't work");

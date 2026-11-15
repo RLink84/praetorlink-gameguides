@@ -50,10 +50,11 @@ export function validatePack(p: Pack, banned: string[] = []): Report {
     for (const o of c.options ?? []) for (const l of o.links ?? []) if (!questIds.has(l)) errors.push(`choice:${c.id}: link ${l} not found`);
   }
   for (const a of p.achievements) {
+    if (!Array.isArray(a.marks)) { errors.push(`achievement:${a.id}: marks must be a list`); continue; }
     for (const m of a.marks) if (!questIds.has(m) && !stories.has(m)) errors.push(`achievement:${a.id}: mark ${m} not found`);
   }
   for (const i of p.items) if (!Array.isArray(i.sources)) errors.push(`item:${i.id}: sources must be a list`);
-  const noSource = p.items.filter((i) => i.sources.length === 0).length;
+  const noSource = p.items.filter((i) => Array.isArray(i.sources) && i.sources.length === 0).length;
   if (noSource) warnings.push(`${noSource} items have no known source yet`);
 
   // Story order must be 0..n-1 per track.
