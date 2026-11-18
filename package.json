@@ -1,7 +1,7 @@
 {
   "name": "praetorlink-gameguides",
   "private": true,
-  "version": "0.1.1",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "predev": "tsx scripts/build-pack.ts",
@@ -17,6 +17,7 @@
     "@tauri-apps/plugin-opener": "^2.7.3",
     "@tauri-apps/plugin-process": "^2.4.0",
     "@tauri-apps/plugin-updater": "^2.14.0",
+    "fflate": "^0.8.3",
     "minisearch": "^7.2.0",
     "qrcode": "^1.5.4",
     "react": "^19.3.1",

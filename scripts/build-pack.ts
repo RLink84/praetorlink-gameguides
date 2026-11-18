@@ -3,7 +3,7 @@
 // Usage: tsx scripts/build-pack.ts [--check] [game]   (default game: dd2)
 // PACK_VERSION in the environment overrides the version in pack.meta.json (CI uses this).
 import { createHash } from "node:crypto";
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync, existsSync, copyFileSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Pack, Manifest } from "../src/core/types";
@@ -43,6 +43,41 @@ if (existsSync(wtFile)) {
   }
 }
 
+// Links: quest id -> one online page with maps and pictures. "_map" is the interactive map.
+const linkFile = join(dir, "links.json");
+if (existsSync(linkFile)) {
+  const links = JSON.parse(readFileSync(linkFile, "utf8")) as Record<string, string>;
+  if (links._map) pack.mapUrl = links._map;
+  for (const [id, url] of Object.entries(links)) {
+    if (id.startsWith("_")) continue;
+    const q = pack.quests.find((x) => x.id === id);
+    if (!q) { console.error(`error: links.json has unknown quest id ${id}`); process.exit(1); }
+    if (!/^https:\/\//.test(url)) { console.error(`error: links.json ${id} must be an https link`); process.exit(1); }
+    q.guideUrl = url;
+  }
+}
+
+// Our own screenshots: content/<game>/images/images.json maps quest id -> [{file, caption, by}].
+// Files sit next to it and are copied to public/packs/<game>/img/.
+const imgDir = join(dir, "images");
+const imgIndex = join(imgDir, "images.json");
+const imgFiles: string[] = [];
+if (existsSync(imgIndex)) {
+  const idx = JSON.parse(readFileSync(imgIndex, "utf8")) as Record<string, { file: string; caption: string; by?: string }[]>;
+  for (const [id, list] of Object.entries(idx)) {
+    if (id.startsWith("_")) continue;
+    const q = pack.quests.find((x) => x.id === id);
+    if (!q) { console.error(`error: images.json has unknown quest id ${id}`); process.exit(1); }
+    for (const im of list) {
+      if (!/^[a-z0-9-]+\/[a-z0-9._-]+\.(jpe?g|png|webp)$/.test(im.file) || !existsSync(join(imgDir, im.file))) {
+        console.error(`error: images.json ${id}: missing or badly named file ${im.file}`); process.exit(1);
+      }
+      imgFiles.push(im.file);
+    }
+    q.images = list;
+  }
+}
+
 // Optional banned-phrase list: exact sentences we must never ship (e.g. copied text found in review).
 const bannedFile = join(dir, "banned-phrases.json");
 const banned: string[] = existsSync(bannedFile) ? JSON.parse(readFileSync(bannedFile, "utf8")) : [];
@@ -64,6 +99,10 @@ const out = join(root, "public", "packs", game);
 mkdirSync(out, { recursive: true });
 const body = JSON.stringify(pack);
 writeFileSync(join(out, "pack.json"), body);
+for (const f of imgFiles) {
+  mkdirSync(dirname(join(out, "img", f)), { recursive: true });
+  copyFileSync(join(imgDir, f), join(out, "img", f));
+}
 const manifest: Manifest = {
   game,
   version: pack.version,

@@ -3,6 +3,7 @@ import { useApp } from "../ui/state";
 import { Page, Tag, Reveal, Rewards, Speak, TesterBar, Empty } from "../ui/components";
 import { questStatus, advanceAfter, stepById, visible, nameAllowed, detailAllowed, type QuestStatus } from "../core/logic";
 import type { Choice } from "../core/types";
+import { QuestMedia } from "./QuestMedia";
 
 type Filter = "open" | "all" | "main" | "side" | "dlc" | "missable" | "done";
 
@@ -151,6 +152,7 @@ export function QuestDetail({ id }: { id: string }) {
       {q.steps?.length ? (
         <Walkthrough steps={q.steps} name={nameAllowed(pack, pos, profile, q) ? q.name : "this quest"} />
       ) : <div className="card walkthrough"><h2>Full walkthrough</h2><p className="muted small">Coming soon for this quest.</p></div>}
+      <QuestMedia quest={q} />
       {q.related?.length ? (
         <div className="card"><h2>Linked quests</h2>
           {q.related.map((r) => { const o = pack.quests.find((x) => x.id === r); return o && visible(o, profile) ? <button key={r} className="row-btn" onClick={() => go(`quest/${r}`)}>{nameAllowed(pack, pos, profile, o) ? o.name : "A later quest"}</button> : null; })}
