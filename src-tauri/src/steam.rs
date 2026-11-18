@@ -62,3 +62,76 @@ pub fn read_steam_stats(appid: u32, steam_path: Option<String>) -> Result<SteamS
     let user = std::fs::read(path).map_err(|e| e.to_string())?;
     Ok(SteamStats { schema, user, account })
 }
+
+// ---- Steam screenshots (F12). Steam keeps them in
+//   userdata/<accountid>/760/remote/<appid>/screenshots/*.jpg  (+ thumbnails/ with the same names)
+// We only list and read files inside those folders. Read-only.
+
+#[derive(Serialize)]
+pub struct Shot {
+    /// Full path of the screenshot (passed back to read_steam_screenshot).
+    path: String,
+    /// Seconds since 1970, newest first.
+    taken: u64,
+    /// Small JPEG thumbnail bytes (empty if Steam made none).
+    thumb: Vec<u8>,
+}
+
+fn shot_dirs(appid: u32, steam_path: Option<String>) -> Vec<PathBuf> {
+    let mut dirs = Vec::new();
+    for root in candidates(steam_path) {
+        let userdata = root.join("userdata");
+        if let Ok(rd) = std::fs::read_dir(&userdata) {
+            for e in rd.flatten() {
+                let d = e.path().join("760").join("remote").join(appid.to_string()).join("screenshots");
+                if d.is_dir() {
+                    dirs.push(d);
+                }
+            }
+        }
+        if !dirs.is_empty() {
+            break;
+        }
+    }
+    dirs
+}
+
+#[tauri::command]
+pub fn list_steam_screenshots(appid: u32, steam_path: Option<String>, limit: Option<usize>) -> Result<Vec<Shot>, String> {
+    let dirs = shot_dirs(appid, steam_path);
+    if dirs.is_empty() {
+        return Err("No Steam screenshots for this game yet. Press F12 in the game to take one.".into());
+    }
+    let mut all: Vec<(u64, PathBuf)> = Vec::new();
+    for d in &dirs {
+        for e in std::fs::read_dir(d).map_err(|e| e.to_string())?.flatten() {
+            let p = e.path();
+            let is_jpg = p.extension().map_or(false, |x| x.eq_ignore_ascii_case("jpg") || x.eq_ignore_ascii_case("png"));
+            if p.is_file() && is_jpg {
+                let t = e.metadata().and_then(|m| m.modified()).ok()
+                    .and_then(|m| m.duration_since(std::time::UNIX_EPOCH).ok()).map_or(0, |d| d.as_secs());
+                all.push((t, p));
+            }
+        }
+    }
+    all.sort_by(|a, b| b.0.cmp(&a.0));
+    all.truncate(limit.unwrap_or(24).min(60));
+    Ok(all.into_iter().map(|(taken, p)| {
+        let thumb_path = p.parent().map(|d| d.join("thumbnails").join(p.file_name().unwrap_or_default()));
+        let thumb = thumb_path.and_then(|t| std::fs::read(t).ok()).unwrap_or_default();
+        Shot { path: p.to_string_lossy().to_string(), taken, thumb }
+    }).collect())
+}
+
+#[tauri::command]
+pub fn read_steam_screenshot(appid: u32, steam_path: Option<String>, path: String) -> Result<tauri::ipc::Response, String> {
+    let wanted = std::fs::canonicalize(&path).map_err(|e| e.to_string())?;
+    let allowed = shot_dirs(appid, steam_path).into_iter()
+        .filter_map(|d| std::fs::canonicalize(d).ok())
+        .any(|d| wanted.parent() == Some(d.as_path()));
+    if !allowed {
+        return Err("That file isn't one of this game's Steam screenshots.".into());
+    }
+    let bytes = std::fs::read(&wanted).map_err(|e| e.to_string())?;
+    Ok(tauri::ipc::Response::new(bytes))
+}

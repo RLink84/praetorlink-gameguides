@@ -35,6 +35,10 @@ export interface Quest extends Base {
   missable?: boolean;
   level?: number;
   steps?: string[];
+  /** One online page with maps and pictures for this quest (we link, never copy). */
+  guideUrl?: string;
+  /** Our own screenshots for this quest (files in packs/<game>/img/). */
+  images?: QuestImage[];
   rewards?: Reward[];
   choices?: string[];
   related?: string[];
@@ -100,6 +104,8 @@ export interface Achievement {
   marks: string[];
 }
 
+export interface QuestImage { file: string; caption: string; by?: string }
+
 export interface Pack {
   game: string;
   title: string;
@@ -109,6 +115,8 @@ export interface Pack {
   disclaimer: string;
   /** Source key -> display name and site, for credits. */
   sourceList: Record<string, { name: string; url?: string }>;
+  /** Interactive map to link to. */
+  mapUrl?: string;
   story: StoryStep[];
   quests: Quest[];
   choices: Choice[];

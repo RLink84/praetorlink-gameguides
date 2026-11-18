@@ -6,6 +6,7 @@ import { encodeSync, decodeSync, type Profile } from "../core/progress";
 import { checkForPackUpdate, rollbackPack, APP_VERSION, UPDATE_BASE } from "../core/pack";
 import { checkAppUpdate, setCompactWindow, type AppUpdate } from "../core/appUpdate";
 import { isTauri } from "../core/steam";
+import { exportShots, allShots } from "../core/shots";
 import type { Spoiler } from "../core/types";
 
 const SPOILERS: [Spoiler, string, string][] = [
@@ -43,6 +44,28 @@ function SyncCard() {
       <p className="muted small">Shows a QR code that holds your progress. Scan it with your phone camera and the guide opens with the same progress. The code stays in the link itself: nothing is uploaded.</p>
       <button onClick={make}>Make QR code</button>
       {qr && <div className="qr"><img src={qr} alt="QR code with your progress" /><button className="link small" onClick={() => navigator.clipboard?.writeText(url)}>Copy link instead</button></div>}
+    </div>
+  );
+}
+
+function ShotsCard() {
+  const { pack, toast } = useApp();
+  const [count, setCount] = useState<number | null>(null);
+  useEffect(() => { allShots().then((l) => setCount(l.length)).catch(() => setCount(0)); }, []);
+  const send = async () => {
+    const zip = await exportShots(pack.game);
+    if (!zip) return toast("No screenshots yet. Add some on a quest page.");
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(zip);
+    a.download = `my-screenshots-${pack.game}-${new Date().toISOString().slice(0, 10)}.zip`;
+    a.click();
+    toast("Saved the zip. Send it to PraetorLink to add your pictures to the guide.");
+  };
+  return (
+    <div className="card">
+      <h2>My screenshots</h2>
+      <p className="muted small">{count === null ? "Counting…" : `${count} screenshot${count === 1 ? "" : "s"} attached to quests on this device.`} Saves them with their captions as one zip file. Only include pictures you took yourself.</p>
+      <button onClick={() => void send()} disabled={!count}>Save my screenshots as a zip</button>
     </div>
   );
 }
@@ -136,6 +159,8 @@ export function Settings() {
 
       <SyncCard />
 
+      <ShotsCard />
+
       <div className="card">
         <h2>Updates</h2>
         <p className="small">Guide data {pack.version} ({packFrom === "update" ? "downloaded update" : "built in"}). The app checks for new guide data on launch and every 6 hours.</p>
@@ -162,7 +187,7 @@ export function Settings() {
       <div className="card about">
         <h2>About</h2>
         <p className="small">{pack.disclaimer}</p>
-        <p className="small"><strong>Privacy:</strong> no account, no ads, no tracking. Your progress is saved only on this device. The app goes online to check for guide and app updates, and to load the Pawn board. A pawn you post there is public until you remove it or it expires after 60 days.</p>
+        <p className="small"><strong>Privacy:</strong> no account, no ads, no tracking. Your progress and screenshots are saved only on this device. The app goes online to check for guide and app updates, and to load the Pawn board. A pawn you post there is public until you remove it or it expires after 60 days.</p>
         <p className="small">Facts gathered with thanks from: {Object.values(pack.sourceList).map((s) => s.name).join(", ")}. All wording is our own.</p>
         <p className="small muted" onClick={tapVersion} role="button" tabIndex={0} onKeyDown={(e) => e.key === "Enter" && tapVersion()}>PraetorLink Game Guides {APP_VERSION} · PraetorLink Games</p>
       </div>

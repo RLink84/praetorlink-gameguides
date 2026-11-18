@@ -2,21 +2,13 @@
 // server (worker/). Until it's set up (VITE_PAWN_API), the screen shows community links instead.
 import { useEffect, useRef, useState } from "react";
 import { useApp } from "../ui/state";
-import { Page, Empty } from "../ui/components";
-import { isTauri } from "../core/steam";
+import { Page, Empty, openExternal } from "../ui/components";
 
 const API = (import.meta.env.VITE_PAWN_API as string | undefined)?.replace(/\/$/, "");
 const VOCS = ["Fighter", "Archer", "Mage", "Thief", "Warrior", "Sorcerer", "Mystic Spearhand", "Magick Archer", "Trickster"];
 const PLATFORMS: [string, string][] = [["pc", "PC (Steam)"], ["playstation", "PlayStation"], ["xbox", "Xbox"]];
 const MINE = "plgg.pawns.mine";
 
-/** In the desktop app, open links in the normal browser. */
-function openExternal(e: { preventDefault: () => void; currentTarget: HTMLAnchorElement }) {
-  if (!isTauri()) return;
-  e.preventDefault();
-  const url = e.currentTarget.href;
-  void import("@tauri-apps/plugin-opener").then((m) => m.openUrl(url));
-}
 
 interface Pawn { id: string; pawnId: string; name: string; level: number; vocation: string; platform: string; specialization?: string; notes?: string; createdAt: number }
 type Mine = { id: string; deleteCode: string; name: string; pawnId?: string; platform?: string }[];

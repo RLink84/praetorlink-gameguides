@@ -2,6 +2,7 @@ import { useState, type ReactNode } from "react";
 import type { Base, Reward, Alignment } from "../core/types";
 import { detailAllowed } from "../core/logic";
 import { useApp } from "./state";
+import { isTauri } from "../core/steam";
 
 /** Shows children only when the spoiler setting allows `level`; otherwise a tap-to-reveal button. */
 export function Reveal({ entry, level, label, children }: { entry: Base; level: number; label?: string; children: ReactNode }) {
@@ -108,4 +109,12 @@ export function TesterBar({ kind, entry }: { kind: string; entry: Base }) {
       </div>
     </div>
   );
+}
+
+/** In the desktop app, open links in the normal browser. */
+export function openExternal(e: { preventDefault: () => void; currentTarget: HTMLAnchorElement }) {
+  if (!isTauri()) return;
+  e.preventDefault();
+  const url = e.currentTarget.href;
+  void import("@tauri-apps/plugin-opener").then((m) => m.openUrl(url));
 }

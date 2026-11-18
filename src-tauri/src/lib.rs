@@ -1,5 +1,5 @@
 // Native side of PraetorLink Game Guides. Kept tiny on purpose: the whole guide runs in the web view.
-// The only native feature is reading Steam's local achievement files (read-only, nothing is sent anywhere).
+// Native features: reading Steam's local achievement files and this game's Steam screenshots (read-only, nothing is sent anywhere).
 mod steam;
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
@@ -12,7 +12,7 @@ pub fn run() {
         builder = builder.plugin(tauri_plugin_updater::Builder::new().build());
     }
     builder
-        .invoke_handler(tauri::generate_handler![steam::read_steam_stats])
+        .invoke_handler(tauri::generate_handler![steam::read_steam_stats, steam::list_steam_screenshots, steam::read_steam_screenshot])
         .run(tauri::generate_context!())
         .expect("error while running PraetorLink Game Guides");
 }
