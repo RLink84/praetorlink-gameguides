@@ -135,3 +135,36 @@ pub fn read_steam_screenshot(appid: u32, steam_path: Option<String>, path: Strin
     let bytes = std::fs::read(&wanted).map_err(|e| e.to_string())?;
     Ok(tauri::ipc::Response::new(bytes))
 }
+
+// ---- Video clips (OBS replay buffer, Steam game recording exports, etc.)
+// Lists the newest video files in a folder the player chose. Read-only; we never copy or upload them.
+
+#[derive(Serialize)]
+pub struct Clip {
+    path: String,
+    name: String,
+    taken: u64,
+    size: u64,
+}
+
+#[tauri::command]
+pub fn list_clips(folder: String, limit: Option<usize>) -> Result<Vec<Clip>, String> {
+    let dir = PathBuf::from(folder.trim());
+    if !dir.is_dir() {
+        return Err("That clips folder doesn't exist. Check the folder in Settings.".into());
+    }
+    let mut all: Vec<Clip> = Vec::new();
+    for e in std::fs::read_dir(&dir).map_err(|e| e.to_string())?.flatten() {
+        let p = e.path();
+        let ext = p.extension().map(|x| x.to_string_lossy().to_ascii_lowercase()).unwrap_or_default();
+        if !p.is_file() || !["mp4", "mkv", "webm", "mov"].contains(&ext.as_str()) {
+            continue;
+        }
+        let meta = match e.metadata() { Ok(m) => m, Err(_) => continue };
+        let taken = meta.modified().ok().and_then(|m| m.duration_since(std::time::UNIX_EPOCH).ok()).map_or(0, |d| d.as_secs());
+        all.push(Clip { path: p.to_string_lossy().to_string(), name: e.file_name().to_string_lossy().to_string(), taken, size: meta.len() });
+    }
+    all.sort_by(|a, b| b.taken.cmp(&a.taken));
+    all.truncate(limit.unwrap_or(30).min(100));
+    Ok(all)
+}

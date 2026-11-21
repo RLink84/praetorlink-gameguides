@@ -163,3 +163,8 @@ a.btn:hover, a.btn:focus-visible { border-color: var(--gold); }
 .zoom { position: fixed; inset: 0; background: rgba(0,0,0,.88); display: flex; align-items: center; justify-content: center; z-index: 50; cursor: zoom-out; }
 .zoom img { max-width: 96vw; max-height: 92vh; object-fit: contain; }
 .zoom-close { position: absolute; top: .8rem; right: .8rem; }
+.check.auto { margin: .5rem 0; padding: .5rem .6rem; border: 1px dashed var(--gold); border-radius: 10px; }
+.clips { margin-top: .6rem; }
+.clip { border-top: 1px solid var(--line); padding: .4rem 0; }
+.clip input { width: 100%; }
+a.btn.video { border-color: #c4302b; }

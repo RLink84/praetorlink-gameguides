@@ -12,7 +12,7 @@ pub fn run() {
         builder = builder.plugin(tauri_plugin_updater::Builder::new().build());
     }
     builder
-        .invoke_handler(tauri::generate_handler![steam::read_steam_stats, steam::list_steam_screenshots, steam::read_steam_screenshot])
+        .invoke_handler(tauri::generate_handler![steam::read_steam_stats, steam::list_steam_screenshots, steam::read_steam_screenshot, steam::list_clips])
         .run(tauri::generate_context!())
         .expect("error while running PraetorLink Game Guides");
 }

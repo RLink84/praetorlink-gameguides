@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { autoCapture } from "./core/shots";
+import { isTauri, DD2_APPID } from "./core/steam";
 import type { Pack } from "./core/types";
 import { loadPack, checkForPackUpdate } from "./core/pack";
 import { AppProvider, useApp } from "./ui/state";
@@ -65,6 +67,29 @@ function Shell() {
     const i = setInterval(check, 15_000);
     return () => clearInterval(i);
   }, [profile.timers, toast]);
+
+  // Auto-attach: while a quest is active, new Steam screenshots and clips attach to it (desktop app).
+  useEffect(() => {
+    if (!isTauri() || !settings.activeQuest || !settings.activeSince) return;
+    const quest = settings.activeQuest;
+    const name = pack.quests.find((q) => q.id === quest)?.name ?? "your quest";
+    let busy = false;
+    const run = async () => {
+      if (busy) return;
+      busy = true;
+      try {
+        const r = await autoCapture({ appid: DD2_APPID, quest, since: settings.activeSince!, steamPath: settings.steamPath, clipsFolder: settings.clipsFolder });
+        if (r.shots || r.clips) {
+          window.dispatchEvent(new Event("plgg-shots-changed"));
+          const parts = [r.shots && `${r.shots} screenshot${r.shots === 1 ? "" : "s"}`, r.clips && `${r.clips} clip${r.clips === 1 ? "" : "s"}`].filter(Boolean).join(" and ");
+          toast(`📷 Added ${parts} to ${name}`);
+        }
+      } finally { busy = false; }
+    };
+    void run();
+    const i = setInterval(() => void run(), 20_000);
+    return () => clearInterval(i);
+  }, [settings.activeQuest, settings.activeSince, settings.steamPath, settings.clipsFolder, pack, toast]);
 
   // Keyboard shortcuts: "/" focuses search, Escape goes back.
   useEffect(() => {

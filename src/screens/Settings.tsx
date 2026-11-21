@@ -49,7 +49,7 @@ function SyncCard() {
 }
 
 function ShotsCard() {
-  const { pack, toast } = useApp();
+  const { pack, toast, settings, setSettings } = useApp();
   const [count, setCount] = useState<number | null>(null);
   useEffect(() => { allShots().then((l) => setCount(l.length)).catch(() => setCount(0)); }, []);
   const send = async () => {
@@ -64,8 +64,13 @@ function ShotsCard() {
   return (
     <div className="card">
       <h2>My screenshots</h2>
-      <p className="muted small">{count === null ? "Counting…" : `${count} screenshot${count === 1 ? "" : "s"} attached to quests on this device.`} Saves them with their captions as one zip file. Only include pictures you took yourself.</p>
-      <button onClick={() => void send()} disabled={!count}>Save my screenshots as a zip</button>
+      <p className="muted small">{count === null ? "Counting…" : `${count} screenshot${count === 1 ? "" : "s"} attached to quests on this device.`} Saves them with their captions as one zip file, plus a list of your clips and their YouTube links (not the videos themselves). Only include pictures you took yourself.</p>
+      {isTauri() && (
+        <label>Clips folder (where OBS or Steam saves your video clips)
+          <input placeholder="C:\\Users\\you\\Videos" value={settings.clipsFolder ?? ""} onChange={(e) => setSettings((s) => ({ ...s, clipsFolder: e.target.value || undefined }))} />
+        </label>
+      )}
+      <button onClick={() => void send()}>Save my screenshots as a zip</button>
     </div>
   );
 }
