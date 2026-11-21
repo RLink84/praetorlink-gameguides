@@ -39,6 +39,8 @@ export interface Quest extends Base {
   guideUrl?: string;
   /** Our own screenshots for this quest (files in packs/<game>/img/). */
   images?: QuestImage[];
+  /** Videos of this quest on our own channel. */
+  videos?: QuestVideo[];
   rewards?: Reward[];
   choices?: string[];
   related?: string[];
@@ -103,6 +105,8 @@ export interface Achievement {
   /** Quest or story ids that this achievement proves are done. */
   marks: string[];
 }
+
+export interface QuestVideo { url: string; title: string }
 
 export interface QuestImage { file: string; caption: string; by?: string }
 

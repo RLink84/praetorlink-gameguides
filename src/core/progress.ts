@@ -34,6 +34,12 @@ export interface Settings {
   steamPath?: string;
   voiceRate: number;
   welcomed: boolean;
+  /** Quest that new Steam screenshots and clips attach to automatically (desktop app). */
+  activeQuest?: string;
+  /** When auto-attach was switched on (ms). Only shots taken after this are picked up. */
+  activeSince?: number;
+  /** Folder where OBS or another recorder saves video clips. */
+  clipsFolder?: string;
 }
 
 const KEY_PROFILES = "plgg.profiles.v1";

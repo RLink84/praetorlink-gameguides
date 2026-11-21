@@ -78,6 +78,21 @@ if (existsSync(imgIndex)) {
   }
 }
 
+// Our own videos (SuperRobio): content/<game>/videos.json maps quest id -> [{url, title}]. YouTube links only.
+const vidFile = join(dir, "videos.json");
+if (existsSync(vidFile)) {
+  const vids = JSON.parse(readFileSync(vidFile, "utf8")) as Record<string, { url: string; title: string }[]>;
+  for (const [id, list] of Object.entries(vids)) {
+    if (id.startsWith("_")) continue;
+    const q = pack.quests.find((x) => x.id === id);
+    if (!q) { console.error(`error: videos.json has unknown quest id ${id}`); process.exit(1); }
+    for (const v of list) {
+      if (!/^https:\/\/(www\.)?(youtube\.com\/watch\?v=|youtu\.be\/)[\w-]{6,}/.test(v.url)) { console.error(`error: videos.json ${id}: not a YouTube link: ${v.url}`); process.exit(1); }
+    }
+    q.videos = list;
+  }
+}
+
 // Optional banned-phrase list: exact sentences we must never ship (e.g. copied text found in review).
 const bannedFile = join(dir, "banned-phrases.json");
 const banned: string[] = existsSync(bannedFile) ? JSON.parse(readFileSync(bannedFile, "utf8")) : [];

@@ -5,7 +5,7 @@ import { useApp } from "../ui/state";
 import { Reveal, openExternal } from "../ui/components";
 import { UPDATE_BASE } from "../core/pack";
 import { DD2_APPID, isTauri } from "../core/steam";
-import { shotsFor, addShot, deleteShot, saveShot, steamShots, readSteamShot, type Shot, type SteamShot } from "../core/shots";
+import { shotsFor, addShot, deleteShot, saveShot, steamShots, readSteamShot, clipsFor, saveClip, deleteClip, openClip, type Shot, type SteamShot, type ClipRef } from "../core/shots";
 import type { Quest } from "../core/types";
 
 const base = UPDATE_BASE.endsWith("/") ? UPDATE_BASE : UPDATE_BASE + "/";
@@ -66,7 +66,12 @@ function MyShots({ quest }: { quest: Quest }) {
     old.forEach((s) => URL.revokeObjectURL(s.url));
     return l.map((s) => ({ ...s, url: URL.createObjectURL(s.blob) }));
   }));
-  useEffect(() => { void load(); }, [quest.id]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => {
+    void load();
+    const on = () => void load();
+    window.addEventListener("plgg-shots-changed", on);
+    return () => window.removeEventListener("plgg-shots-changed", on);
+  }, [quest.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const addFiles = async (files: FileList | null) => {
     if (!files?.length) return;
@@ -93,6 +98,7 @@ function MyShots({ quest }: { quest: Quest }) {
         <button onClick={() => file.current?.click()}>Add a picture</button>
         <input ref={file} type="file" accept="image/*" multiple hidden onChange={(e) => { void addFiles(e.target.files); e.target.value = ""; }} />
       </div>
+      {isTauri() && <AutoToggle quest={quest} />}
       {picking && <SteamPicker onPick={(s) => void addSteam(s)} onClose={() => setPicking(false)} />}
       {shots.length > 0 && (
         <div className="shot-grid">
@@ -107,7 +113,57 @@ function MyShots({ quest }: { quest: Quest }) {
           ))}
         </div>
       )}
+      {isTauri() && <MyClips quest={quest} />}
       {zoom && <Zoom alt="My screenshot" onClose={() => setZoom(null)}><img src={zoom} alt="My screenshot" /></Zoom>}
+    </div>
+  );
+}
+
+function AutoToggle({ quest }: { quest: Quest }) {
+  const { settings, setSettings, toast, pack } = useApp();
+  const on = settings.activeQuest === quest.id;
+  const other = settings.activeQuest && !on ? pack.quests.find((q) => q.id === settings.activeQuest)?.name : undefined;
+  const flip = () => {
+    setSettings((s) => (on ? { ...s, activeQuest: undefined, activeSince: undefined } : { ...s, activeQuest: quest.id, activeSince: Date.now() }));
+    toast(on ? "Auto-attach off" : "Auto-attach on: press F12 in the game and the shot lands here");
+  };
+  return (
+    <label className="check auto">
+      <input type="checkbox" checked={on} onChange={flip} />
+      <span><strong>I'm doing this quest:</strong> attach my new F12 screenshots{settings.clipsFolder ? " and clips" : ""} here automatically
+        {other && <span className="muted small"> (this moves it from {other})</span>}</span>
+    </label>
+  );
+}
+
+function MyClips({ quest }: { quest: Quest }) {
+  const { settings } = useApp();
+  const [clips, setClips] = useState<ClipRef[]>(() => clipsFor(quest.id));
+  useEffect(() => {
+    setClips(clipsFor(quest.id));
+    const on = () => setClips(clipsFor(quest.id));
+    window.addEventListener("plgg-shots-changed", on);
+    return () => window.removeEventListener("plgg-shots-changed", on);
+  }, [quest.id]);
+  const update = (c: ClipRef) => { saveClip(c); setClips(clipsFor(quest.id)); };
+  if (!clips.length) {
+    return settings.clipsFolder ? null : <p className="muted small">Record video with OBS or Steam? Set your clips folder in Settings and new clips attach here too.</p>;
+  }
+  return (
+    <div className="clips">
+      <h3>My clips</h3>
+      {clips.map((c) => (
+        <div key={c.id} className="clip">
+          <div className="row">
+            <span className="row-title">🎬 {c.name}</span>
+            <button className="small" onClick={() => void openClip(c.path)}>Play</button>
+            <button className="small" onClick={() => void openClip(c.path, true)}>Show in folder</button>
+            <button className="link small danger" onClick={() => { deleteClip(c.id); setClips(clipsFor(quest.id)); }}>Remove</button>
+          </div>
+          <input placeholder="YouTube link once it's on SuperRobio" aria-label="YouTube link" defaultValue={c.youtube ?? ""}
+            onBlur={(e) => update({ ...c, youtube: e.target.value.trim() || undefined })} />
+        </div>
+      ))}
     </div>
   );
 }
@@ -122,6 +178,13 @@ export function QuestMedia({ quest }: { quest: Quest }) {
         {pack.mapUrl && <a className="btn" href={pack.mapUrl} target="_blank" rel="noreferrer" onClick={openExternal}>🗺 Open the interactive map</a>}
         {quest.guideUrl && <a className="btn" href={quest.guideUrl} target="_blank" rel="noreferrer" onClick={openExternal}>Pictures and map for this quest online ↗</a>}
       </div>
+      {quest.videos?.length ? (
+        <Reveal entry={quest} level={2} label="videos">
+          <div className="row">
+            {quest.videos.map((v) => <a key={v.url} className="btn video" href={v.url} target="_blank" rel="noreferrer" onClick={openExternal}>▶ Watch on SuperRobio: {v.title}</a>)}
+          </div>
+        </Reveal>
+      ) : null}
       {quest.guideUrl && <p className="muted small">These open other websites in your browser. Their pages may show spoilers.</p>}
       {quest.images?.length ? (
         <Reveal entry={quest} level={2} label="pictures">

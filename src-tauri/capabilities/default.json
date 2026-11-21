@@ -11,7 +11,25 @@
     "core:window:allow-set-size",
     "process:allow-restart",
     "opener:default",
-    "updater:default"
+    "updater:default",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        {
+          "path": "**/*.mp4"
+        },
+        {
+          "path": "**/*.mkv"
+        },
+        {
+          "path": "**/*.webm"
+        },
+        {
+          "path": "**/*.mov"
+        }
+      ]
+    },
+    "opener:allow-reveal-item-in-dir"
   ],
   "platforms": [
     "windows",
