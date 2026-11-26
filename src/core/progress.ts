@@ -1,5 +1,6 @@
 // Playthrough profiles. Everything stays on this device (localStorage). Nothing is sent anywhere.
 import type { Spoiler } from "./types";
+import type { Look } from "../ui/look";
 
 export interface Timer { id: string; label: string; endsAt: number; questId?: string }
 
@@ -40,7 +41,10 @@ export interface Settings {
   activeSince?: number;
   /** Folder where OBS or another recorder saves video clips. */
   clipsFolder?: string;
+  /** Look and feel choices (theme, motion, menu place, density, main colour). Missing = defaults. */
+  look?: Partial<Look>;
 }
+
 
 const KEY_PROFILES = "plgg.profiles.v1";
 const KEY_SETTINGS = "plgg.settings.v1";

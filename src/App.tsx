@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { applyLook, resolveLook, startBackground } from "./ui/look";
 import { autoCapture } from "./core/shots";
 import { isTauri, DD2_APPID } from "./core/steam";
 import type { Pack } from "./core/types";
@@ -20,6 +21,23 @@ const NAV: [string, string, string][] = [
   ["leveling", "Level up", "⬆"], ["secrets", "Secrets", "✧"], ["checklist", "Checklist", "☑"], ["party", "Party", "⚑"], ["pawns", "Pawn board", "☺"],
   ["shopping", "Shopping", "🛒"], ["fixit", "Fix it", "🛠"], ["ask", "Ask", "?"], ["settings", "Settings", "⚙"],
 ];
+
+/** The slow colour light behind the glass panels. Still when motion is off; plain black in high contrast. */
+function Background() {
+  const { settings } = useApp();
+  const ref = useRef<HTMLCanvasElement>(null);
+  const now = useRef(settings);
+  now.current = settings;
+  useEffect(() => {
+    if (!ref.current) return;
+    const reduce = () => typeof matchMedia === "function" && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    return startBackground(ref.current, () => {
+      const s = now.current, look = resolveLook(s.look);
+      return { look, still: s.reduceMotion || reduce() || look.motion === "calm", plain: s.highContrast };
+    });
+  }, []);
+  return <canvas id="fxbg" ref={ref} aria-hidden="true" />;
+}
 
 function Shell() {
   const { route, go, settings, pack, profile, setProfile, toast } = useApp();
@@ -108,6 +126,7 @@ function Shell() {
     r.classList.toggle("hc", settings.highContrast);
     r.classList.toggle("calm", settings.reduceMotion);
     r.classList.toggle("compact", settings.compact);
+    applyLook(resolveLook(settings.look), settings.reduceMotion);
   }, [settings]);
 
   const [page, id] = route;
@@ -140,6 +159,7 @@ function Shell() {
   const active = page === "quest" ? "quests" : page === "item" ? "items" : page === "area" ? "world" : page;
   return (
     <div className="shell">
+      <Background />
       <header className="top">
         <button className="icon-btn menu-btn" aria-label="Menu" aria-expanded={menu} onClick={() => setMenu(!menu)}>☰</button>
         <button className="brand" onClick={() => go("now")}><img src="icon.svg" alt="" width={24} height={24} /> Game Guides <span className="muted">· {pack.title}</span></button>

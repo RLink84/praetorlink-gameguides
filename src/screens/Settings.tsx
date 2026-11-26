@@ -8,6 +8,7 @@ import { checkAppUpdate, setCompactWindow, type AppUpdate } from "../core/appUpd
 import { isTauri } from "../core/steam";
 import { exportShots, allShots } from "../core/shots";
 import type { Spoiler } from "../core/types";
+import { LOOK_CHOICES, resolveLook, type Look } from "../ui/look";
 
 const SPOILERS: [Spoiler, string, string][] = [
   [0, "Names only", "Just quest and item names. Tap to see more."],
@@ -15,6 +16,35 @@ const SPOILERS: [Spoiler, string, string][] = [
   [2, "Medium", "Also steps, tips and rewards."],
   [3, "Full", "Everything, including choice outcomes and endings."],
 ];
+
+function LookCard() {
+  const { settings, setSettings } = useApp();
+  const look = resolveLook(settings.look);
+  const set = (k: keyof Look, v: string) => setSettings((s) => ({ ...s, look: { ...resolveLook(s.look), [k]: v } }));
+  return (
+    <div className="card" id="lookcard">
+      <div className="row look-head"><h2>Look and feel</h2>
+        <button className="link small" onClick={() => setSettings((s) => ({ ...s, look: undefined }))}>Back to defaults</button></div>
+      <p className="muted small">Changes show straight away and are saved on this device only.{settings.reduceMotion ? " Reduce motion is on, so nothing moves whatever you pick here." : ""}</p>
+      <div className="lookgrid">
+        {LOOK_CHOICES.map(([k, title, opts]) => {
+          const cur = opts.find((o) => o[0] === look[k]);
+          return (
+            <div key={k} className="lookopt" role="group" aria-label={title}>
+              <h3>{title}</h3>
+              <div className="row">
+                {opts.map(([v, label, hint]) => k === "color"
+                  ? <button key={v} className={look[k] === v ? "swatch on" : "swatch"} style={{ background: v }} title={label} aria-label={label} aria-pressed={look[k] === v} onClick={() => set(k, v)} />
+                  : <button key={v} className={look[k] === v ? "chip on" : "chip"} title={hint} aria-pressed={look[k] === v} onClick={() => set(k, v)}>{label}</button>)}
+              </div>
+              <p className="muted small lookhint">{cur?.[2] || cur?.[1]}</p>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 export function syncLists(pack: ReturnType<typeof useApp>["pack"]) {
   return { quests: pack.quests.map((q) => q.id), items: pack.items.map((i) => i.id), achievements: pack.achievements.map((a) => a.id) };
@@ -140,6 +170,8 @@ export function Settings() {
         ))}
         <p className="muted small">Content from parts of the story you haven't reached is always hidden until you tap, whatever you choose here.</p>
       </div>
+
+      <LookCard />
 
       <div className="card">
         <h2>Display and controls</h2>

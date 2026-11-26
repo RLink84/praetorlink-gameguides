@@ -139,3 +139,12 @@ describe("steam sync", () => {
     expect(normName("Dragon’s Dogma 2")).toBe(normName("Dragon's Dogma 2"));
   });
 });
+
+describe("look and feel", () => {
+  it("fills in defaults and ignores unknown choices", async () => {
+    const { resolveLook, DEFAULT_LOOK } = await import("../src/ui/look");
+    expect(resolveLook(undefined)).toEqual(DEFAULT_LOOK);
+    expect(resolveLook({ look: "holo", color: "#7fd4ff" })).toEqual({ ...DEFAULT_LOOK, look: "holo", color: "#7fd4ff" });
+    expect(resolveLook({ look: "nope" as never, menu: "dock" })).toEqual({ ...DEFAULT_LOOK, menu: "dock" });
+  });
+});
