@@ -41,6 +41,8 @@ export interface Quest extends Base {
   images?: QuestImage[];
   /** Videos of this quest on our own channel. */
   videos?: QuestVideo[];
+  /** One existing YouTube walkthrough by another creator, played in YouTube's own player and credited. */
+  walkVideo?: WalkVideo;
   rewards?: Reward[];
   choices?: string[];
   related?: string[];
@@ -107,6 +109,7 @@ export interface Achievement {
 }
 
 export interface QuestVideo { url: string; title: string }
+export interface WalkVideo { yt: string; by: string; len: string }
 
 export interface QuestImage { file: string; caption: string; by?: string }
 

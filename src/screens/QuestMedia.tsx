@@ -6,7 +6,7 @@ import { Reveal, openExternal } from "../ui/components";
 import { UPDATE_BASE } from "../core/pack";
 import { DD2_APPID, isTauri } from "../core/steam";
 import { shotsFor, addShot, deleteShot, saveShot, steamShots, readSteamShot, clipsFor, saveClip, deleteClip, openClip, type Shot, type SteamShot, type ClipRef } from "../core/shots";
-import type { Quest } from "../core/types";
+import type { Quest, WalkVideo } from "../core/types";
 
 const base = UPDATE_BASE.endsWith("/") ? UPDATE_BASE : UPDATE_BASE + "/";
 
@@ -164,6 +164,29 @@ function MyClips({ quest }: { quest: Quest }) {
             onBlur={(e) => update({ ...c, youtube: e.target.value.trim() || undefined })} />
         </div>
       ))}
+    </div>
+  );
+}
+
+/** Another creator's walkthrough, played in YouTube's own player. Nothing loads from YouTube until the player taps Play. */
+export function VideoWalk({ video }: { video: WalkVideo }) {
+  const [on, setOn] = useState(false);
+  const watch = `https://www.youtube.com/watch?v=${video.yt}`;
+  return (
+    <div className="walk-video">
+      {on ? (
+        <div className="yt-frame">
+          <iframe src={`https://www.youtube-nocookie.com/embed/${video.yt}?autoplay=1&rel=0`} title={`Video walkthrough by ${video.by}`}
+            allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowFullScreen referrerPolicy="strict-origin-when-cross-origin" />
+        </div>
+      ) : (
+        <button className="yt-play" onClick={() => setOn(true)}>
+          <span className="yt-tri" aria-hidden>▶</span>
+          <span><strong>Play the video walkthrough</strong><br /><span className="muted small">by {video.by}{video.len ? ` · ${video.len}` : ""}</span></span>
+        </button>
+      )}
+      <p className="muted small">Video by {video.by} on YouTube, not made by PraetorLink. Playing it connects to YouTube.{" "}
+        <a href={watch} target="_blank" rel="noreferrer" onClick={openExternal}>Watch on YouTube ↗</a></p>
     </div>
   );
 }

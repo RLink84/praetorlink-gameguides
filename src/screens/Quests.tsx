@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useApp } from "../ui/state";
 import { Page, Tag, Reveal, Rewards, Speak, TesterBar, Empty } from "../ui/components";
 import { questStatus, advanceAfter, stepById, visible, nameAllowed, detailAllowed, type QuestStatus } from "../core/logic";
-import type { Choice } from "../core/types";
-import { QuestMedia } from "./QuestMedia";
+import type { Choice, WalkVideo } from "../core/types";
+import { QuestMedia, VideoWalk } from "./QuestMedia";
 
 type Filter = "open" | "all" | "main" | "side" | "dlc" | "missable" | "done";
 
@@ -71,7 +71,7 @@ export function ChoiceCard({ c }: { c: Choice }) {
   );
 }
 
-function Walkthrough({ steps, name }: { steps: string[]; name: string }) {
+function Walkthrough({ steps, name, video }: { steps: string[]; name: string; video?: WalkVideo }) {
   const [stage, setStage] = useState<"closed" | "warn" | "open">("closed");
   return (
     <div className="card walkthrough">
@@ -79,12 +79,13 @@ function Walkthrough({ steps, name }: { steps: string[]; name: string }) {
       {stage === "closed" && <button className="walk-btn" onClick={() => setStage("warn")}>📖 Show the full walkthrough</button>}
       {stage === "warn" && (
         <div className="note">
-          <p><strong>⚠ Spoiler alert.</strong> This goes through {name} step by step, including who you meet, what happens and how it can end.</p>
+          <p><strong>⚠ Spoiler alert.</strong> This goes through {name} step by step{video ? ", with a video," : ""} including who you meet, what happens and how it can end.</p>
           <div className="row"><button className="done-btn on" onClick={() => setStage("open")}>Show it</button><button onClick={() => setStage("closed")}>Not now</button></div>
         </div>
       )}
       {stage === "open" && (
         <>
+          {video && <VideoWalk video={video} />}
           <ol className="steps">{steps.map((t, i) => <li key={i}>{t}</li>)}</ol>
           <button className="link small" onClick={() => setStage("closed")}>Hide walkthrough</button>
         </>
@@ -150,7 +151,7 @@ export function QuestDetail({ id }: { id: string }) {
         <div className="card"><h2>Choices</h2>{choices.map((c) => <ChoiceCard key={c.id} c={c} />)}</div>
       )}
       {q.steps?.length ? (
-        <Walkthrough steps={q.steps} name={nameAllowed(pack, pos, profile, q) ? q.name : "this quest"} />
+        <Walkthrough steps={q.steps} video={q.walkVideo} name={nameAllowed(pack, pos, profile, q) ? q.name : "this quest"} />
       ) : <div className="card walkthrough"><h2>Full walkthrough</h2><p className="muted small">Coming soon for this quest.</p></div>}
       <QuestMedia quest={q} />
       {q.related?.length ? (

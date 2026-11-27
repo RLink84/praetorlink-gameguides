@@ -33,6 +33,10 @@ describe("pack", () => {
     expect(pack.mapUrl).toMatch(/^https:/);
     expect(pack.quests.filter((q) => q.guideUrl).length).toBeGreaterThan(100);
   });
+  it("has a playable YouTube walkthrough for every quest", () => {
+    expect(pack.quests.filter((q) => !q.walkVideo).map((q) => q.id)).toEqual([]);
+    for (const q of pack.quests) expect(q.walkVideo!.yt).toMatch(/^[\w-]{11}$/);
+  });
   it("compares versions numerically", () => {
     expect(compareVersions("0.1.10", "0.1.9")).toBe(1);
     expect(compareVersions("2026.11.15.1", "2026.11.15.1")).toBe(0);
