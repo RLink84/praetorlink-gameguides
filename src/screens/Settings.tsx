@@ -224,7 +224,7 @@ export function Settings() {
       <div className="card about">
         <h2>About</h2>
         <p className="small">{pack.disclaimer}</p>
-        <p className="small"><strong>Privacy:</strong> no account, no ads, no tracking. Your progress and screenshots are saved only on this device. The app goes online to check for guide and app updates, and to load the Pawn board. A pawn you post there is public until you remove it or it expires after 60 days.</p>
+        <p className="small"><strong>Privacy:</strong> no account, no ads, no tracking. Your progress and screenshots are saved only on this device. The app goes online to check for guide and app updates, to load the Pawn board, and to play a quest's YouTube video when you tap Play. A pawn you post there is public until you remove it or it expires after 60 days.</p>
         <p className="small">Facts gathered with thanks from: {Object.values(pack.sourceList).map((s) => s.name).join(", ")}. All wording is our own.</p>
         <p className="small muted" onClick={tapVersion} role="button" tabIndex={0} onKeyDown={(e) => e.key === "Enter" && tapVersion()}>PraetorLink Game Guides {APP_VERSION} · PraetorLink Games</p>
       </div>

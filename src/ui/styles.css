@@ -238,3 +238,11 @@ a.btn.video { border-color: #c4302b; }
 :root.hc { --bg: #000; --bar: #000; --panel: #0c0c0c; --panel2: #161616; --line: #777; --line2: #999; --text: #fff; --ink: #fff; --muted: #ddd; --gold: #ffd166; --gold2: #ffd166; --blur: 0px; }
 :root.hc .card { box-shadow: none; clip-path: none; }
 :root.calm * { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+
+/* Video walkthroughs (YouTube's own player, loads only on tap) */
+.walk-video { margin: .6rem 0 .8rem; }
+.yt-play { width: 100%; display: flex; align-items: center; gap: .8rem; text-align: left; padding: .7rem .9rem; border-color: color-mix(in srgb, var(--acc) 50%, transparent); }
+.yt-tri { display: inline-flex; align-items: center; justify-content: center; width: 2.6rem; height: 2.6rem; flex: 0 0 auto; border-radius: 50%; background: var(--gold); color: var(--onacc); font-size: 1rem; padding-left: .15rem; }
+.yt-frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--rs); overflow: hidden; background: #000; border: 1px solid var(--line); }
+.yt-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.walk-video a { color: var(--gold2); }

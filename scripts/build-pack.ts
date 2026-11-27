@@ -93,6 +93,20 @@ if (existsSync(vidFile)) {
   }
 }
 
+// Other creators' walkthrough videos: content/<game>/walkthrough-videos.json maps quest id -> [YouTube id, channel, length].
+// We only point YouTube's own player at them and credit the channel; nothing is downloaded or copied.
+const walkVidFile = join(dir, "walkthrough-videos.json");
+if (existsSync(walkVidFile)) {
+  const vids = JSON.parse(readFileSync(walkVidFile, "utf8")) as Record<string, [string, string, string]>;
+  for (const [id, v] of Object.entries(vids)) {
+    if (id.startsWith("_")) continue;
+    const q = pack.quests.find((x) => x.id === id);
+    if (!q) { console.error(`error: walkthrough-videos.json has unknown quest id ${id}`); process.exit(1); }
+    if (!Array.isArray(v) || !/^[\w-]{11}$/.test(v[0]) || !v[1]) { console.error(`error: walkthrough-videos.json ${id}: expected [YouTube id, channel, length]`); process.exit(1); }
+    q.walkVideo = { yt: v[0], by: v[1], len: v[2] ?? "" };
+  }
+}
+
 // Optional banned-phrase list: exact sentences we must never ship (e.g. copied text found in review).
 const bannedFile = join(dir, "banned-phrases.json");
 const banned: string[] = existsSync(bannedFile) ? JSON.parse(readFileSync(bannedFile, "utf8")) : [];
